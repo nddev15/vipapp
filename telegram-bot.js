@@ -81,7 +81,7 @@ export function initTelegramBot() {
     const userId = msg.from.id;
 
     const welcomeMsg = isAdmin(userId)
-      ? '👋 Xin chào Admin!\n\n🔑 Bot quản lý Key Download VIP\n\nChọn chức năng bên dưới:'
+      ? `👋 Xin chào ${msg.from.first_name}\n\n🔑 Mình là bot quản lý Key & VPN VIP thuộc ${API_URL} \n\nChọn chức năng bên dưới:`
       : '👋 Chào mừng!\n\n🔍 Bạn có thể tra cứu đơn hàng đã thanh toán bằng nút bên dưới.';
 
     bot.sendMessage(chatId, welcomeMsg, {
@@ -374,8 +374,7 @@ export function initTelegramBot() {
 
     // Lookup order
     if (data === 'lookup_order') {
-      bot.sendMessage(
-        chatId,
+      bot.editMessageText(
         '🔍 **Tra Cứu Đơn Hàng**\n\n' +
         'Để tra cứu đơn hàng đã mua, vui lòng gửi:\n' +
         '`/tracuu MÃ_GIAO_DỊCH`\n\n' +
@@ -384,8 +383,16 @@ export function initTelegramBot() {
         '• **VIP Key** (Ký tự tải IPA)\n' +
         '• **VPN** (Cấu hình WireGuard)\n\n' +
         '💡 *Mã giao dịch là nội dung chuyển khoản khi bạn thanh toán.*',
-        { parse_mode: 'Markdown', ...getSupportButtons(userId) }
+        {
+          chat_id: chatId,
+          message_id: query.message.message_id,
+          parse_mode: 'Markdown',
+          ...getSupportButtons(userId)
+        }
       );
+      setTimeout(() => {
+        bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+      }, 5 * 60 * 1000);
       return;
     }
 
@@ -415,18 +422,30 @@ export function initTelegramBot() {
     }
 
     if (data === 'create_key') {
-      bot.sendMessage(
-        chatId,
+      bot.editMessageText(
         '📝 **Tạo Key Mới**\n\n' +
         'Sử dụng lệnh: `/create [days] [uses]`\n\n' +
         'Ví dụ:\n' +
         '• `/create` - Key vĩnh viễn, không giới hạn\n' +
         '• `/create 7` - Key 7 ngày, không giới hạn lượt\n' +
         '• `/create 30 100` - Key 30 ngày, tối đa 100 lượt',
-        { parse_mode: 'Markdown', ...getAdminMenu() }
+        {
+          chat_id: chatId,
+          message_id: query.message.message_id,
+          parse_mode: 'Markdown',
+          ...getAdminMenu()
+        }
       );
+      // Auto delete after 5 minutes
+      setTimeout(() => {
+        bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+      }, 5 * 60 * 1000);
     } else if (data === 'list_keys') {
-      bot.sendMessage(chatId, '⏳ Đang tải danh sách keys...');
+      // Edit to loading message first
+      bot.editMessageText('⏳ Đang tải danh sách keys...', {
+        chat_id: chatId,
+        message_id: query.message.message_id
+      });
       
       try {
         const response = await fetch(`${API_URL}/api/keys/list`, {
@@ -439,7 +458,14 @@ export function initTelegramBot() {
 
         if (result.success) {
           if (result.keys.length === 0) {
-            bot.sendMessage(chatId, '📋 Không có key nào!', getAdminMenu());
+            bot.editMessageText('📋 Không có key nào!', {
+              chat_id: chatId,
+              message_id: query.message.message_id,
+              ...getAdminMenu()
+            });
+            setTimeout(() => {
+              bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+            }, 5 * 60 * 1000);
             return;
           }
 
@@ -460,24 +486,58 @@ export function initTelegramBot() {
             message += `\n... và ${result.keys.length - 10} key khác`;
           }
 
-          bot.sendMessage(chatId, message, { parse_mode: 'Markdown', ...getAdminMenu() });
+          bot.editMessageText(message, { 
+            chat_id: chatId,
+            message_id: query.message.message_id,
+            parse_mode: 'Markdown', 
+            ...getAdminMenu() 
+          });
+          setTimeout(() => {
+            bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+          }, 5 * 60 * 1000);
         } else {
-          bot.sendMessage(chatId, `❌ Lỗi: ${result.error}`, getAdminMenu());
+          bot.editMessageText(`❌ Lỗi: ${result.error}`, {
+            chat_id: chatId,
+            message_id: query.message.message_id,
+            ...getAdminMenu()
+          });
+          setTimeout(() => {
+            bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+          }, 5 * 60 * 1000);
         }
       } catch (error) {
         console.error('Error listing keys:', error);
-        bot.sendMessage(chatId, '❌ Không thể kết nối đến API!', getAdminMenu());
+        bot.editMessageText('❌ Không thể kết nối đến API!', {
+          chat_id: chatId,
+          message_id: query.message.message_id,
+          ...getAdminMenu()
+        });
+        setTimeout(() => {
+          bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+        }, 5 * 60 * 1000);
       }
     } else if (data === 'delete_key') {
-      bot.sendMessage(
-        chatId,
+      bot.editMessageText(
         '🗑️ **Xóa Key**\n\n' +
         'Sử dụng lệnh: `/delete <key>`\n\n' +
         'Ví dụ:\n' +
         '`/delete ABCD-1234-EFGH-5678`',
-        { parse_mode: 'Markdown', ...getAdminMenu() }
+        {
+          chat_id: chatId,
+          message_id: query.message.message_id,
+          parse_mode: 'Markdown',
+          ...getAdminMenu()
+        }
       );
+      setTimeout(() => {
+        bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+      }, 5 * 60 * 1000);
     } else if (data === 'stats') {
+      bot.editMessageText('⏳ Đang tải thống kê...', {
+        chat_id: chatId,
+        message_id: query.message.message_id
+      });
+      
       try {
         const response = await fetch(`${API_URL}/api/keys/list`, {
           method: 'POST',
@@ -493,25 +553,45 @@ export function initTelegramBot() {
           const expired = total - active;
           const totalUses = result.keys.reduce((sum, k) => sum + (k.currentUses || 0), 0);
           
-          bot.sendMessage(
-            chatId,
+          bot.editMessageText(
             '📊 **Thống Kê**\n\n' +
             `📦 Tổng số key: **${total}**\n` +
             `✅ Đang hoạt động: **${active}**\n` +
             `❌ Đã hết hạn: **${expired}**\n` +
             `👥 Tổng lượt dùng: **${totalUses}**`,
-            { parse_mode: 'Markdown', ...getAdminMenu() }
+            { 
+              chat_id: chatId,
+              message_id: query.message.message_id,
+              parse_mode: 'Markdown', 
+              ...getAdminMenu() 
+            }
           );
+          setTimeout(() => {
+            bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+          }, 5 * 60 * 1000);
         } else {
-          bot.sendMessage(chatId, '❌ Không thể lấy thống kê!', getAdminMenu());
+          bot.editMessageText('❌ Không thể lấy thống kê!', {
+            chat_id: chatId,
+            message_id: query.message.message_id,
+            ...getAdminMenu()
+          });
+          setTimeout(() => {
+            bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+          }, 5 * 60 * 1000);
         }
       } catch (error) {
         console.error('Error getting stats:', error);
-        bot.sendMessage(chatId, '❌ Không thể kết nối đến API!', getAdminMenu());
+        bot.editMessageText('❌ Không thể kết nối đến API!', {
+          chat_id: chatId,
+          message_id: query.message.message_id,
+          ...getAdminMenu()
+        });
+        setTimeout(() => {
+          bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+        }, 5 * 60 * 1000);
       }
     } else if (data === 'help') {
-      bot.sendMessage(
-        chatId,
+      bot.editMessageText(
         '❓ **Hướng Dẫn Sử Dụng**\n\n' +
         '**Lệnh cơ bản:**\n' +
         '• `/start` - Khởi động bot\n' +
@@ -521,8 +601,16 @@ export function initTelegramBot() {
         '• `/list` - Xem danh sách keys\n' +
         '• `/delete <key>` - Xóa key\n\n' +
         '💡 *Mã giao dịch là nội dung chuyển khoản khi thanh toán.*',
-        { parse_mode: 'Markdown', ...getAdminMenu() }
+        { 
+          chat_id: chatId,
+          message_id: query.message.message_id,
+          parse_mode: 'Markdown', 
+          ...getAdminMenu() 
+        }
       );
+      setTimeout(() => {
+        bot.deleteMessage(chatId, query.message.message_id).catch(() => {});
+      }, 5 * 60 * 1000);
     }
   });
 
