@@ -16,6 +16,7 @@
   "author": "Cuios",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "node-fetch": "^2.7.0",
     "node-telegram-bot-api": "^0.66.0"

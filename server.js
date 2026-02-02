@@ -1,4 +1,5 @@
 // server.js - Simple Express server for clean routes (ESM)
+import 'dotenv/config';
 import express from 'express';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -140,6 +141,78 @@ function setup404Handler() {
 
   // Start Telegram Bot
   initTelegramBot();
+
+  // 🤖 AUTO SYNC IPA - Chạy định kỳ mỗi 6 giờ
+  startAutoSyncIPA();
+}
+
+// Auto Sync IPA Function
+function startAutoSyncIPA() {
+  const SYNC_INTERVAL = 6 * 60 * 60 * 1000; // 6 giờ (ms)
+  const APPTESTER_URL = process.env.APPTESTER_URL;
+
+  if (!APPTESTER_URL) {
+    console.log('⚠️  APPTESTER_URL not configured, auto-sync disabled');
+    return;
+  }
+
+  console.log(`✅ Auto-Sync IPA enabled (Every 6 hours)`);
+
+  // Chạy ngay lần đầu khi server start (sau 30s để đảm bảo server đã ready)
+  setTimeout(() => {
+    runSyncIPA();
+  }, 30000);
+
+  // Sau đó chạy định kỳ mỗi 6 giờ
+  setInterval(() => {
+    runSyncIPA();
+  }, SYNC_INTERVAL);
+}
+
+// Function thực thi sync
+async function runSyncIPA() {
+  try {
+    console.log('🔄 [AUTO-SYNC] Starting IPA sync...', new Date().toISOString());
+    
+    const syncModule = await import('./api/sync-ipa.js');
+    
+    // Tạo mock request/response object
+    const mockReq = {
+      method: 'POST',
+      headers: {},
+      body: {
+        syncHours: 24, // Sync apps từ 24h gần nhất
+        botSync: true   // Bypass auth check
+      }
+    };
+
+    const mockRes = {
+      statusCode: 200,
+      headers: {},
+      setHeader: function(key, value) {
+        this.headers[key] = value;
+      },
+      status: function(code) {
+        this.statusCode = code;
+        return this;
+      },
+      json: function(data) {
+        if (this.statusCode === 200) {
+          console.log(`✅ [AUTO-SYNC] Success: ${data.message || 'Synced'}`);
+        } else {
+          console.error(`❌ [AUTO-SYNC] Failed:`, data);
+        }
+        return this;
+      },
+      end: function() {
+        return this;
+      }
+    };
+
+    await syncModule.default(mockReq, mockRes);
+  } catch (error) {
+    console.error('❌ [AUTO-SYNC] Error:', error.message);
+  }
 }
 
 startServer();

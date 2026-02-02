@@ -71,24 +71,26 @@ export function initTelegramBot() {
     bot.sendMessage(chatId, welcomeMsg, getMainMenu(userId));
   });
 
-  // Lookup order command
+  // Lookup order command - searches both VIP keys and VPN data
   bot.onText(/\/tracuu (.+)/, async (msg, match) => {
     const chatId = msg.chat.id;
+    const userId = msg.from.id;
     const transactionCode = match[1].trim().toUpperCase();
 
     bot.sendMessage(chatId, '⏳ Đang tra cứu...');
 
     try {
-      const response = await fetch(`${API_URL}/api/keys/list`, {
+      // Search in keys.json (VIP keys)
+      const keysResponse = await fetch(`${API_URL}/api/keys/list`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ telegramSecret: BOT_TOKEN })
       });
 
-      const data = await response.json();
-
-      if (data.success) {
-        const foundKey = data.keys.find(k => k.transaction_code === transactionCode);
+      const keysData = await keysResponse.json();
+      
+      if (keysData.success) {
+        const foundKey = keysData.keys.find(k => k.transaction_code === transactionCode);
 
         if (foundKey) {
           const status = foundKey.active ? '✅ Đang hoạt động' : '❌ Đã hết hạn';
@@ -104,7 +106,7 @@ export function initTelegramBot() {
           const packageName = foundKey.package || 'Không xác định';
           
           const message = 
-            `🎫 **Thông Tin Đơn Hàng**\n\n` +
+            `🎫 **Thông Tin Đơn Hàng VIP Key**\n\n` +
             `📦 Gói: **${packageName}**\n` +
             `🔑 Key: \`${foundKey.key}\`\n` +
             `${status}\n\n` +
@@ -116,21 +118,72 @@ export function initTelegramBot() {
             })}\n\n` +
             `💡 *Lưu ý: Copy key bằng cách chạm vào mã key*`;
 
-          bot.sendMessage(chatId, message, { parse_mode: 'Markdown' });
-        } else {
-          bot.sendMessage(
-            chatId,
-            '❌ Không tìm thấy đơn hàng!\n\n' +
-            '📝 Vui lòng kiểm tra lại mã giao dịch.\n' +
-            'Mã giao dịch là nội dung chuyển khoản khi bạn thanh toán.'
-          );
+          bot.sendMessage(chatId, message, { 
+            parse_mode: 'Markdown',
+            ...getMainMenu(userId)
+          });
+          return;
         }
-      } else {
-        bot.sendMessage(chatId, '❌ Lỗi hệ thống, vui lòng thử lại sau!');
       }
+
+      // Search in vpn_data.json
+      const vpnResponse = await fetch(`${API_URL}/public/data/vpn_data.json`);
+      const vpnData = await vpnResponse.json();
+      
+      if (Array.isArray(vpnData)) {
+        const foundVPN = vpnData.find(v => v.owner_content === transactionCode);
+
+        if (foundVPN) {
+          const status = foundVPN.status === 'sold' ? '✅ Đã kích hoạt' : '⏳ Chưa kích hoạt';
+          const soldDate = foundVPN.sold_at 
+            ? new Date(foundVPN.sold_at).toLocaleDateString('vi-VN', { 
+                year: 'numeric', month: 'long', day: 'numeric',
+                hour: '2-digit', minute: '2-digit'
+              })
+            : 'N/A';
+          const expireDate = foundVPN.expire_at 
+            ? new Date(foundVPN.expire_at).toLocaleDateString('vi-VN', { 
+                year: 'numeric', month: 'long', day: 'numeric',
+                hour: '2-digit', minute: '2-digit'
+              })
+            : 'N/A';
+          
+          const message = 
+            `🌐 **Thông Tin Đơn Hàng VPN**\n\n` +
+            `${status}\n\n` +
+            `🆔 IP: \`${foundVPN.ip}\`\n` +
+            `📱 IPv6: \`${foundVPN.ipv6}\`\n` +
+            `📅 Ngày mua: ${soldDate}\n` +
+            `⏰ Ngày hết hạn: ${expireDate}\n\n` +
+            `🔗 Cấu hình:\n\`${foundVPN.conf}\`\n\n` +
+            `💡 *Lưu ý: Copy cấu hình bằng cách chạm vào đoạn mã*`;
+
+          bot.sendMessage(chatId, message, { 
+            parse_mode: 'Markdown',
+            ...getMainMenu(userId)
+          });
+          return;
+        }
+      }
+
+      // Not found in both databases
+      bot.sendMessage(
+        chatId,
+        '❌ **Không tìm thấy đơn hàng!**\n\n' +
+        '📝 Vui lòng kiểm tra lại mã giao dịch.\n\n' +
+        '💡 Mã giao dịch là **nội dung chuyển khoản** khi bạn thanh toán.\n\n' +
+        '🔍 Hệ thống đã tìm kiếm trong:\n' +
+        '• VIP Key (Ký tự tải IPA)\n' +
+        '• VPN (Cấu hình WireGuard)',
+        { 
+          parse_mode: 'Markdown',
+          ...getMainMenu(userId)
+        }
+      );
+
     } catch (error) {
       console.error('Error looking up order:', error);
-      bot.sendMessage(chatId, '❌ Không thể kết nối đến hệ thống!');
+      bot.sendMessage(chatId, '❌ Không thể kết nối đến hệ thống!', getMainMenu(userId));
     }
   });
 
@@ -204,7 +257,82 @@ export function initTelegramBot() {
 
       if (data.success) {
         if (data.keys.length === 0) {
-          bot.sendMessage(chatId, '📋 Không có key nào!', getMainMenu());
+          bot.sendMessage(chatId, '📋 Không có key nào!', getAdminMenu());
+          return;
+        }
+
+        let message = `📋 Danh sách Keys (${data.keys.length}):\n\n`;
+        
+        data.keys.slice(0, 10).forEach((key, index) => {
+          const status = key.active ? '✅' : '❌';
+          const expires = key.expiresAt 
+            ? new Date(key.expiresAt).toLocaleDateString('vi-VN')
+            : '∞';
+          const uses = key.maxUses ? `${key.currentUses}/${key.maxUses}` : '∞';
+          
+          message += `${index + 1}. ${status} \`${key.key}\`\n`;
+          message += `   ⏰ ${expires} | 👥 ${uses}\n\n`;
+        });
+
+        if (data.keys.length > 10) {
+          message += `\n... và ${data.keys.length - 10} key khác`;
+        }
+
+        bot.sendMessage(chatId, message, { parse_mode: 'Markdown', ...getAdminMenu() });
+      } else {
+        bot.sendMessage(chatId, `❌ Lỗi: ${data.error}`, getAdminMenu());
+      }
+    } catch (error) {
+      console.error('Error listing keys:', error);
+      bot.sendMessage(chatId, '❌ Không thể kết nối đến API!', getAdminMenu());
+    }
+  });
+
+  // Delete key command
+  bot.onText(/\/delete (.+)/, async (msg, match) => {
+    const chatId = msg.chat.id;
+    const userId = msg.from.id;
+
+    if (!isAdmin(userId)) {
+      bot.sendMessage(chatId, '❌ Bạn không có quyền sử dụng lệnh này!');
+      return;
+    }
+
+    const keyToDelete = match[1].trim();
+
+    try {
+      const response = await fetch(`${API_URL}/api/keys/delete`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          telegramSecret: BOT_TOKEN,
+          key: keyToDelete
+        })
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        bot.sendMessage(
+          chatId,
+          `✅ Đã xóa key: \`${keyToDelete}\``,
+          { parse_mode: 'Markdown', ...getAdminMenu() }
+        );
+      } else {
+        bot.sendMessage(chatId, `❌ Lỗi: ${data.error}`, getAdminMenu());
+      }
+    } catch (error) {
+      console.error('Error deleting key:', error);
+      bot.sendMessage(chatId, '❌ Không thể kết nối đến API!', getAdminMenu());
+    }
+  });
+
+  // Handle callback queries (inline button clicks)
+  bot.on('callback_query', async (query) => {
+    const chatId = query.message.chat.id;
+    const userId = query.from.id;
+    const data = query.data;
+
     // Answer callback query first
     bot.answerCallbackQuery(query.id);
 
@@ -225,13 +353,16 @@ export function initTelegramBot() {
     // Lookup order
     if (data === 'lookup_order') {
       bot.sendMessage(
-        chatId,AdminMenu() });
-      } else {
-        bot.sendMessage(chatId, `❌ Lỗi: ${data.error}`, getAdminMenu());
-      }
-    } catch (error) {
-      console.error('Error listing keys:', error);
-      bot.sendMessage(chatId, '❌ Không thể kết nối đến API!', getAdm
+        chatId,
+        '🔍 **Tra Cứu Đơn Hàng**\n\n' +
+        'Để tra cứu đơn hàng đã mua, vui lòng gửi:\n' +
+        '`/tracuu MÃ_GIAO_DỊCH`\n\n' +
+        '📝 Ví dụ: `/tracuu D8BBNX`\n\n' +
+        '🔍 Hệ thống sẽ tìm kiếm trong:\n' +
+        '• **VIP Key** (Ký tự tải IPA)\n' +
+        '• **VPN** (Cấu hình WireGuard)\n\n' +
+        '💡 *Mã giao dịch là nội dung chuyển khoản khi bạn thanh toán.*',
+        { parse_mode: 'Markdown', ...getMainMenu(userId) }
       );
       return;
     }
@@ -263,14 +394,14 @@ export function initTelegramBot() {
 
     if (data === 'create_key') {
       bot.sendMessage(
-        chatId,AdminMenu() }
-        );
-      } else {
-        bot.sendMessage(chatId, `❌ Lỗi: ${data.error}`, getAdminMenu());
-      }
-    } catch (error) {
-      console.error('Error deleting key:', error);
-      bot.sendMessage(chatId, '❌ Không thể kết nối đến API!', getAdm
+        chatId,
+        '📝 **Tạo Key Mới**\n\n' +
+        'Sử dụng lệnh: `/create [days] [uses]`\n\n' +
+        'Ví dụ:\n' +
+        '• `/create` - Key vĩnh viễn, không giới hạn\n' +
+        '• `/create 7` - Key 7 ngày, không giới hạn lượt\n' +
+        '• `/create 30 100` - Key 30 ngày, tối đa 100 lượt',
+        { parse_mode: 'Markdown', ...getAdminMenu() }
       );
     } else if (data === 'list_keys') {
       bot.sendMessage(chatId, '⏳ Đang tải danh sách keys...');
@@ -318,11 +449,11 @@ export function initTelegramBot() {
     } else if (data === 'delete_key') {
       bot.sendMessage(
         chatId,
-        '🗑️ Xóa Key\n\n' +
+        '🗑️ **Xóa Key**\n\n' +
         'Sử dụng lệnh: `/delete <key>`\n\n' +
         'Ví dụ:\n' +
         '`/delete ABCD-1234-EFGH-5678`',
-        { parse_mode: 'Markdown' }
+        { parse_mode: 'Markdown', ...getAdminMenu() }
       );
     } else if (data === 'stats') {
       try {
@@ -359,141 +490,16 @@ export function initTelegramBot() {
     } else if (data === 'help') {
       bot.sendMessage(
         chatId,
-        '❓ Hướng Dẫn Sử Dụng\n\n' +
+        '❓ **Hướng Dẫn Sử Dụng**\n\n' +
         '**Lệnh cơ bản:**\n' +
         '• `/start` - Khởi động bot\n' +
-        '• `/tracuu <mã>` - Tra cứu đơn hàng\n\n' +
+        '• `/tracuu <mã>` - Tra cứu đơn hàng (VIP Key/VPN)\n\n' +
         '**Lệnh Admin:**\n' +
         '• `/create [days] [uses]` - Tạo key mới\n' +
         '• `/list` - Xem danh sách keys\n' +
         '• `/delete <key>` - Xóa key\n\n' +
         '💡 *Mã giao dịch là nội dung chuyển khoản khi thanh toán.*',
-        { parse_mode: 'Markdown', ...getAdm giới hạn lượt\n' +
-        '• `/create 30 100` - Key 30 ngày, tối đa 100 lượt',
-        { parse_mode: 'Markdown' }
-      );
-    } else if (data === 'list_keys') {
-      bot.sendMessage(chatId, '⏳ Đang tải danh sách keys...');
-      
-      try {
-        const response = await fetch(`${API_URL}/api/keys/list`, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ telegramSecret: BOT_TOKEN })
-        });
-
-        const result = await response.json();
-
-        if (result.success) {
-          if (result.keys.length === 0) {
-            bot.sendMessage(chatId, '📋 Không có key nào!', getMainMenu());
-            return;
-          }
-
-          let message = `📋 Danh sách Keys (${result.keys.length}):\n\n`;
-          
-          result.keys.slice(0, 10).forEach((key, index) => {
-            const status = key.active ? '✅' : '❌';
-            const expires = key.expiresAt 
-              ? new Date(key.expiresAt).toLocaleDateString('vi-VN')
-              : '∞';
-            const uses = key.maxUses ? `${key.currentUses}/${key.maxUses}` : '∞';
-            
-            message += `${index + 1}. ${status} \`${key.key}\`\n`;
-            message += `   ⏰ ${expires} | 👥 ${uses}\n\n`;
-          });
-
-          if (result.keys.length > 10) {
-            message += `\n... và ${result.keys.length - 10} key khác`;
-          }
-
-          bot.sendMessage(chatId, message, { parse_mode: 'Markdown', ...getMainMenu() });
-        } else {
-          bot.sendMessage(chatId, `❌ Lỗi: ${result.error}`, getMainMenu());
-        }
-      } catch (error) {
-        console.error('Error listing keys:', error);
-        bot.sendMessage(chatId, '❌ Không thể kết nối đến API!', getMainMenu());
-      }
-    } else if (data === 'delete_key') {
-      bot.sendMessage(
-        chatId,
-        '🗑️ Xóa Key\n\n' +
-        'Sử dụng lệnh: `/delete <key>`\n\n' +
-        'Ví dụ:\n' +
-        '`/delete ABCD-1234-EFGH-5678`',
-        { parse_mode: 'Markdown' }
-      );
-    } else if (data === 'stats') {
-      bot.sendMessage(
-        chatId,
-        '📊 Thống Kê\n\n' +
-        'Chức năng đang phát triển...',
-        getMainMenu()
-      );
-    } else if (data === 'help') {
-      bot.sendMessage(
-        chatId,
-        '❓ Hướng Dẫn Sử Dụng\n\n' +
-        '**Lệnh cơ bản:**\n' +
-        '• `/start` - Khởi động bot\n' +
-        '• `/create [days] [uses]` - Tạo key mới\n' +
-        '• `/list` - Xem danh sách keys\n' +
-        '• `/delete <key>` - Xóa key\n\n' +
-        '**Lưu ý:**\n' +
-        '• Chỉ Admin mới sử dụng được bot\n' +
-        '• Key không giới hạn khi bỏ trống tham số',
-        { parse_mode: 'Markdown', ...getMainMenu() }
-      );
-    }
-  });
-
-  // Handle button messages (keep for backward compatibility)
-  bot.on('message', (msg) => {
-    const chatId = msg.chat.id;
-    const text = msg.text;
-    const userId = msg.from.id;
-
-    if (!isAdmin(userId)) return;
-    if (!text || text.startsWith('/')) return; // Ignore commands
-
-    if (text === '📝 Tạo Key Mới') {
-      bot.sendMessage(
-        chatId,
-        '📝 Tạo Key Mới\n\n' +
-        'Sử dụng lệnh: `/create [days] [uses]`\n\n' +
-        'Ví dụ:\n' +
-        '• `/create` - Key vĩnh viễn, không giới hạn\n' +
-        '• `/create 7` - Key 7 ngày, không giới hạn lượt\n' +
-        '• `/create 30 100` - Key 30 ngày, tối đa 100 lượt',
-        { parse_mode: 'Markdown' }
-      );
-    } else if (text === '📋 Danh Sách Keys') {
-      bot.sendMessage(chatId, 'Đang tải...');
-      // Trigger /list command
-      bot.emit('message', { ...msg, text: '/list' });
-    } else if (text === '🗑️ Xóa Key') {
-      bot.sendMessage(
-        chatId,
-        '🗑️ Xóa Key\n\n' +
-        'Sử dụng lệnh: `/delete <key>`\n\n' +
-        'Ví dụ:\n' +
-        '`/delete ABCD-1234-EFGH-5678`',
-        { parse_mode: 'Markdown' }
-      );
-    } else if (text === '❓ Hướng Dẫn') {
-      bot.sendMessage(
-        chatId,
-        '❓ Hướng Dẫn Sử Dụng\n\n' +
-        '**Lệnh cơ bản:**\n' +
-        '• `/start` - Khởi động bot\n' +
-        '• `/create [days] [uses]` - Tạo key mới\n' +
-        '• `/list` - Xem danh sách keys\n' +
-        '• `/delete <key>` - Xóa key\n\n' +
-        '**Lưu ý:**\n' +
-        '• Chỉ Admin mới sử dụng được bot\n' +
-        '• Key không giới hạn khi bỏ trống tham số',
-        { parse_mode: 'Markdown' }
+        { parse_mode: 'Markdown', ...getAdminMenu() }
       );
     }
   });
