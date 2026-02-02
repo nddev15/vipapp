@@ -19,16 +19,23 @@ export function initTelegramBot() {
     return ADMIN_IDS.includes(userId);
   }
 
-  // Main menu
+  // Main menu with inline keyboard
   function getMainMenu() {
     return {
       reply_markup: {
-        keyboard: [
-          ['📝 Tạo Key Mới', '📋 Danh Sách Keys'],
-          ['🗑️ Xóa Key', '📊 Thống Kê'],
-          ['❓ Hướng Dẫn']
-        ],
-        resize_keyboard: true
+        inline_keyboard: [
+          [
+            { text: '📝 Tạo Key Mới', callback_data: 'create_key' },
+            { text: '📋 Danh Sách Keys', callback_data: 'list_keys' }
+          ],
+          [
+            { text: '🗑️ Xóa Key', callback_data: 'delete_key' },
+            { text: '📊 Thống Kê', callback_data: 'stats' }
+          ],
+          [
+            { text: '❓ Hướng Dẫn', callback_data: 'help' }
+          ]
+        ]
       }
     };
   }
@@ -192,13 +199,115 @@ export function initTelegramBot() {
     }
   });
 
-  // Handle button messages
+  // Handle callback queries (inline button clicks)
+  bot.on('callback_query', async (query) => {
+    const chatId = query.message.chat.id;
+    const userId = query.from.id;
+    const data = query.data;
+
+    if (!isAdmin(userId)) {
+      bot.answerCallbackQuery(query.id, { text: '❌ Bạn không có quyền!', show_alert: true });
+      return;
+    }
+
+    // Answer callback query first
+    bot.answerCallbackQuery(query.id);
+
+    if (data === 'create_key') {
+      bot.sendMessage(
+        chatId,
+        '📝 Tạo Key Mới\n\n' +
+        'Sử dụng lệnh: `/create [days] [uses]`\n\n' +
+        'Ví dụ:\n' +
+        '• `/create` - Key vĩnh viễn, không giới hạn\n' +
+        '• `/create 7` - Key 7 ngày, không giới hạn lượt\n' +
+        '• `/create 30 100` - Key 30 ngày, tối đa 100 lượt',
+        { parse_mode: 'Markdown' }
+      );
+    } else if (data === 'list_keys') {
+      bot.sendMessage(chatId, '⏳ Đang tải danh sách keys...');
+      
+      try {
+        const response = await fetch(`${API_URL}/api/keys/list`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ telegramSecret: BOT_TOKEN })
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+          if (result.keys.length === 0) {
+            bot.sendMessage(chatId, '📋 Không có key nào!', getMainMenu());
+            return;
+          }
+
+          let message = `📋 Danh sách Keys (${result.keys.length}):\n\n`;
+          
+          result.keys.slice(0, 10).forEach((key, index) => {
+            const status = key.active ? '✅' : '❌';
+            const expires = key.expiresAt 
+              ? new Date(key.expiresAt).toLocaleDateString('vi-VN')
+              : '∞';
+            const uses = key.maxUses ? `${key.currentUses}/${key.maxUses}` : '∞';
+            
+            message += `${index + 1}. ${status} \`${key.key}\`\n`;
+            message += `   ⏰ ${expires} | 👥 ${uses}\n\n`;
+          });
+
+          if (result.keys.length > 10) {
+            message += `\n... và ${result.keys.length - 10} key khác`;
+          }
+
+          bot.sendMessage(chatId, message, { parse_mode: 'Markdown', ...getMainMenu() });
+        } else {
+          bot.sendMessage(chatId, `❌ Lỗi: ${result.error}`, getMainMenu());
+        }
+      } catch (error) {
+        console.error('Error listing keys:', error);
+        bot.sendMessage(chatId, '❌ Không thể kết nối đến API!', getMainMenu());
+      }
+    } else if (data === 'delete_key') {
+      bot.sendMessage(
+        chatId,
+        '🗑️ Xóa Key\n\n' +
+        'Sử dụng lệnh: `/delete <key>`\n\n' +
+        'Ví dụ:\n' +
+        '`/delete ABCD-1234-EFGH-5678`',
+        { parse_mode: 'Markdown' }
+      );
+    } else if (data === 'stats') {
+      bot.sendMessage(
+        chatId,
+        '📊 Thống Kê\n\n' +
+        'Chức năng đang phát triển...',
+        getMainMenu()
+      );
+    } else if (data === 'help') {
+      bot.sendMessage(
+        chatId,
+        '❓ Hướng Dẫn Sử Dụng\n\n' +
+        '**Lệnh cơ bản:**\n' +
+        '• `/start` - Khởi động bot\n' +
+        '• `/create [days] [uses]` - Tạo key mới\n' +
+        '• `/list` - Xem danh sách keys\n' +
+        '• `/delete <key>` - Xóa key\n\n' +
+        '**Lưu ý:**\n' +
+        '• Chỉ Admin mới sử dụng được bot\n' +
+        '• Key không giới hạn khi bỏ trống tham số',
+        { parse_mode: 'Markdown', ...getMainMenu() }
+      );
+    }
+  });
+
+  // Handle button messages (keep for backward compatibility)
   bot.on('message', (msg) => {
     const chatId = msg.chat.id;
     const text = msg.text;
     const userId = msg.from.id;
 
     if (!isAdmin(userId)) return;
+    if (!text || text.startsWith('/')) return; // Ignore commands
 
     if (text === '📝 Tạo Key Mới') {
       bot.sendMessage(
