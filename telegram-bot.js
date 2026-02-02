@@ -51,8 +51,24 @@ export function initTelegramBot() {
             { text: '📊 Thống Kê', callback_data: 'stats' }
           ],
           [
-            { text: '❓ Hướng Dẫn', callback_data: 'help' },
+            { text: '❓ Hướng Dẫn', callback_data: 'help' }
+          ],
+          [
             { text: '🔙 Quay Lại', callback_data: 'back_main' }
+          ]
+        ]
+      }
+    };
+  }
+
+  // Support buttons for lookup
+  function getSupportButtons(userId) {
+    return {
+      reply_markup: {
+        inline_keyboard: [
+          [
+            { text: '🔙 Quay Lại', callback_data: 'back_main' },
+            { text: '❓ Cần Hỗ Trợ?', url: 'https://t.me/nguyenduc666' }
           ]
         ]
       }
@@ -68,7 +84,13 @@ export function initTelegramBot() {
       ? '👋 Xin chào Admin!\n\n🔑 Bot quản lý Key Download VIP\n\nChọn chức năng bên dưới:'
       : '👋 Chào mừng!\n\n🔍 Bạn có thể tra cứu đơn hàng đã thanh toán bằng nút bên dưới.';
 
-    bot.sendMessage(chatId, welcomeMsg, getMainMenu(userId));
+    bot.sendMessage(chatId, welcomeMsg, {
+      ...getMainMenu(userId),
+      reply_markup: {
+        ...getMainMenu(userId).reply_markup,
+        remove_keyboard: true
+      }
+    });
   });
 
   // Lookup order command - searches both VIP keys and VPN data
@@ -120,7 +142,7 @@ export function initTelegramBot() {
 
           bot.sendMessage(chatId, message, { 
             parse_mode: 'Markdown',
-            ...getMainMenu(userId)
+            ...getSupportButtons(userId)
           });
           return;
         }
@@ -160,7 +182,7 @@ export function initTelegramBot() {
 
           bot.sendMessage(chatId, message, { 
             parse_mode: 'Markdown',
-            ...getMainMenu(userId)
+            ...getSupportButtons(userId)
           });
           return;
         }
@@ -177,13 +199,13 @@ export function initTelegramBot() {
         '• VPN (Cấu hình WireGuard)',
         { 
           parse_mode: 'Markdown',
-          ...getMainMenu(userId)
+          ...getSupportButtons(userId)
         }
       );
 
     } catch (error) {
       console.error('Error looking up order:', error);
-      bot.sendMessage(chatId, '❌ Không thể kết nối đến hệ thống!', getMainMenu(userId));
+      bot.sendMessage(chatId, '❌ Không thể kết nối đến hệ thống!', getSupportButtons(userId));
     }
   });
 
@@ -362,7 +384,7 @@ export function initTelegramBot() {
         '• **VIP Key** (Ký tự tải IPA)\n' +
         '• **VPN** (Cấu hình WireGuard)\n\n' +
         '💡 *Mã giao dịch là nội dung chuyển khoản khi bạn thanh toán.*',
-        { parse_mode: 'Markdown', ...getMainMenu(userId) }
+        { parse_mode: 'Markdown', ...getSupportButtons(userId) }
       );
       return;
     }
