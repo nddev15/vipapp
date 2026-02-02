@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>404 - Trang không tồn tại</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #0f1720;
+      --text: #e2e8f0;
+      --accent: #3b82f6;
+      --card: #1a2333;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: "Poppins", sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .stars {
+      position: absolute;
+      width: 2px;
+      height: 2px;
+      background: white;
+      border-radius: 50%;
+      animation: twinkle 2s infinite ease-in-out;
+    }
+
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.2; }
+      50% { opacity: 1; }
+    }
+
+    .container {
+      text-align: center;
+      z-index: 10;
+    }
+
+    h1 {
+      font-size: 110px;
+      font-weight: 800;
+      color: var(--accent);
+      letter-spacing: 4px;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 10px var(--accent); }
+      to { text-shadow: 0 0 25px var(--accent), 0 0 50px var(--accent); }
+    }
+
+    p {
+      font-size: 20px;
+      margin-top: 10px;
+      opacity: 0.9;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 25px;
+      background: var(--accent);
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      transition: 0.25s;
+    }
+
+    a:hover {
+      background: #2563eb;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 15px rgba(59, 130, 246, 0.3);
+    }
+
+    .planet {
+      position: absolute;
+      bottom: -100px;
+      right: -150px;
+      width: 300px;
+      height: 300px;
+      background: radial-gradient(circle at 30% 30%, #3b82f6, #1a2333 70%);
+      border-radius: 50%;
+      box-shadow: 0 0 40px #3b82f6a0;
+      animation: float 6s infinite ease-in-out;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>404</h1>
+    <p>Oops! Trang bạn tìm không tồn tại 🪐</p>
+    <a href="http://cheatlibrary.xyz/">Quay lại trang chủ</a>
+  </div>
+
+  <div class="planet"></div>
+
+  <script>
+    // Tạo sao lấp lánh
+    const numStars = 60;
+    for (let i = 0; i < numStars; i++) {
+      const star = document.createElement("div");
+      star.classList.add("stars");
+      star.style.top = Math.random() * 100 + "%";
+      star.style.left = Math.random() * 100 + "%";
+      star.style.animationDelay = Math.random() * 2 + "s";
+      document.body.appendChild(star);
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nâng Cấp VIP - Tải Không Giới Hạn</title>
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <style>
+        /* --- CSS RIÊNG CHO TRANG THANH TOÁN --- */
+        body { padding-bottom: 80px; }
+        
+        /* Header */
+        .pricing-header {
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+        .pricing-header h1 { color: var(--primary); font-size: 2em; margin-bottom: 10px; }
+        .pricing-header p { color: var(--text-light); opacity: 0.8; }
+        body.dark .pricing-header p { color: var(--text-dark); }
+
+        /* Grid hiển thị các gói */
+        .pricing-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Card gói cước */
+        .pricing-card {
+            background: var(--card-bg-light);
+            border: 2px solid var(--border-light);
+            border-radius: 24px;
+            padding: 30px 20px;
+            text-align: center;
+            transition: var(--transition-smooth);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+
+        body.dark .pricing-card {
+            background: var(--card-bg-dark);
+            border-color: var(--border-dark);
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 28px var(--card-shadow-light);
+            border-color: var(--primary);
+        }
+
+        /* Gói nổi bật (VIP 1 năm) */
+        .pricing-card.popular {
+            border-color: var(--primary);
+            background: linear-gradient(to bottom, rgba(139, 92, 246, 0.05), var(--card-bg-light));
+        }
+        body.dark .pricing-card.popular {
+            background: linear-gradient(to bottom, rgba(139, 92, 246, 0.1), var(--card-bg-dark));
+        }
+
+        .badge-save {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: bold;
+        }
+
+        .price-tag {
+            font-size: 2.5rem;
+            font-weight: 800;
+            color: var(--text-light);
+            margin: 15px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+        body.dark .price-tag { color: var(--text-dark); }
+        
+        .currency { font-size: 1rem; color: var(--primary); font-weight: 600; margin-top: -15px; }
+        .duration { font-size: 0.9rem; color: var(--placeholder-light); font-weight: normal; }
+
+        .features {
+            list-style: none;
+            margin: 20px 0 30px;
+            flex-grow: 1;
+        }
+        .features li {
+            margin-bottom: 12px;
+            color: var(--text-light);
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        body.dark .features li { color: var(--text-dark); }
+        .check-icon { color: #10b981; font-weight: bold; }
+
+        .plan-btn {
+            width: 100%;
+            padding: 14px;
+            border-radius: 16px;
+            border: none;
+            font-weight: 700;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: var(--transition-smooth);
+            background: var(--bg-light);
+            color: var(--text-light);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        }
+        
+        body.dark .plan-btn {
+            background: rgba(255,255,255,0.05);
+            color: var(--text-dark);
+        }
+
+        .pricing-card.popular .plan-btn, .plan-btn:hover {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);
+        }
+
+        /* --- MODAL THANH TOÁN (POPUP) --- */
+        .payment-modal {
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.8);
+            backdrop-filter: blur(8px);
+            z-index: 999;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .payment-box {
+            background: var(--card-bg-light);
+            width: 100%;
+            max-width: 400px;
+            padding: 25px;
+            border-radius: 24px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border: 1px solid var(--border-light);
+        }
+        body.dark .payment-box { background: var(--card-bg-dark); border-color: var(--border-dark); }
+
+        .qr-frame {
+            background: white;
+            padding: 10px;
+            border-radius: 16px;
+            margin: 20px 0;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .qr-frame img { width: 100%; display: block; border-radius: 8px; }
+
+        .transfer-code {
+            background: rgba(139, 92, 246, 0.1);
+            color: var(--primary);
+            font-size: 1.4rem;
+            font-weight: 800;
+            padding: 12px;
+            border-radius: 12px;
+            letter-spacing: 2px;
+            margin: 10px 0;
+            border: 2px dashed var(--primary);
+            cursor: pointer;
+            font-family: 'Courier New', monospace;
+        }
+
+        .close-modal {
+            position: absolute; top: 15px; right: 15px;
+            background: transparent; border: none;
+            color: var(--placeholder-light); font-size: 1.5rem; cursor: pointer;
+        }
+
+        /* Hiển thị Key khi thành công */
+        .key-display {
+            font-family: 'Courier New', monospace;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            background: #ecfdf5;
+            padding: 20px;
+            border: 2px dashed #10b981;
+            border-radius: 12px;
+            color: #059669;
+            margin: 20px 0;
+            word-break: break-all;
+        }
+        body.dark .key-display { background: rgba(16, 185, 129, 0.1); color: #34d399; border-color: #059669; }
+
+        /* Animation Loading */
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        .spinner {
+            display: inline-block;
+            border: 3px solid rgba(0, 0, 0, 0.1);
+            border-left-color: var(--primary);
+            border-radius: 50%;
+            width: 18px; height: 18px;
+            animation: spin 1s linear infinite;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+        .liehe {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #008CBA;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .h55 {
+            text-align: center;
+            color: #008CBA;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="pricing-header">
+        <h1>Nâng Cấp VIP</h1>
+        <p>Hệ thống tự động kích hoạt ngay sau khi nhận tiền</p>
+    </div>
+
+    <div class="pricing-container">
+        
+        <div class="pricing-card">
+            <h3>Gói Trải Nghiệm</h3>
+            <div class="price-tag">5.000<span class="currency">đ</span></div>
+            <ul class="features">
+                <li><span class="check-icon">✓</span> 20 Lượt tải ứng dụng</li>
+                <li><span class="check-icon">✓</span> Tốc độ cao</li>
+                <li><span class="check-icon">✓</span> Hỗ trợ cơ bản</li>
+            </ul>
+            <button class="plan-btn" onclick="openPayment(5000, 'Gói 10 lượt')">Chọn Gói Này</button>
+        </div>
+
+        <div class="pricing-card">
+            <span class="badge-save badge-trending">Hot</span>
+            <h3>Gói Tuần</h3>
+            <div class="price-tag">19.000<span class="currency">đ</span> <span class="duration">/ tuần</span></div>
+            <ul class="features">
+                <li><span class="check-icon">✓</span> Tải KHÔNG GIỚI HẠN</li>
+                
+                <li><span class="check-icon">✓</span> Hạn dùng 7 ngày</li>
+            </ul>
+            <button class="plan-btn" onclick="openPayment(19000, 'Gói Tuần VIP')">Chọn Gói Này</button>
+        </div>
+
+        <div class="pricing-card">
+            <h3>Gói Tháng</h3>
+            <div class="price-tag">39.000<span class="currency">đ</span> <span class="duration">/ tháng</span></div>
+            <ul class="features">
+                <li><span class="check-icon">✓</span> Tải KHÔNG GIỚI HẠN</li>
+                <li><span class="check-icon">✓</span> Bao gồm tất cả tính năng</li>
+                <li><span class="check-icon">✓</span> Hạn dùng 30 ngày</li>
+            </ul>
+            <button class="plan-btn" onclick="openPayment(39000, 'Gói Tháng VIP')">Chọn Gói Này</button>
+        </div>
+
+        <div class="pricing-card">
+            <span class="badge-save badge-new">-20%</span>
+            <h3>Gói 6 Tháng</h3>
+            <div class="price-tag">149.000<span class="currency">đ</span></div>
+            <ul class="features">
+                <li><span class="check-icon">✓</span> Tải KHÔNG GIỚI HẠN</li>
+                <li><span class="check-icon">✓</span> Hạn dùng 6 tháng</li>
+                <li><span class="check-icon">✓</span> Tiết kiệm 85k</li>
+            </ul>
+            <button class="plan-btn" onclick="openPayment(149000, 'Gói 6 Tháng')">Chọn Gói Này</button>
+        </div>
+
+        <div class="pricing-card popular">
+            <span class="badge-save badge-top">PREMIUM</span>
+            <h3>Gói 1 Năm</h3>
+            <div class="price-tag">199.000<span class="currency">đ</span></div>
+            <ul class="features">
+                <li><span class="check-icon">✓</span> Tải KHÔNG GIỚI HẠN</li>
+                <li><span class="check-icon">✓</span> Hạn dùng 365 ngày</li>
+                <li><span class="check-icon">✓</span> Ưu tiên hỗ trợ 24/7</li>
+            </ul>
+            <button class="plan-btn" onclick="openPayment(199000, 'Gói 1 Năm')">Đăng Ký Ngay</button>
+        </div>
+		
+		<div class="pricing-card popular">
+            <span class="badge-save badge-top">BEST VALUE</span>
+            <h3>Gói Vĩnh Viễn</h3>
+            <div class="price-tag">4.999.000<span class="currency">đ</span></div>
+            <ul class="features">
+                <li><span class="check-icon">✓</span> Tải KHÔNG GIỚI HẠN</li>
+                <li><span class="check-icon">✓</span> Dùng vô hạn tới khi sập</li>
+                <li><span class="check-icon">✓</span> Ưu tiên hỗ trợ 24/7</li>
+            </ul>
+            <button class="plan-btn" onclick="openPayment(4999000, 'Gói Vĩnh Viễn')">Đăng Ký Ngay</button>
+        </div><br><br>
+				
+		<div class="h55"; id="lien-he-admin">
+        	<h5>Liên hệ Admin tại đây</h5>
+    	</div>
+    	<div class="liehe">
+    		<a href="https://zalo.me/0979110280">
+            	<img src="https://img.icons8.com/?size=512&id=EgLKf4nxO773&format=png" style="height: 70px; width: 70px;"><br>
+            </a>    
+        	<a href="https://t.me/nguyenduc666">
+            	<img src="https://i.imgur.com/ZkJvVT9.png" style="height: 52px; width: 52px;"><br>
+        	</a>
+    	</div>
+		<p style="font-size: 0.8em; color: red; margin-top: 5px;">Nếu trường hợp bị quên và không chép và lưu được key kịp thời vui lòng truy cập vào <a href="https://t.me/keyvipdownloadp12_bot" style="font-weight: bold; color: red; text-decoration: underline;">bot telegram</a> để lấy lại key</p>
+
+				
+				
+
+    </div>
+
+    <div id="paymentModal" class="payment-modal">
+        <div class="payment-box">
+            <button class="close-modal" onclick="closePayment()">&times;</button>
+            
+            <div id="qr-area">
+                <h2 id="pkg-name" style="color: var(--primary); margin-bottom: 5px;">Tên Gói</h2>
+                <p style="font-size: 0.9em; opacity: 0.7;">Vui lòng quét mã bên dưới</p>
+                
+                <div class="qr-frame">
+                    <img id="qr-image" src="" alt="QR Code">
+                </div>
+
+                <p style="font-size: 0.85em; margin-bottom: 5px;">Nội dung chuyển khoản (Bắt buộc):</p>
+                <div id="trans-code" class="transfer-code" onclick="copyCode()" title="Bấm để sao chép">LOADING...</div>
+                
+                <p id="status-text" style="color: #666; margin-top: 15px; font-weight: 500;">
+                    <span class="spinner"></span> Đang chờ tiền về...
+                </p>
+                <p style="font-size: 0.8em; color: red; margin-top: 5px;">Lưu ý: Không tắt tab này cho đến khi nhận được Key.</p>
+				<p style="font-size: 0.8em; color: red; margin-top: 5px;">Nếu trường hợp bị quên và không chép và lưu được key kịp thời vui lòng truy cập vào <a href="https://t.me/keyvipdownloadp12_bot" style="font-weight: bold; color: red; text-decoration: underline;">bot telegram</a> để lấy lại key</p>
+            </div>
+
+            <div id="result-area" style="display: none; text-align: center;">
+                <div style="font-size: 60px; margin-bottom: 10px;">🎉</div>
+                <h2 style="color: #10b981; margin-bottom: 10px;">Thanh Toán Thành Công!</h2>
+                <p>Cảm ơn bạn. Đây là mã kích hoạt của bạn:</p>
+                
+                <div id="success-key" class="key-display">
+                     LOADING-KEY...
+                </div>
+                
+                <p style="font-size: 0.9em; color: var(--placeholder-light); margin-bottom: 20px;">
+                    Hãy sao chép mã này để kích hoạt ngay.
+                </p>
+
+                <button class="plan-btn" style="background: #10b981; color: white;" onclick="closePayment()">Hoàn tất</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        // ============================================
+        // CẤU HÌNH TÀI KHOẢN NGÂN HÀNG CỦA BẠN
+        // ============================================
+        const BANK_INFO = {
+            id: 'MB',            // Mã ngân hàng (VD: MB, VCB, ACB, TPB...)
+            acc: '98582233445566',    // Số tài khoản của bạn
+            name: 'NGUYEN VU NGOC DUC' // Tên chủ tài khoản (Viết hoa không dấu)
+        };
+        // ============================================
+
+        let checkInterval;
+        let isChecking = false;
+
+        // Hàm tạo mã ngẫu nhiên 6 ký tự (Chữ cái + Số)
+        function generateRandomCode() {
+            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+            let result = '';
+            for (let i = 0; i < 6; i++) {
+                result += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            return result;
+        }
+
+        // Mở Modal Thanh Toán
+        function openPayment(amount, packageName) {
+            const modal = document.getElementById('paymentModal');
+            const qrImg = document.getElementById('qr-image');
+            const codeEl = document.getElementById('trans-code');
+            const nameEl = document.getElementById('pkg-name');
+            
+            // 1. Reset trạng thái giao diện về ban đầu
+            document.getElementById('qr-area').style.display = 'block';
+            document.getElementById('result-area').style.display = 'none';
+            document.getElementById('status-text').innerHTML = '<span class="spinner"></span> Đang chờ tiền về...';
+
+            // 2. Tạo mã giao dịch mới
+            const code = generateRandomCode();
+            
+            // 3. Hiển thị thông tin lên Popup
+            nameEl.innerText = packageName;
+            codeEl.innerText = code;
+            
+            // 4. Tạo Link QR VietQR
+            // Dùng encodeURIComponent để đảm bảo tên tài khoản hiển thị đúng
+            const qrUrl = `https://img.vietqr.io/image/${BANK_INFO.id}-${BANK_INFO.acc}-compact.jpg?amount=${amount}&addInfo=${code}&accountName=${encodeURIComponent(BANK_INFO.name)}`;
+            qrImg.src = qrUrl;
+
+            // 5. Hiển thị Modal
+            modal.style.display = 'flex';
+
+            // 6. Bắt đầu gọi Server để kiểm tra tiền
+            startChecking(code);
+        }
+
+        // Đóng Modal
+        function closePayment() {
+            document.getElementById('paymentModal').style.display = 'none';
+            stopChecking(); // Dừng việc kiểm tra ngay lập tức
+        }
+
+        // Copy mã nội dung
+        function copyCode() {
+            const code = document.getElementById('trans-code').innerText;
+            navigator.clipboard.writeText(code).then(() => {
+                alert('Đã sao chép nội dung: ' + code);
+            });
+        }
+
+        // --- LOGIC TỰ ĐỘNG CHECK TIỀN (QUAN TRỌNG) ---
+        function startChecking(contentCode) {
+            if (isChecking) return; // Nếu đang check rồi thì không chạy chồng chéo
+            isChecking = true;
+            
+            // Cài đặt vòng lặp: Cứ 3 giây gọi Server 1 lần
+            checkInterval = setInterval(async () => {
+                try {
+                    // Gọi API Backend: /api/check-order
+                    const res = await fetch('/api/check-order', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ content: contentCode })
+                    });
+                    
+                    // Nếu Server trả về lỗi (VD: 500), dừng xử lý lượt này
+                    if (!res.ok) {
+                        console.warn("Server đang xử lý hoặc gặp lỗi tạm thời.");
+                        return;
+                    }
+
+                    const data = await res.json();
+
+                    // Nếu Backend trả về 'success' -> Có nghĩa là tiền ĐÃ VỀ THẬT
+                    if (data.status === 'success') {
+                        stopChecking(); // Dừng vòng lặp
+                        showSuccess(data.key); // Hiển thị Key
+                    }
+                    // Nếu status là 'pending' hoặc 'error' -> Kệ nó, đợi 3 giây sau check tiếp
+
+                } catch (err) {
+                    console.error("Lỗi kết nối:", err);
+                }
+            }, 3000); // 3000ms = 3 giây
+        }
+
+        function stopChecking() {
+            clearInterval(checkInterval);
+            isChecking = false;
+        }
+
+        function showSuccess(key) {
+            // Ẩn phần QR
+            document.getElementById('qr-area').style.display = 'none';
+            // Hiện phần Kết quả
+            document.getElementById('result-area').style.display = 'block';
+            // Điền Key vào ô
+            document.getElementById('success-key').innerText = key;
+        }
+
+        // Tự động kích hoạt Dark Mode nếu hệ điều hành người dùng đang để Dark Mode
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+        }
+    </script>
+
+</body>
+</html>

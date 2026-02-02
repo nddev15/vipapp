@@ -1,0 +1,23 @@
+{
+  "name": "kho-app-vip",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Kho ứng dụng VIP - IPA, Dylib, Shadowrocket Conf",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "ipa",
+    "dylib",
+    "shadowrocket",
+    "ios"
+  ],
+  "author": "Cuios",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
