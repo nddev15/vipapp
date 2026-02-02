@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "key_1770051857349_yt07iq1u4",
+    "key": "8W78-NQH7-MYA1-7MX3",
+    "createdAt": "2026-02-02T17:04:17.349Z",
+    "expiresAt": null,
+    "maxUses": null,
+    "currentUses": 0,
+    "active": true,
+    "createdBy": "telegram_bot",
+    "notes": "Created by nguyenduc666"
+  }
+]
