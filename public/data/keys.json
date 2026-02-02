@@ -5,9 +5,10 @@
     "createdAt": "2026-02-02T17:04:17.349Z",
     "expiresAt": null,
     "maxUses": null,
-    "currentUses": 0,
+    "currentUses": 1,
     "active": true,
     "createdBy": "telegram_bot",
-    "notes": "Created by nguyenduc666"
+    "notes": "Created by nguyenduc666",
+    "lastUsedAt": "2026-02-02T17:05:09.651Z"
   }
 ]
