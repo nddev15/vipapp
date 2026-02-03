@@ -193,7 +193,7 @@ export default async function handler(req, res) {
           badge: smartDetectBadge(app),
           fileLink: app.downloadURL || app.down,
           version: app.version,
-          developer: app.developerName || 'khomodvip',
+          developer: app.developerName || 'cheatlibrary',
           date: app.versionDate,
           source: 'apptesters',
           bundleID: app.bundleID,
