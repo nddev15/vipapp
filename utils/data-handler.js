@@ -70,6 +70,14 @@ export async function writeData(relativePath, data) {
     await fs.mkdir(path.dirname(filePath), { recursive: true });
     await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf-8');
     console.log(`✅ Wrote data to ${filePath}`);
+    
+    // Also push to GitHub for backup/sync
+    try {
+      await writeToGitHub(relativePath, data);
+    } catch (error) {
+      console.warn(`⚠️ Failed to sync to GitHub: ${error.message}`);
+      // Don't throw - local file is already saved
+    }
     return;
   }
   
