@@ -1,5 +1,221 @@
 [
   {
+    "id": "ipa-com.snowcorp.glowup-4.0.1",
+    "type": "ipa",
+    "name": "GlowUp",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.snowcorp.glowup.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/GlowUp_4.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.0.1",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.snowcorp.glowup",
+    "lastSync": "2026-02-03T00:53:06.392Z"
+  },
+  {
+    "id": "ipa-com.google.ios.youtubemusic-9.05.2",
+    "type": "ipa",
+    "name": "YouTubeMusic",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/YouTubeMusic_9.05.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.05.2",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.google.ios.youtubemusic",
+    "lastSync": "2026-02-03T00:53:06.393Z"
+  },
+  {
+    "id": "ipa-com.burbn.instagram-415.0.0",
+    "type": "ipa",
+    "name": "Instagram",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/Instagram_415.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "415.0.0",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.burbn.instagram",
+    "lastSync": "2026-02-03T00:53:06.393Z"
+  },
+  {
+    "id": "ipa-com.risesci.nyx-0.1.565",
+    "type": "ipa",
+    "name": "RiseSleep",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/RiseSleep_0.1.565_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "0.1.565",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.risesci.nyx",
+    "lastSync": "2026-02-03T00:53:06.393Z"
+  },
+  {
+    "id": "ipa-com.imageline.FLStudioMobileHD-4.9.6",
+    "type": "ipa",
+    "name": "FLStudioMobile",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.imageline.FLStudioMobileHD.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/FLStudioMobile_4.9.6_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.9.6",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.imageline.FLStudioMobileHD",
+    "lastSync": "2026-02-03T00:53:06.394Z"
+  },
+  {
+    "id": "ipa-com.travelboast.travelboast-2.24",
+    "type": "ipa",
+    "name": "TravelBoast",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.travelboast.travelboast.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "navigation"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/TravelBoast_2.24_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.24",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.travelboast.travelboast",
+    "lastSync": "2026-02-03T00:53:06.394Z"
+  },
+  {
+    "id": "ipa-com.iqraapp.Iqra-5.73.2",
+    "type": "ipa",
+    "name": "Tarteel",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iqraapp.Iqra.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/Tarteel_5.73.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.73.2",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.iqraapp.Iqra",
+    "lastSync": "2026-02-03T00:53:06.394Z"
+  },
+  {
+    "id": "ipa-com.endel.endel-4.49.34",
+    "type": "ipa",
+    "name": "Endel",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.endel.endel.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/Endel_4.49.34_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.49.34",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.endel.endel",
+    "lastSync": "2026-02-03T00:53:06.394Z"
+  },
+  {
+    "id": "ipa-com.headway.books-367.3",
+    "type": "ipa",
+    "name": "Headway",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.headway.books.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "books"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/Headway_367.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "367.3",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.headway.books",
+    "lastSync": "2026-02-03T00:53:06.394Z"
+  },
+  {
+    "id": "ipa-com.photomyne.photomyneapplite-32.4",
+    "type": "ipa",
+    "name": "Photomyne",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photomyne.photomyneapplite.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/Photomyne_32.4_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "32.4",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.photomyne.photomyneapplite",
+    "lastSync": "2026-02-03T00:53:06.395Z"
+  },
+  {
+    "id": "ipa-viral.vision.vids-1.130.2",
+    "type": "ipa",
+    "name": "Vids",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/viral.vision.vids.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/Vids_1.130.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.130.2",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "viral.vision.vids",
+    "lastSync": "2026-02-03T00:53:06.395Z"
+  },
+  {
+    "id": "ipa-com.soundcloud.TouchApp-8.46.0",
+    "type": "ipa",
+    "name": "SoundCloud",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.soundcloud.TouchApp.png",
+    "desc": "Injected with noads",
+    "tags": [
+      "music"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-02-2026/SoundCloud_8.46.0_noads_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.46.0",
+    "developer": "khomodvip",
+    "date": "2026-02-03",
+    "source": "apptesters",
+    "bundleID": "com.soundcloud.TouchApp",
+    "lastSync": "2026-02-03T00:53:06.395Z"
+  },
+  {
     "id": "ipa-com.moonlab.unfoldstories-8.154.0",
     "type": "ipa",
     "name": "Unfold",
