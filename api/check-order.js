@@ -55,13 +55,13 @@ export default async function handler(req, res) {
         let days = 0;   // 0 = Không giới hạn thời gian
         let uses = 0;   // 0 = Không giới hạn lượt dùng
         let packageName = '';
-        if (amount >= 199000) { 
-            packageName = 'VIP 1 Năm'; days = 366; uses = 0;
-        } else if (amount >= 149000) { 
-            packageName = 'VIP 6 Tháng'; days = 181; uses = 0;
-        } else if (amount >= 39000) { 
-            packageName = 'VIP 1 Tháng'; days = 31; uses = 0;
-        } else if (amount >= 19000) { 
+        if (amount >= 499999) { 
+            packageName = 'VIP 1 Năm'; days = 380; uses = 0;
+        } else if (amount >= 259000) { 
+            packageName = 'VIP 6 Tháng'; days = 187; uses = 0;
+        } else if (amount >= 99000) { 
+            packageName = 'VIP 1 Tháng'; days = 33; uses = 0;
+        } else if (amount >= 29000) { 
             packageName = 'VIP 1 Tuần'; days = 8; uses = 0;
         } else if (amount >= 5000) { 
             packageName = 'Gói Lẻ'; days = 0; uses = 20; // Không giới hạn ngày, 10 lượt
