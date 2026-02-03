@@ -3,364 +3,717 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nâng Cấp VIP - Tải Không Giới Hạn</title>
-    <link rel="stylesheet" href="/css/style.css">
-    
+    <title>Nâng Cấp VIP - CheatLibrary</title>
     <style>
-        /* --- CSS RIÊNG CHO TRANG THANH TOÁN --- */
-        body { padding-bottom: 80px; }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
         
-        /* Header */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #0a0a0f;
+            min-height: 100vh;
+            padding: 60px 20px;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(circle at 20% 50%, rgba(120, 119, 198, 0.3), transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(74, 144, 226, 0.3), transparent 50%),
+                radial-gradient(circle at 40% 20%, rgba(168, 85, 247, 0.2), transparent 50%);
+            z-index: 0;
+            animation: gradientShift 15s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.8; }
+        }
+        
         .pricing-header {
             text-align: center;
-            padding: 40px 20px 20px;
-        }
-        .pricing-header h1 { color: var(--primary); font-size: 2em; margin-bottom: 10px; }
-        .pricing-header p { color: var(--text-light); opacity: 0.8; }
-        body.dark .pricing-header p { color: var(--text-dark); }
-
-        /* Grid hiển thị các gói */
-        .pricing-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 20px;
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        /* Card gói cước */
-        .pricing-card {
-            background: var(--card-bg-light);
-            border: 2px solid var(--border-light);
-            border-radius: 24px;
-            padding: 30px 20px;
-            text-align: center;
-            transition: var(--transition-smooth);
+            margin-bottom: 60px;
             position: relative;
-            overflow: hidden;
+            z-index: 1;
+        }
+        
+        .pricing-header h1 { 
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        @media (max-width: 768px) {
+            .pricing-header h1 {
+                font-size: 2.5rem;
+            }
+        }
+        
+        .pricing-header p { 
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1.25rem;
+            font-weight: 500;
+        }
+
+        .pricing-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (max-width: 1200px) {
+            .pricing-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .pricing-container {
+                grid-template-columns: 1fr;
+                gap: 24px;
+            }
+        }
+        
+        .pricing-card {
+            background: linear-gradient(145deg, rgba(30, 30, 46, 0.9), rgba(20, 20, 35, 0.95));
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 2px solid rgba(60, 60, 80, 0.6);
+            border-radius: 20px;
+            padding: 40px 32px;
+            position: relative;
+            overflow: visible;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
             display: flex;
             flex-direction: column;
         }
-
-        body.dark .pricing-card {
-            background: var(--card-bg-dark);
-            border-color: var(--border-dark);
-        }
-
+        
         .pricing-card:hover {
             transform: translateY(-8px);
-            box-shadow: 0 12px 28px var(--card-shadow-light);
-            border-color: var(--primary);
+            border-color: rgba(102, 126, 234, 0.5);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
         }
 
-        /* Gói nổi bật (VIP 1 năm) */
         .pricing-card.popular {
-            border-color: var(--primary);
-            background: linear-gradient(to bottom, rgba(139, 92, 246, 0.05), var(--card-bg-light));
-        }
-        body.dark .pricing-card.popular {
-            background: linear-gradient(to bottom, rgba(139, 92, 246, 0.1), var(--card-bg-dark));
-        }
-
-        .badge-save {
-            position: absolute;
-            top: 15px;
-            right: 15px;
-            padding: 4px 10px;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            font-weight: bold;
+            background: linear-gradient(145deg, rgba(102, 126, 234, 0.15), rgba(118, 75, 162, 0.1));
+            border: 2px solid #8b5cf6;
+            box-shadow: 0 0 40px rgba(139, 92, 246, 0.3);
+            transform: scale(1.05);
         }
 
-        .price-tag {
-            font-size: 2.5rem;
-            font-weight: 800;
-            color: var(--text-light);
-            margin: 15px 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 5px;
+        .pricing-card.popular:hover {
+            transform: translateY(-8px) scale(1.05);
+            box-shadow: 0 20px 50px rgba(139, 92, 246, 0.4);
         }
-        body.dark .price-tag { color: var(--text-dark); }
         
-        .currency { font-size: 1rem; color: var(--primary); font-weight: 600; margin-top: -15px; }
-        .duration { font-size: 0.9rem; color: var(--placeholder-light); font-weight: normal; }
+        .badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            color: white;
+            padding: 6px 18px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            box-shadow: 0 4px 12px rgba(139, 92, 246, 0.4);
+            white-space: nowrap;
+        }
 
+        .badge.discount {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: translateX(-50%) scale(1); }
+            50% { transform: translateX(-50%) scale(1.05); }
+        }
+        
+        .pricing-card h3 {
+            font-size: 1.5rem;
+            color: #fff;
+            margin-bottom: 8px;
+            margin-top: 16px;
+            font-weight: 700;
+            letter-spacing: -0.01em;
+        }
+        
+        .pricing-card .subtitle {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.9rem;
+            margin-bottom: 24px;
+            font-weight: 400;
+        }
+        
+        .price-wrapper {
+            margin-bottom: 12px;
+        }
+
+        .original-price {
+            color: rgba(255, 255, 255, 0.4);
+            font-size: 1rem;
+            text-decoration: line-through;
+            margin-bottom: 4px;
+        }
+        
+        .price {
+            font-size: 3rem;
+            color: #fff;
+            font-weight: 800;
+            line-height: 1;
+            letter-spacing: -0.02em;
+            display: flex;
+            align-items: flex-start;
+            gap: 2px;
+        }
+
+        .price .currency {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+        
+        .price .amount {
+            font-size: 3rem;
+        }
+
+        .price .unit {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .duration {
+            color: rgba(139, 92, 246, 0.8);
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-top: 8px;
+        }
+        
         .features {
             list-style: none;
-            margin: 20px 0 30px;
+            margin-bottom: 32px;
             flex-grow: 1;
         }
+        
         .features li {
-            margin-bottom: 12px;
-            color: var(--text-light);
+            color: rgba(255, 255, 255, 0.85);
+            padding: 10px 0;
+            padding-left: 32px;
+            position: relative;
             font-size: 0.95rem;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+
+        .features li.disabled {
+            color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .features li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #10b981;
+            font-weight: 700;
+            font-size: 0.9rem;
+            width: 20px;
+            height: 20px;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 8px;
         }
-        body.dark .features li { color: var(--text-dark); }
-        .check-icon { color: #10b981; font-weight: bold; }
 
-        .plan-btn {
-            width: 100%;
-            padding: 14px;
-            border-radius: 16px;
-            border: none;
-            font-weight: 700;
-            font-size: 1rem;
-            cursor: pointer;
-            transition: var(--transition-smooth);
-            background: var(--bg-light);
-            color: var(--text-light);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+        .pricing-card.popular .features li::before {
+            color: #8b5cf6;
+        }
+
+        .features li.disabled::before {
+            content: '○';
+            color: rgba(255, 255, 255, 0.2);
+            font-weight: 400;
         }
         
-        body.dark .plan-btn {
-            background: rgba(255,255,255,0.05);
-            color: var(--text-dark);
-        }
-
-        .pricing-card.popular .plan-btn, .plan-btn:hover {
-            background: var(--primary);
+        .btn-select {
+            width: 100%;
+            padding: 14px 28px;
+            background: rgba(255, 255, 255, 0.08);
             color: white;
-            box-shadow: 0 6px 20px rgba(139, 92, 246, 0.4);
+            border: none;
+            border-radius: 12px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            letter-spacing: 0.3px;
+        }
+        
+        .btn-select:hover {
+            background: rgba(255, 255, 255, 0.12);
+            transform: translateY(-2px);
         }
 
-        /* --- MODAL THANH TOÁN (POPUP) --- */
-        .payment-modal {
-            position: fixed;
-            top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.8);
-            backdrop-filter: blur(8px);
-            z-index: 999;
+        .pricing-card.popular .btn-select {
+            background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%);
+            box-shadow: 0 4px 16px rgba(139, 92, 246, 0.4);
+        }
+
+        .pricing-card.popular .btn-select:hover {
+            background: linear-gradient(135deg, #9333ea 0%, #8b5cf6 100%);
+            box-shadow: 0 6px 20px rgba(139, 92, 246, 0.5);
+        }
+        
+        .btn-select:active {
+            transform: translateY(0);
+        }
+
+        /* Modal */
+        .modal {
             display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            z-index: 1000;
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .modal.active {
+            display: flex;
             justify-content: center;
             align-items: center;
+        }
+
+        .modal-content {
+            background: rgba(20, 20, 30, 0.95);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 48px;
+            max-width: 500px;
+            width: 90%;
+            position: relative;
+            animation: slideUp 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .close {
+            position: absolute;
+            top: 24px;
+            right: 24px;
+            font-size: 2rem;
+            color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.05);
+            line-height: 1;
+            text-align: center;
+        }
+
+        .close:hover {
+            color: #fff;
+            background: rgba(255, 255, 255, 0.1);
+            transform: rotate(90deg);
+        }
+
+        .modal-content h2 {
+            color: #fff;
+            margin-bottom: 24px;
+            font-size: 1.75rem;
+            font-weight: 800;
+            text-align: center;
+        }
+
+        .qr-code {
+            background: white;
+            padding: 20px;
+            border-radius: 16px;
+            display: inline-block;
+            margin: 20px auto;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+        }
+
+        .qr-code img {
+            display: block;
+            width: 250px;
+            height: 250px;
+            margin: 0 auto;
+        }
+
+        .success-animation {
+            text-align: center;
             padding: 20px;
         }
-        
-        .payment-box {
-            background: var(--card-bg-light);
-            width: 100%;
-            max-width: 400px;
-            padding: 25px;
-            border-radius: 24px;
-            text-align: center;
-            position: relative;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-            border: 1px solid var(--border-light);
-        }
-        body.dark .payment-box { background: var(--card-bg-dark); border-color: var(--border-dark); }
 
-        .qr-frame {
-            background: white;
-            padding: 10px;
+        .success-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            animation: scaleIn 0.5s ease;
+        }
+
+        @keyframes scaleIn {
+            from {
+                transform: scale(0);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .success-icon::after {
+            content: '✓';
+            color: white;
+            font-size: 3rem;
+            font-weight: 700;
+        }
+
+        .key-display {
+            background: rgba(16, 185, 129, 0.1);
+            border: 2px dashed #10b981;
+            padding: 24px;
             border-radius: 16px;
-            margin: 20px 0;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-top: 24px;
         }
-        .qr-frame img { width: 100%; display: block; border-radius: 8px; }
 
-        .transfer-code {
-            background: rgba(139, 92, 246, 0.1);
-            color: var(--primary);
+        .key-display h3 {
+            color: #10b981;
+            font-size: 0.95rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        .key-value {
+            color: #10b981;
             font-size: 1.4rem;
             font-weight: 800;
-            padding: 12px;
+            font-family: 'Courier New', monospace;
+            word-break: break-all;
+            padding: 16px;
+            background: rgba(16, 185, 129, 0.1);
             border-radius: 12px;
             letter-spacing: 2px;
-            margin: 10px 0;
-            border: 2px dashed var(--primary);
+        }
+
+        .transfer-code {
+            background: rgba(102, 126, 234, 0.15);
+            border: 2px dashed #667eea;
+            color: #667eea;
+            font-size: 1.6rem;
+            font-weight: 800;
+            padding: 16px;
+            border-radius: 12px;
+            letter-spacing: 3px;
+            margin: 16px 0;
             cursor: pointer;
             font-family: 'Courier New', monospace;
+            transition: all 0.3s ease;
+            text-align: center;
         }
 
-        .close-modal {
-            position: absolute; top: 15px; right: 15px;
-            background: transparent; border: none;
-            color: var(--placeholder-light); font-size: 1.5rem; cursor: pointer;
+        .transfer-code:hover {
+            background: rgba(102, 126, 234, 0.25);
+            transform: scale(1.02);
         }
 
-        /* Hiển thị Key khi thành công */
-        .key-display {
-            font-family: 'Courier New', monospace;
-            font-size: 18px;
-            font-weight: bold;
-            letter-spacing: 1px;
-            background: #ecfdf5;
-            padding: 20px;
-            border: 2px dashed #10b981;
-            border-radius: 12px;
-            color: #059669;
-            margin: 20px 0;
-            word-break: break-all;
+        #qr-area {
+            text-align: center;
         }
-        body.dark .key-display { background: rgba(16, 185, 129, 0.1); color: #34d399; border-color: #059669; }
 
-        /* Animation Loading */
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+        #qr-area p {
+            text-align: center;
+        }
+
+        #status-text {
+            text-align: center;
+        }
+
+        .btn-complete {
+            width: 100%;
+            padding: 18px 32px;
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            color: white;
+            border: none;
+            border-radius: 14px;
+            font-size: 1.1rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 24px;
+        }
+
+        .btn-complete:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px rgba(16, 185, 129, 0.4);
+        }
+
         .spinner {
             display: inline-block;
-            border: 3px solid rgba(0, 0, 0, 0.1);
-            border-left-color: var(--primary);
+            width: 18px;
+            height: 18px;
+            border: 3px solid rgba(102, 126, 234, 0.2);
+            border-top-color: #667eea;
             border-radius: 50%;
-            width: 18px; height: 18px;
             animation: spin 1s linear infinite;
             vertical-align: middle;
-            margin-right: 5px;
+            margin-right: 8px;
         }
-        .liehe {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            color: #008CBA;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        .h55 {
-            text-align: center;
-            color: #008CBA;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
         }
     </style>
 </head>
 <body>
-
     <div class="pricing-header">
-        <h1>Nâng Cấp VIP</h1>
-        <p>Hệ thống tự động kích hoạt ngay sau khi nhận tiền</p>
+        <h1>Nâng Cấp Vip</h1>
+        <p>Hệ thống bán key download vip tự động Nhanh - Gọn - Lẹ</p>
     </div>
 
     <div class="pricing-container">
-        
-        <div class="pricing-card">
-            <h3>Gói Trải Nghiệm</h3>
-            <div class="price-tag">5.000<span class="currency">đ</span></div>
+        <!-- Gói Lẻ -->
+        <div class="pricing-card" data-package="le" data-price="5000" data-name="Gói Trải Nghiệm">
+            <span class="badge discount">75% OFF</span>
+            <h3>Gói Lẻ</h3>
+            <p class="subtitle">Trải nghiệm ngắn hạn</p>
+            <div class="price-wrapper">
+                <div class="original-price">$ 20.000</div>
+                <div class="price"><span class="currency">$</span><span class="amount">5.000</span><span class="unit">VND</span></div>
+                <div class="duration">Không giới hạn ngày</div>
+            </div>
             <ul class="features">
-                <li><span class="check-icon">✓</span> 20 Lượt tải ứng dụng</li>
-                <li><span class="check-icon">✓</span> Tốc độ cao</li>
-                <li><span class="check-icon">✓</span> Hỗ trợ cơ bản</li>
+                <li>Tải tối đa <strong>20 IPA</strong></li>
+                <li>Không giới hạn thời gian</li>
+                <li>Truy cập đầy đủ kho IPA</li>
+                <li class="disabled">Hỗ trợ ưu tiên</li>
+                <li class="disabled">Cập nhật sớm</li>
             </ul>
-            <button class="plan-btn" onclick="openPayment(5000, 'Gói 10 lượt')">Chọn Gói Này</button>
+            <button class="btn-select">Chọn gói</button>
         </div>
 
-        <div class="pricing-card">
-            <span class="badge-save badge-trending">Hot</span>
+        <!-- VIP 1 Tuần -->
+        <div class="pricing-card" data-package="1week" data-price="29000" data-name="Gói Tuần VIP">
+            <span class="badge">HOT</span>
             <h3>Gói Tuần</h3>
-            <div class="price-tag">19.000<span class="currency">đ</span> <span class="duration">/ tuần</span></div>
+            <p class="subtitle">Lựa chọn tốt nhất</p>
+            <div class="price-wrapper">
+                <div class="original-price">$ 59.000</div>
+                <div class="price"><span class="currency">$</span><span class="amount">29.000</span><span class="unit">VND</span></div>
+                <div class="duration">+1 ngày miễn phí</div>
+            </div>
             <ul class="features">
-                <li><span class="check-icon">✓</span> Tải KHÔNG GIỚI HẠN</li>
-                
-                <li><span class="check-icon">✓</span> Hạn dùng 7 ngày</li>
+                <li>Tải <strong>không giới hạn</strong></li>
+                <li>Thời hạn <strong>8 ngày</strong></li>
+                <li>Truy cập toàn bộ kho IPA</li>
+                <li>Hỗ trợ ưu tiên qua Telegram</li>
+                <li>Cập nhật IPA mới sớm nhất</li>
+                <li>Backup tự động hằng ngày</li>
             </ul>
-            <button class="plan-btn" onclick="openPayment(19000, 'Gói Tuần VIP')">Chọn Gói Này</button>
+            <button class="btn-select">Chọn gói</button>
         </div>
 
-        <div class="pricing-card">
+        <!-- VIP 1 Tháng -->
+        <div class="pricing-card popular" data-package="1month" data-price="99000" data-name="Gói Tháng VIP">
+            <span class="badge">Phổ Biến Nhất</span>
             <h3>Gói Tháng</h3>
-            <div class="price-tag">39.000<span class="currency">đ</span> <span class="duration">/ tháng</span></div>
+            <p class="subtitle">Lựa chọn tốt nhất</p>
+            <div class="price-wrapper">
+                <div class="original-price">$ 149.000</div>
+                <div class="price"><span class="currency">$</span><span class="amount">99.000</span><span class="unit">VND</span></div>
+                <div class="duration">+3 ngày miễn phí</div>
+            </div>
             <ul class="features">
-                <li><span class="check-icon">✓</span> Tải KHÔNG GIỚI HẠN</li>
-                <li><span class="check-icon">✓</span> Bao gồm tất cả tính năng</li>
-                <li><span class="check-icon">✓</span> Hạn dùng 30 ngày</li>
+                <li>Tải <strong>không giới hạn</strong></li>
+                <li>Thời hạn <strong>33 ngày</strong></li>
+                <li>Truy cập toàn bộ kho IPA</li>
+                <li>Hỗ trợ ưu tiên qua Telegram</li>
+                <li>Cập nhật IPA mới sớm nhất</li>
+                <li>Backup tự động hằng ngày</li>
             </ul>
-            <button class="plan-btn" onclick="openPayment(39000, 'Gói Tháng VIP')">Chọn Gói Này</button>
+            <button class="btn-select">Chọn gói</button>
         </div>
 
-        <div class="pricing-card">
-            <span class="badge-save badge-new">-20%</span>
+        <!-- VIP 6 Tháng -->
+        <div class="pricing-card" data-package="6months" data-price="259000" data-name="Gói 6 Tháng">
+            <span class="badge discount">Rẻ Nhất</span>
             <h3>Gói 6 Tháng</h3>
-            <div class="price-tag">149.000<span class="currency">đ</span></div>
+            <p class="subtitle">Tiết kiệm nhất</p>
+            <div class="price-wrapper">
+                <div class="price"><span class="currency">$</span><span class="amount">259.000</span><span class="unit">VND</span></div>
+                <div class="duration"></div>
+            </div>
             <ul class="features">
-                <li><span class="check-icon">✓</span> Tải KHÔNG GIỚI HẠN</li>
-                <li><span class="check-icon">✓</span> Hạn dùng 6 tháng</li>
-                <li><span class="check-icon">✓</span> Tiết kiệm 85k</li>
+                <li>Tải <strong>không giới hạn</strong></li>
+                <li>Thời hạn <strong>187 ngày</strong></li>
+                <li>Truy cập toàn bộ kho IPA</li>
+                <li>Hỗ trợ ưu tiên 24/7</li>
+                <li>Cập nhật IPA mới sớm nhất</li>
+                <li>Backup tự động</li>
             </ul>
-            <button class="plan-btn" onclick="openPayment(149000, 'Gói 6 Tháng')">Chọn Gói Này</button>
+            <button class="btn-select">Chọn gói</button>
         </div>
 
-        <div class="pricing-card popular">
-            <span class="badge-save badge-top">PREMIUM</span>
+        <!-- VIP 1 Năm -->
+        <div class="pricing-card popular" data-package="1year" data-price="499999" data-name="Gói 1 Năm">
+            <span class="badge">PREMIUM</span>
             <h3>Gói 1 Năm</h3>
-            <div class="price-tag">199.000<span class="currency">đ</span></div>
+            <p class="subtitle">Ngon - Bổ - Rẻ</p>
+            <div class="price-wrapper">
+                <div class="original-price">$ 1.326.000</div>
+                <div class="price"><span class="currency">$</span><span class="amount">499.999</span><span class="unit">VND</span></div>
+            </div>
             <ul class="features">
-                <li><span class="check-icon">✓</span> Tải KHÔNG GIỚI HẠN</li>
-                <li><span class="check-icon">✓</span> Hạn dùng 365 ngày</li>
-                <li><span class="check-icon">✓</span> Ưu tiên hỗ trợ 24/7</li>
+                <li>Tải <strong>không giới hạn</strong></li>
+                <li>Thời hạn <strong>380 ngày</strong></li>
+                <li>Truy cập toàn bộ kho IPA</li>
+                <li>Hỗ trợ ưu tiên 24/7</li>
+                <li>Cập nhật IPA mới sớm nhất</li>
+                <li>Backup tự động</li>
+                <li>Tặng 1 tháng VPN</li>
             </ul>
-            <button class="plan-btn" onclick="openPayment(199000, 'Gói 1 Năm')">Đăng Ký Ngay</button>
+            <button class="btn-select">Chọn gói</button>
         </div>
-		
-		<div class="pricing-card popular">
-            <span class="badge-save badge-top">BEST VALUE</span>
+
+        <!-- Gói Vĩnh Viễn -->
+        <div class="pricing-card" data-package="lifetime" data-price="4999990" data-name="Gói Vĩnh Viễn">
+            <span class="badge discount">Giá Tốt Nhất</span>
             <h3>Gói Vĩnh Viễn</h3>
-            <div class="price-tag">4.999.000<span class="currency">đ</span></div>
+            <p class="subtitle">Mua 1 lần - Dùng mãi mãi</p>
+            <div class="price-wrapper">
+                <div class="price"><span class="currency">$</span><span class="amount">4.999.990</span><span class="unit">VND</span></div>
+                <div class="duration">Vĩnh viễn</div>
+            </div>
             <ul class="features">
-                <li><span class="check-icon">✓</span> Tải KHÔNG GIỚI HẠN</li>
-                <li><span class="check-icon">✓</span> Dùng vô hạn tới khi sập</li>
-                <li><span class="check-icon">✓</span> Ưu tiên hỗ trợ 24/7</li>
+                <li>Tải <strong>không giới hạn</strong></li>
+                <li>Dùng <strong>vô hạn tới khi sập</strong></li>
+                <li>Truy cập toàn bộ kho IPA</li>
+                <li>Hỗ trợ ưu tiên 24/7</li>
+                <li>Tất cả tính năng premium</li>
+                <li>Backup tự động</li>
             </ul>
-            <button class="plan-btn" onclick="openPayment(4999000, 'Gói Vĩnh Viễn')">Đăng Ký Ngay</button>
-        </div><br><br>
-				
-		<div class="h55"; id="lien-he-admin">
-        	<h5>Liên hệ Admin tại đây</h5>
-    	</div>
-    	<div class="liehe">
-    		<a href="https://zalo.me/0979110280">
-            	<img src="https://img.icons8.com/?size=512&id=EgLKf4nxO773&format=png" style="height: 70px; width: 70px;"><br>
-            </a>    
-        	<a href="https://t.me/nguyenduc666">
-            	<img src="https://i.imgur.com/ZkJvVT9.png" style="height: 52px; width: 52px;"><br>
-        	</a>
-    	</div>
-		<p style="font-size: 0.8em; color: red; margin-top: 5px;">Nếu trường hợp bị quên và không chép và lưu được key kịp thời vui lòng truy cập vào <a href="https://t.me/keyvipdownloadp12_bot" style="font-weight: bold; color: red; text-decoration: underline;">bot telegram</a> để lấy lại key</p>
-
-				
-				
-
+            <button class="btn-select">Chọn gói</button>
+        </div>
     </div>
 
-    <div id="paymentModal" class="payment-modal">
-        <div class="payment-box">
-            <button class="close-modal" onclick="closePayment()">&times;</button>
+    <!-- Contact Section -->
+    <div style="text-align: center; margin-top: 80px; position: relative; z-index: 1;">
+        <h5 style="color: rgba(255, 255, 255, 0.9); font-size: 1.2rem; margin-bottom: 20px; font-weight: 700;">Liên hệ Admin tại đây</h5>
+        <div style="display: flex; justify-content: center; align-items: center; gap: 20px;">
+            <a href="https://zalo.me/0979110280" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                <img src="https://img.icons8.com/?size=512&id=EgLKf4nxO773&format=png" style="height: 70px; width: 70px; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));">
+            </a>    
+            <a href="https://t.me/nguyenduc666" style="transition: transform 0.3s ease;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
+                <img src="https://i.imgur.com/ZkJvVT9.png" style="height: 52px; width: 52px; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));">
+            </a>
+        </div>
+        <p style="font-size: 0.9rem; color: rgba(255, 100, 100, 0.9); margin-top: 20px; line-height: 1.6;">
+            Nếu trường hợp bị quên và không chép và lưu được key kịp thời<br>
+            vui lòng truy cập vào <a href="https://t.me/cheatlibrarybot" style="font-weight: bold; color: #ff6b6b; text-decoration: underline;">bot telegram</a> để lấy lại key
+        </p>
+    </div>
+
+    <!-- Modal -->
+    <div id="paymentModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
             
             <div id="qr-area">
-                <h2 id="pkg-name" style="color: var(--primary); margin-bottom: 5px;">Tên Gói</h2>
-                <p style="font-size: 0.9em; opacity: 0.7;">Vui lòng quét mã bên dưới</p>
+                <h2 id="pkg-name" style="color: #667eea; margin-bottom: 12px;">Tên Gói</h2>
+                <p style="font-size: 0.95rem; color: rgba(255,255,255,0.6); margin-bottom: 24px;">Vui lòng quét mã bên dưới</p>
                 
-                <div class="qr-frame">
+                <div class="qr-code">
                     <img id="qr-image" src="" alt="QR Code">
                 </div>
 
-                <p style="font-size: 0.85em; margin-bottom: 5px;">Nội dung chuyển khoản (Bắt buộc):</p>
+                <p style="font-size: 0.9rem; color: rgba(255,255,255,0.7); margin-bottom: 8px; font-weight: 600;">Nội dung chuyển khoản (Bắt buộc):</p>
                 <div id="trans-code" class="transfer-code" onclick="copyCode()" title="Bấm để sao chép">LOADING...</div>
                 
-                <p id="status-text" style="color: #666; margin-top: 15px; font-weight: 500;">
+                <p id="status-text" style="color: rgba(255,255,255,0.7); margin-top: 20px; font-weight: 500;">
                     <span class="spinner"></span> Đang chờ tiền về...
                 </p>
-                <p style="font-size: 0.8em; color: red; margin-top: 5px;">Lưu ý: Không tắt tab này cho đến khi nhận được Key.</p>
-				<p style="font-size: 0.8em; color: red; margin-top: 5px;">Nếu trường hợp bị quên và không chép và lưu được key kịp thời vui lòng truy cập vào <a href="https://t.me/keyvipdownloadp12_bot" style="font-weight: bold; color: red; text-decoration: underline;">bot telegram</a> để lấy lại key</p>
+                <p style="font-size: 0.85rem; color: #ff6b6b; margin-top: 12px;">Lưu ý: Không tắt tab này cho đến khi nhận được Key.</p>
+                <p style="font-size: 0.85rem; color: #ff6b6b; margin-top: 8px;">
+                    Nếu trường hợp bị quên và không chép và lưu được key kịp thời vui lòng truy cập vào 
+                    <a href="https://t.me/cheatlibrarybot" style="font-weight: bold; color: #ff6b6b; text-decoration: underline;">bot telegram</a> để lấy lại key
+                </p>
             </div>
 
-            <div id="result-area" style="display: none; text-align: center;">
-                <div style="font-size: 60px; margin-bottom: 10px;">🎉</div>
-                <h2 style="color: #10b981; margin-bottom: 10px;">Thanh Toán Thành Công!</h2>
-                <p>Cảm ơn bạn. Đây là mã kích hoạt của bạn:</p>
-                
-                <div id="success-key" class="key-display">
-                     LOADING-KEY...
+            <div id="result-area" style="display: none;">
+                <div class="success-animation">
+                    <div class="success-icon"></div>
+                    <h2 style="color: #fff; margin-bottom: 16px; font-size: 1.75rem;">Thanh Toán Thành Công!</h2>
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 24px;">Cảm ơn bạn. Đây là mã kích hoạt của bạn:</p>
+                    <div class="key-display">
+                        <h3>License Key</h3>
+                        <div id="success-key" class="key-value">LOADING-KEY...</div>
+                    </div>
+                    <p style="color: rgba(255,255,255,0.6); margin-top: 24px; font-size: 0.9rem;">
+                        Hãy sao chép mã này để kích hoạt ngay.
+                    </p>
+                    <button class="btn-complete" onclick="closePayment()">Hoàn Tất</button>
                 </div>
-                
-                <p style="font-size: 0.9em; color: var(--placeholder-light); margin-bottom: 20px;">
-                    Hãy sao chép mã này để kích hoạt ngay.
-                </p>
-
-                <button class="plan-btn" style="background: #10b981; color: white;" onclick="closePayment()">Hoàn tất</button>
             </div>
 
         </div>
@@ -368,15 +721,17 @@
 
     <script>
         // ============================================
-        // CẤU HÌNH TÀI KHOẢN NGÂN HÀNG CỦA BẠN
+        // CẤU HÌNH TÀI KHOẢN NGÂN HÀNG
         // ============================================
         const BANK_INFO = {
-            id: 'MB',            // Mã ngân hàng (VD: MB, VCB, ACB, TPB...)
-            acc: '98582233445566',    // Số tài khoản của bạn
-            name: 'NGUYEN VU NGOC DUC' // Tên chủ tài khoản (Viết hoa không dấu)
+            id: 'MB',                       // Mã ngân hàng (VD: MB, VCB, ACB, TPB...)
+            acc: '98582233445566',              // Số tài khoản của bạn
+            name: 'NGUYEN VU NGOC DUC'      // Tên chủ tài khoản (Viết hoa không dấu)
         };
         // ============================================
 
+        const modal = document.getElementById('paymentModal');
+        const closeBtn = document.querySelector('.close');
         let checkInterval;
         let isChecking = false;
 
@@ -390,9 +745,28 @@
             return result;
         }
 
+        document.querySelectorAll('.btn-select').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const card = this.closest('.pricing-card');
+                const price = card.dataset.price;
+                const packageName = card.dataset.name;
+                
+                openPayment(parseInt(price), packageName);
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            closePayment();
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closePayment();
+            }
+        });
+
         // Mở Modal Thanh Toán
         function openPayment(amount, packageName) {
-            const modal = document.getElementById('paymentModal');
             const qrImg = document.getElementById('qr-image');
             const codeEl = document.getElementById('trans-code');
             const nameEl = document.getElementById('pkg-name');
@@ -410,12 +784,11 @@
             codeEl.innerText = code;
             
             // 4. Tạo Link QR VietQR
-            // Dùng encodeURIComponent để đảm bảo tên tài khoản hiển thị đúng
             const qrUrl = `https://img.vietqr.io/image/${BANK_INFO.id}-${BANK_INFO.acc}-compact.jpg?amount=${amount}&addInfo=${code}&accountName=${encodeURIComponent(BANK_INFO.name)}`;
             qrImg.src = qrUrl;
 
             // 5. Hiển thị Modal
-            modal.style.display = 'flex';
+            modal.classList.add('active');
 
             // 6. Bắt đầu gọi Server để kiểm tra tiền
             startChecking(code);
@@ -423,8 +796,8 @@
 
         // Đóng Modal
         function closePayment() {
-            document.getElementById('paymentModal').style.display = 'none';
-            stopChecking(); // Dừng việc kiểm tra ngay lập tức
+            modal.classList.remove('active');
+            stopChecking();
         }
 
         // Copy mã nội dung
@@ -435,22 +808,20 @@
             });
         }
 
-        // --- LOGIC TỰ ĐỘNG CHECK TIỀN (QUAN TRỌNG) ---
+        // --- LOGIC TỰ ĐỘNG CHECK TIỀN ---
         function startChecking(contentCode) {
-            if (isChecking) return; // Nếu đang check rồi thì không chạy chồng chéo
+            if (isChecking) return;
             isChecking = true;
             
-            // Cài đặt vòng lặp: Cứ 3 giây gọi Server 1 lần
+            // Cứ 3 giây gọi Server 1 lần
             checkInterval = setInterval(async () => {
                 try {
-                    // Gọi API Backend: /api/check-order
                     const res = await fetch('/api/check-order', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ content: contentCode })
                     });
                     
-                    // Nếu Server trả về lỗi (VD: 500), dừng xử lý lượt này
                     if (!res.ok) {
                         console.warn("Server đang xử lý hoặc gặp lỗi tạm thời.");
                         return;
@@ -458,17 +829,15 @@
 
                     const data = await res.json();
 
-                    // Nếu Backend trả về 'success' -> Có nghĩa là tiền ĐÃ VỀ THẬT
                     if (data.status === 'success') {
-                        stopChecking(); // Dừng vòng lặp
-                        showSuccess(data.key); // Hiển thị Key
+                        stopChecking();
+                        showSuccess(data.key);
                     }
-                    // Nếu status là 'pending' hoặc 'error' -> Kệ nó, đợi 3 giây sau check tiếp
 
                 } catch (err) {
                     console.error("Lỗi kết nối:", err);
                 }
-            }, 3000); // 3000ms = 3 giây
+            }, 3000);
         }
 
         function stopChecking() {
@@ -483,11 +852,6 @@
             document.getElementById('result-area').style.display = 'block';
             // Điền Key vào ô
             document.getElementById('success-key').innerText = key;
-        }
-
-        // Tự động kích hoạt Dark Mode nếu hệ điều hành người dùng đang để Dark Mode
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.body.classList.add('dark');
         }
     </script>
 
