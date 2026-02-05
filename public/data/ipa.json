@@ -162,6 +162,24 @@
     "lastSync": "2026-02-05T09:55:21.257Z"
   },
   {
+    "id": "ipa-com.apalonapps.radarfree-5.13.65",
+    "type": "ipa",
+    "name": "CLIME",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.radarfree.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-02-2026/CLIME_5.13.65_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.13.65",
+    "developer": "cheatlibrary",
+    "date": "2026-02-05",
+    "source": "apptesters",
+    "bundleID": "com.apalonapps.radarfree",
+    "lastSync": "2026-02-05T13:57:21.285Z"
+  },
+  {
     "id": "ipa-com.mwm.guitartuner-4.00.01",
     "type": "ipa",
     "name": "TunerPro",
@@ -177,7 +195,7 @@
     "date": "2026-02-05",
     "source": "apptesters",
     "bundleID": "com.mwm.guitartuner",
-    "lastSync": "2026-02-05T13:56:15.374Z"
+    "lastSync": "2026-02-05T13:57:21.286Z"
   },
   {
     "id": "ipa-se.resenatverket.FlightRadar24-Free-11.0.0",
@@ -195,7 +213,7 @@
     "date": "2026-02-05",
     "source": "apptesters",
     "bundleID": "se.resenatverket.FlightRadar24-Free",
-    "lastSync": "2026-02-05T13:56:15.375Z"
+    "lastSync": "2026-02-05T13:57:21.289Z"
   },
   {
     "id": "ipa-com.readdle.ReaddleDocsIPad-8.19.3",
@@ -213,7 +231,7 @@
     "date": "2026-02-05",
     "source": "apptesters",
     "bundleID": "com.readdle.ReaddleDocsIPad",
-    "lastSync": "2026-02-05T13:56:15.376Z"
+    "lastSync": "2026-02-05T13:57:21.289Z"
   },
   {
     "id": "ipa-com.future.kapi-3.37.0",
@@ -231,7 +249,7 @@
     "date": "2026-02-05",
     "source": "apptesters",
     "bundleID": "com.future.kapi",
-    "lastSync": "2026-02-05T13:56:15.376Z"
+    "lastSync": "2026-02-05T13:57:21.290Z"
   },
   {
     "id": "ipa-com.lightricks.Facetune2-3.117.1",
@@ -249,7 +267,7 @@
     "date": "2026-02-05",
     "source": "apptesters",
     "bundleID": "com.lightricks.Facetune2",
-    "lastSync": "2026-02-05T13:56:15.377Z"
+    "lastSync": "2026-02-05T13:57:21.290Z"
   },
   {
     "id": "ipa-com.readdle.Scanner-8.33.4",
@@ -267,7 +285,7 @@
     "date": "2026-02-05",
     "source": "apptesters",
     "bundleID": "com.readdle.Scanner",
-    "lastSync": "2026-02-05T13:56:15.378Z"
+    "lastSync": "2026-02-05T13:57:21.290Z"
   },
   {
     "id": "ipa-com.frameoneapps.Crsel-1.3.4",
@@ -285,7 +303,7 @@
     "date": "2026-02-05",
     "source": "apptesters",
     "bundleID": "com.frameoneapps.Crsel",
-    "lastSync": "2026-02-05T13:56:15.378Z"
+    "lastSync": "2026-02-05T13:57:21.290Z"
   },
   {
     "id": "ipa-com.myfitnesspal.mfp-26.5.0",
