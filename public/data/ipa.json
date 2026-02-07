@@ -234,6 +234,24 @@
     "lastSync": "2026-02-07T11:43:13.631Z"
   },
   {
+    "id": "ipa-com.eifrig.blitzerdepro-400.3.2",
+    "type": "ipa",
+    "name": "BlitzerdePRO",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.eifrig.blitzerdepro.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-02-2026/BlitzerdePRO_400.3.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "400.3.2",
+    "developer": "cheatlibrary",
+    "date": "2026-02-07",
+    "source": "apptesters",
+    "bundleID": "com.eifrig.blitzerdepro",
+    "lastSync": "2026-02-07T17:45:06.961Z"
+  },
+  {
     "id": "ipa-com.alexanderben.RadioIn-40.8.1",
     "type": "ipa",
     "name": "TuneInRadio",
@@ -249,7 +267,7 @@
     "date": "2026-02-07",
     "source": "apptesters",
     "bundleID": "com.alexanderben.RadioIn",
-    "lastSync": "2026-02-07T17:43:45.211Z"
+    "lastSync": "2026-02-07T17:45:06.962Z"
   },
   {
     "id": "ipa-com.ulisesolave.Fitia-21.1",
