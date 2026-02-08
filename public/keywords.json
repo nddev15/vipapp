@@ -108,6 +108,7 @@
     "WeChat"
   ],
   "photo": [
+    "Action",
     "Photomyne",
     "Unfold",
     "Enlight Photofox",
@@ -161,6 +162,15 @@
     "Darkroom"
   ],
   "game": [
+    "DiamondFinder",
+    "PapasHotDoggeriaToGo",
+    "PapasDonuteriaToGo",
+    "PapasScooperiaToGo",
+    "PapasFreezeriaToGo",
+    "PapasPizzeriaToGo",
+    "PapasPancakeriaToGo",
+    "PapasCluckeriaToGo",
+    "PapasSushiriaToGo",
     "KTBSecondKick",
     "GTA Vice City",
     "Liên Quân Map",
