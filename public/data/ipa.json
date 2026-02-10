@@ -1,5 +1,203 @@
 [
   {
+    "id": "ipa-com.dubox.drive-4.12.0",
+    "type": "ipa",
+    "name": "TeraBox",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dubox.drive.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/TeraBox_4.12.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.12.0",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "com.dubox.drive",
+    "lastSync": "2026-02-10T14:06:34.485Z"
+  },
+  {
+    "id": "ipa-com.badoo.BadooSPP-5.448.0",
+    "type": "ipa",
+    "name": "Badoo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.badoo.BadooSPP.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/Badoo_5.448.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.448.0",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "com.badoo.BadooSPP",
+    "lastSync": "2026-02-10T14:06:34.486Z"
+  },
+  {
+    "id": "ipa-com.algoriddim.djay-iphone-free-5.6.2",
+    "type": "ipa",
+    "name": "djay",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.algoriddim.djay-iphone-free.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/djay_5.6.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.6.2",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "com.algoriddim.djay-iphone-free",
+    "lastSync": "2026-02-10T14:06:34.488Z"
+  },
+  {
+    "id": "ipa-pro.writer-7.3.4",
+    "type": "ipa",
+    "name": "iAWriter",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/pro.writer.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/iAWriter_7.3.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "7.3.4",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "pro.writer",
+    "lastSync": "2026-02-10T14:06:34.490Z"
+  },
+  {
+    "id": "ipa-com.keiwando.toonsquid-2.0.19",
+    "type": "ipa",
+    "name": "ToonSquid",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.keiwando.toonsquid.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/ToonSquid_2.0.19_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.0.19",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "com.keiwando.toonsquid",
+    "lastSync": "2026-02-10T14:06:34.490Z"
+  },
+  {
+    "id": "ipa-com.tiimo.app-3.41.0",
+    "type": "ipa",
+    "name": "Tiimo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tiimo.app.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/Tiimo_3.41.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.41.0",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "com.tiimo.app",
+    "lastSync": "2026-02-10T14:06:34.490Z"
+  },
+  {
+    "id": "ipa-com.beelinguapp.beelinguapp-3.9.5",
+    "type": "ipa",
+    "name": "Beelinguapp",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.beelinguapp.beelinguapp.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "shopping"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/Beelinguapp_3.9.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.9.5",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "com.beelinguapp.beelinguapp",
+    "lastSync": "2026-02-10T14:06:34.490Z"
+  },
+  {
+    "id": "ipa-com.picsart.studio-29.3.2",
+    "type": "ipa",
+    "name": "PicsArt",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/PicsArt_29.3.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "29.3.2",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "com.picsart.studio",
+    "lastSync": "2026-02-10T14:06:34.491Z"
+  },
+  {
+    "id": "ipa-com.AppChief.ArabicArt-9.5.2",
+    "type": "ipa",
+    "name": "",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/_9.5.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.5.2",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "com.AppChief.ArabicArt",
+    "lastSync": "2026-02-10T14:06:34.491Z"
+  },
+  {
+    "id": "ipa-dazz.camera.vintagecamera-2.15",
+    "type": "ipa",
+    "name": "Dazz",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/dazz.camera.vintagecamera.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/Dazz_2.15_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.15",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "dazz.camera.vintagecamera",
+    "lastSync": "2026-02-10T14:06:34.491Z"
+  },
+  {
+    "id": "ipa-com.bbauman.Scripty-2.38",
+    "type": "ipa",
+    "name": "Coconote",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bbauman.Scripty.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-02-2026/Coconote_2.38_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.38",
+    "developer": "cheatlibrary",
+    "date": "2026-02-10",
+    "source": "apptesters",
+    "bundleID": "com.bbauman.Scripty",
+    "lastSync": "2026-02-10T14:06:34.491Z"
+  },
+  {
     "id": "ipa-com.igliverec.app-4.7.1",
     "type": "ipa",
     "name": "GREC",
