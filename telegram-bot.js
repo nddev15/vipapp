@@ -37,33 +37,33 @@ export function initTelegramBot() {
     };
   }
 
-  // Admin menu
-  function getAdminMenu() {
-    return {
-      reply_markup: {
-        inline_keyboard: [
-          [
-            { text: '📝 Tạo Key Mới', callback_data: 'create_key' },
-            { text: '📋 Danh Sách Keys', callback_data: 'list_keys' }
-          ],
-          [
-            { text: '🗑️ Xóa Key', callback_data: 'delete_key' },
-            { text: '📊 Thống Kê', callback_data: 'stats' }
-          ],
-          [
-            { text: '🔄 Reset Tất Cả', callback_data: 'reset_all' },
-            { text: '❌ Xóa Đơn Hàng', callback_data: 'delete_order' }
-          ],
-          [
-            { text: '❓ Hướng Dẫn', callback_data: 'help' }
-          ],
-          [
-            { text: '🔙 Quay Lại', callback_data: 'back_main' }
-          ]
-        ]
-      }
-    };
-  }
+  // // Admin menu
+  // function getAdminMenu() {
+  //   return {
+  //     reply_markup: {
+  //       inline_keyboard: [
+  //         [
+  //           { text: '📝 Tạo Key Mới', callback_data: 'create_key' },
+  //           { text: '📋 Danh Sách Keys', callback_data: 'list_keys' }
+  //         ],
+  //         [
+  //           { text: '🗑️ Xóa Key', callback_data: 'delete_key' },
+  //           { text: '📊 Thống Kê', callback_data: 'stats' }
+  //         ],
+  //         [
+  //           { text: '🔄 Reset Tất Cả', callback_data: 'reset_all' },
+  //           { text: '❌ Xóa Đơn Hàng', callback_data: 'delete_order' }
+  //         ],
+  //         [
+  //           { text: '❓ Hướng Dẫn', callback_data: 'help' }
+  //         ],
+  //         [
+  //           { text: '🔙 Quay Lại', callback_data: 'back_main' }
+  //         ]
+  //       ]
+  //     }
+  //   };
+  // }
 
   // Support buttons for lookup
   function getSupportButtons(userId) {
