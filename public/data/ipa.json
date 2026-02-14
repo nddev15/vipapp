@@ -1,5 +1,41 @@
 [
   {
+    "id": "ipa-com.hassantaleb.mockup-5.1",
+    "type": "ipa",
+    "name": "Animock",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hassantaleb.mockup.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-02-2026/Animock_5.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.1",
+    "developer": "cheatlibrary",
+    "date": "2026-02-15",
+    "source": "apptesters",
+    "bundleID": "com.hassantaleb.mockup",
+    "lastSync": "2026-02-14T19:08:08.576Z"
+  },
+  {
+    "id": "ipa-dazz.camera.vintagecamera-2.15.1",
+    "type": "ipa",
+    "name": "Dazz",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/dazz.camera.vintagecamera.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-02-2026/Dazz_2.15.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.15.1",
+    "developer": "cheatlibrary",
+    "date": "2026-02-15",
+    "source": "apptesters",
+    "bundleID": "dazz.camera.vintagecamera",
+    "lastSync": "2026-02-14T19:08:08.577Z"
+  },
+  {
     "id": "ipa-com.andyworks.calculator-3.21",
     "type": "ipa",
     "name": "andyworkscalculator",
@@ -250,6 +286,24 @@
     "source": "apptesters",
     "bundleID": "com.vivacut.videoeditor",
     "lastSync": "2026-02-14T07:07:18.891Z"
+  },
+  {
+    "id": "ipa-co.polarr.ppe-6.12.1",
+    "type": "ipa",
+    "name": "Polarr",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.polarr.ppe.png",
+    "desc": "Injected with Satella",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-02-2026/Polarr_6.12.1_Satella_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.12.1",
+    "developer": "cheatlibrary",
+    "date": "2026-02-14",
+    "source": "apptesters",
+    "bundleID": "co.polarr.ppe",
+    "lastSync": "2026-02-14T19:08:08.579Z"
   },
   {
     "id": "ipa-app.tripsy.ios-3.7.7",
