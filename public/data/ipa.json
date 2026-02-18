@@ -1,5 +1,167 @@
 [
   {
+    "id": "ipa-com.tiimo.app-3.42.0",
+    "type": "ipa",
+    "name": "Tiimo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tiimo.app.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-02-2026/Tiimo_3.42.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.42.0",
+    "developer": "cheatlibrary",
+    "date": "2026-02-18",
+    "source": "apptesters",
+    "bundleID": "com.tiimo.app",
+    "lastSync": "2026-02-18T15:23:15.573Z"
+  },
+  {
+    "id": "ipa-com.bitsmedia.muslimpro-17.0.1",
+    "type": "ipa",
+    "name": "MuslimPro",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bitsmedia.muslimpro.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "news"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-02-2026/MuslimPro_17.0.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "17.0.1",
+    "developer": "cheatlibrary",
+    "date": "2026-02-18",
+    "source": "apptesters",
+    "bundleID": "com.bitsmedia.muslimpro",
+    "lastSync": "2026-02-18T15:23:15.573Z"
+  },
+  {
+    "id": "ipa-cn.danatech.xingseus-5.46.0",
+    "type": "ipa",
+    "name": "PictureThis",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/cn.danatech.xingseus.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-02-2026/PictureThis_5.46.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.46.0",
+    "developer": "cheatlibrary",
+    "date": "2026-02-18",
+    "source": "apptesters",
+    "bundleID": "cn.danatech.xingseus",
+    "lastSync": "2026-02-18T15:23:15.576Z"
+  },
+  {
+    "id": "ipa-com.keiwando.toonsquid-2.0.21",
+    "type": "ipa",
+    "name": "ToonSquid",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.keiwando.toonsquid.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-02-2026/ToonSquid_2.0.21_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.0.21",
+    "developer": "cheatlibrary",
+    "date": "2026-02-18",
+    "source": "apptesters",
+    "bundleID": "com.keiwando.toonsquid",
+    "lastSync": "2026-02-18T15:23:15.576Z"
+  },
+  {
+    "id": "ipa-com.ninjakiwi.bloonstd6-53.1",
+    "type": "ipa",
+    "name": "BloonsTD6",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ninjakiwi.bloonstd6.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-02-2026/BloonsTD6_53.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "53.1",
+    "developer": "cheatlibrary",
+    "date": "2026-02-18",
+    "source": "apptesters",
+    "bundleID": "com.ninjakiwi.bloonstd6",
+    "lastSync": "2026-02-18T15:23:15.576Z"
+  },
+  {
+    "id": "ipa-com.luma-touch.LumaFusion-5.4.3",
+    "type": "ipa",
+    "name": "LumaFusion",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.luma-touch.LumaFusion.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-02-2026/LumaFusion_5.4.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.4.3",
+    "developer": "cheatlibrary",
+    "date": "2026-02-18",
+    "source": "apptesters",
+    "bundleID": "com.luma-touch.LumaFusion",
+    "lastSync": "2026-02-18T15:23:15.576Z"
+  },
+  {
+    "id": "ipa-com.iqraapp.Iqra-5.74.3",
+    "type": "ipa",
+    "name": "Tarteel",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iqraapp.Iqra.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-02-2026/Tarteel_5.74.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.74.3",
+    "developer": "cheatlibrary",
+    "date": "2026-02-18",
+    "source": "apptesters",
+    "bundleID": "com.iqraapp.Iqra",
+    "lastSync": "2026-02-18T15:23:15.577Z"
+  },
+  {
+    "id": "ipa-com.ibit.UNPOSED-4.7.2",
+    "type": "ipa",
+    "name": "Unscripted",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ibit.UNPOSED.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-02-2026/Unscripted_4.7.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.7.2",
+    "developer": "cheatlibrary",
+    "date": "2026-02-18",
+    "source": "apptesters",
+    "bundleID": "com.ibit.UNPOSED",
+    "lastSync": "2026-02-18T15:23:15.577Z"
+  },
+  {
+    "id": "ipa-com.mindsethealth.ibs-49.0",
+    "type": "ipa",
+    "name": "Nerva",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mindsethealth.ibs.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-02-2026/Nerva_49.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "49.0",
+    "developer": "cheatlibrary",
+    "date": "2026-02-18",
+    "source": "apptesters",
+    "bundleID": "com.mindsethealth.ibs",
+    "lastSync": "2026-02-18T15:23:15.577Z"
+  },
+  {
     "id": "ipa-com.AppChief.ArabicArt-9.5.4",
     "type": "ipa",
     "name": "",
