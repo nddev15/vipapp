@@ -1,5 +1,23 @@
 [
   {
+    "id": "ipa-com.soundcloud.TouchApp-8.49.1",
+    "type": "ipa",
+    "name": "SoundCloud",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.soundcloud.TouchApp.png",
+    "desc": "Injected with noads",
+    "tags": [
+      "music"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-02-2026/SoundCloud_8.49.1_noads_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.49.1",
+    "developer": "cheatlibrary",
+    "date": "2026-02-25",
+    "source": "apptesters",
+    "bundleID": "com.soundcloud.TouchApp",
+    "lastSync": "2026-02-25T01:04:37.086Z"
+  },
+  {
     "id": "ipa-com.autodesk.autocadws-6.21.1",
     "type": "ipa",
     "name": "AutoCAD",
