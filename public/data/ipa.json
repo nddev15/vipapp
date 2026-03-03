@@ -1,5 +1,23 @@
 [
   {
+    "id": "ipa-com.burbn.barcelona-419.0.0",
+    "type": "ipa",
+    "name": "Threads",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.barcelona.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/03-03-2026/Threads_419.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "419.0.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-03",
+    "source": "apptesters",
+    "bundleID": "com.burbn.barcelona",
+    "lastSync": "2026-03-03T15:23:03.288Z"
+  },
+  {
     "id": "ipa-eu.gowod-5.5.8",
     "type": "ipa",
     "name": "GOWOD",
