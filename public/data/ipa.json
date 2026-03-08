@@ -1,5 +1,41 @@
 [
   {
+    "id": "ipa-xyz.gingertech.fitnotes-15",
+    "type": "ipa",
+    "name": "FitNotes",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/xyz.gingertech.fitnotes.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-03-2026/FitNotes_15_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "15",
+    "developer": "cheatlibrary",
+    "date": "2026-03-08",
+    "source": "apptesters",
+    "bundleID": "xyz.gingertech.fitnotes",
+    "lastSync": "2026-03-08T03:56:56.907Z"
+  },
+  {
+    "id": "ipa-com.getupnote.ios-9.17.6",
+    "type": "ipa",
+    "name": "UpNote",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-03-2026/UpNote_9.17.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.17.6",
+    "developer": "cheatlibrary",
+    "date": "2026-03-08",
+    "source": "apptesters",
+    "bundleID": "com.getupnote.ios",
+    "lastSync": "2026-03-08T03:56:56.909Z"
+  },
+  {
     "id": "ipa-com.picretouch.photoeditor-1.1.5",
     "type": "ipa",
     "name": "AIRetouch",
