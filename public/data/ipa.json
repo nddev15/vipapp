@@ -252,6 +252,168 @@
     "lastSync": "2026-03-09T09:56:59.299Z"
   },
   {
+    "id": "ipa-com.mwm.procolor-2.58.03",
+    "type": "ipa",
+    "name": "ColorPop",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/ColorPop_2.58.03_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.58.03",
+    "developer": "cheatlibrary",
+    "date": "2026-03-09",
+    "source": "apptesters",
+    "bundleID": "com.mwm.procolor",
+    "lastSync": "2026-03-09T15:57:00.069Z"
+  },
+  {
+    "id": "ipa-com.moonly.Moonly-2.6.9",
+    "type": "ipa",
+    "name": "Moonly",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/Moonly_2.6.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.6.9",
+    "developer": "cheatlibrary",
+    "date": "2026-03-09",
+    "source": "apptesters",
+    "bundleID": "com.moonly.Moonly",
+    "lastSync": "2026-03-09T15:57:00.072Z"
+  },
+  {
+    "id": "ipa-com.mcdiamondfinder.app-9.0.0",
+    "type": "ipa",
+    "name": "DiamondFinder",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mcdiamondfinder.app.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/DiamondFinder_9.0.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.0.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-09",
+    "source": "apptesters",
+    "bundleID": "com.mcdiamondfinder.app",
+    "lastSync": "2026-03-09T15:57:00.073Z"
+  },
+  {
+    "id": "ipa-co.codeleap.bearable-1.0.588",
+    "type": "ipa",
+    "name": "Bearable",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.codeleap.bearable.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "shopping"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/Bearable_1.0.588_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.0.588",
+    "developer": "cheatlibrary",
+    "date": "2026-03-09",
+    "source": "apptesters",
+    "bundleID": "co.codeleap.bearable",
+    "lastSync": "2026-03-09T15:57:00.073Z"
+  },
+  {
+    "id": "ipa-com.spotify.client-9.1.24",
+    "type": "ipa",
+    "name": "Spotify",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spotify.client.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "music"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/Spotify_9.1.24_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.1.24",
+    "developer": "cheatlibrary",
+    "date": "2026-03-09",
+    "source": "apptesters",
+    "bundleID": "com.spotify.client",
+    "lastSync": "2026-03-09T15:57:00.074Z"
+  },
+  {
+    "id": "ipa-de.wetteronline.WetterApppro-2026.5",
+    "type": "ipa",
+    "name": "WeatherRadar",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/de.wetteronline.WetterApppro.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/WeatherRadar_2026.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2026.5",
+    "developer": "cheatlibrary",
+    "date": "2026-03-09",
+    "source": "apptesters",
+    "bundleID": "de.wetteronline.WetterApppro",
+    "lastSync": "2026-03-09T15:57:00.075Z"
+  },
+  {
+    "id": "ipa-com.momentinc.procamera-1.1",
+    "type": "ipa",
+    "name": "Moment",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.momentinc.procamera.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/Moment_1.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-09",
+    "source": "apptesters",
+    "bundleID": "com.momentinc.procamera",
+    "lastSync": "2026-03-09T15:57:00.075Z"
+  },
+  {
+    "id": "ipa-camera.lux.kino-1.4.1",
+    "type": "ipa",
+    "name": "Kino",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/camera.lux.kino.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/Kino_1.4.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.4.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-09",
+    "source": "apptesters",
+    "bundleID": "camera.lux.kino",
+    "lastSync": "2026-03-09T15:57:00.075Z"
+  },
+  {
+    "id": "ipa-com.soundcloud.TouchApp-8.51.0",
+    "type": "ipa",
+    "name": "SoundCloud",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.soundcloud.TouchApp.png",
+    "desc": "Injected with noads",
+    "tags": [
+      "music"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-03-2026/SoundCloud_8.51.0_noads_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.51.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-09",
+    "source": "apptesters",
+    "bundleID": "com.soundcloud.TouchApp",
+    "lastSync": "2026-03-09T15:57:00.075Z"
+  },
+  {
     "id": "ipa-xyz.gingertech.fitnotes-15",
     "type": "ipa",
     "name": "FitNotes",
