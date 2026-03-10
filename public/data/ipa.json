@@ -1,5 +1,131 @@
 [
   {
+    "id": "ipa-com.duolingo.DuolingoMobile-7.113.0",
+    "type": "ipa",
+    "name": "Duolingo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "education"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/Duolingo_7.113.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "7.113.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "com.duolingo.DuolingoMobile",
+    "lastSync": "2026-03-10T21:57:02.689Z"
+  },
+  {
+    "id": "ipa-com.myfitnesspal.mfp-26.10.0",
+    "type": "ipa",
+    "name": "MyFitnessPal",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/MyFitnessPal_26.10.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.10.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "com.myfitnesspal.mfp",
+    "lastSync": "2026-03-10T21:57:02.693Z"
+  },
+  {
+    "id": "ipa-com.spotify.client-9.1.28",
+    "type": "ipa",
+    "name": "Spotify",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spotify.client.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "music"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/Spotify_9.1.28_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.1.28",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "com.spotify.client",
+    "lastSync": "2026-03-10T21:57:02.693Z"
+  },
+  {
+    "id": "ipa-com.leapingcoyote.rungo-7.2.5",
+    "type": "ipa",
+    "name": "RunGo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.leapingcoyote.rungo.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/RunGo_7.2.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "7.2.5",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "com.leapingcoyote.rungo",
+    "lastSync": "2026-03-10T21:57:02.694Z"
+  },
+  {
+    "id": "ipa-boomer.Smart-Video-13.8.1",
+    "type": "ipa",
+    "name": "Captions",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/Captions_13.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "13.8.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "boomer.Smart-Video",
+    "lastSync": "2026-03-10T21:57:02.694Z"
+  },
+  {
+    "id": "ipa-com.yengshine.proccd-5.6.2",
+    "type": "ipa",
+    "name": "ProCCD",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/ProCCD_5.6.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.6.2",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "com.yengshine.proccd",
+    "lastSync": "2026-03-10T21:57:02.694Z"
+  },
+  {
+    "id": "ipa-com.locket.Locket-2.36.0",
+    "type": "ipa",
+    "name": "Locket",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
+    "desc": "Injected with Gold",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/Locket_2.36.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.36.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "com.locket.Locket",
+    "lastSync": "2026-03-10T21:57:02.695Z"
+  },
+  {
     "id": "ipa-com.tripleglazedstudios.Weather-3.4.5",
     "type": "ipa",
     "name": "Mercury",
@@ -466,6 +592,42 @@
     "source": "apptesters",
     "bundleID": "com.adguard.AdguardExtension",
     "lastSync": "2026-03-10T15:57:00.885Z"
+  },
+  {
+    "id": "ipa-com.gingerlabs.Notability-15.4.3",
+    "type": "ipa",
+    "name": "Notability",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gingerlabs.Notability.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-03-2026/Notability_15.4.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "15.4.3",
+    "developer": "cheatlibrary",
+    "date": "2026-03-10",
+    "source": "apptesters",
+    "bundleID": "com.gingerlabs.Notability",
+    "lastSync": "2026-03-10T21:57:02.695Z"
+  },
+  {
+    "id": "ipa-com.offlinemusic-3.8.3",
+    "type": "ipa",
+    "name": "OfflineMusic",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.offlinemusic.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-03-2026/OfflineMusic_3.8.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.8.3",
+    "developer": "cheatlibrary",
+    "date": "2026-03-10",
+    "source": "apptesters",
+    "bundleID": "com.offlinemusic",
+    "lastSync": "2026-03-10T21:57:02.695Z"
   },
   {
     "id": "ipa-com.fitbod-8.7.0",
