@@ -1,5 +1,59 @@
 [
   {
+    "id": "ipa-app.uplens-3.4.11",
+    "type": "ipa",
+    "name": "Uplens",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.uplens.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-03-2026/Uplens_3.4.11_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.4.11",
+    "developer": "cheatlibrary",
+    "date": "2026-03-12",
+    "source": "apptesters",
+    "bundleID": "app.uplens",
+    "lastSync": "2026-03-11T21:25:47.968Z"
+  },
+  {
+    "id": "ipa-com.AppChief.ArabicArt-9.5.8",
+    "type": "ipa",
+    "name": "",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.AppChief.ArabicArt.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-03-2026/_9.5.8_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.5.8",
+    "developer": "cheatlibrary",
+    "date": "2026-03-12",
+    "source": "apptesters",
+    "bundleID": "com.AppChief.ArabicArt",
+    "lastSync": "2026-03-11T21:25:47.969Z"
+  },
+  {
+    "id": "ipa-com.readdle.CalendarsLite-5.37.23",
+    "type": "ipa",
+    "name": "Calendars",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.CalendarsLite.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-03-2026/Calendars_5.37.23_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.37.23",
+    "developer": "cheatlibrary",
+    "date": "2026-03-12",
+    "source": "apptesters",
+    "bundleID": "com.readdle.CalendarsLite",
+    "lastSync": "2026-03-11T21:25:47.970Z"
+  },
+  {
     "id": "ipa-com.duolingo.DuolingoMobile-7.113.0",
     "type": "ipa",
     "name": "Duolingo",
@@ -304,6 +358,78 @@
     "source": "apptesters",
     "bundleID": "com.snowcorp.soda",
     "lastSync": "2026-03-11T15:26:18.069Z"
+  },
+  {
+    "id": "ipa-com.adobe.post-29.8.1",
+    "type": "ipa",
+    "name": "AdobeExpress",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.post.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/AdobeExpress_29.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "29.8.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "com.adobe.post",
+    "lastSync": "2026-03-11T21:25:47.971Z"
+  },
+  {
+    "id": "ipa-com.impalastudios.pianofree-2.17.0",
+    "type": "ipa",
+    "name": "ThePiano",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/ThePiano_2.17.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.17.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "com.impalastudios.pianofree",
+    "lastSync": "2026-03-11T21:25:47.971Z"
+  },
+  {
+    "id": "ipa-com.kinemaster.kios-8.1.3",
+    "type": "ipa",
+    "name": "KineMaster",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/KineMaster_8.1.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.1.3",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "com.kinemaster.kios",
+    "lastSync": "2026-03-11T21:25:47.971Z"
+  },
+  {
+    "id": "ipa-com.aoklab.fewerphotos-3.2.49",
+    "type": "ipa",
+    "name": "swipewipe",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aoklab.fewerphotos.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/11-03-2026/swipewipe_3.2.49_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.2.49",
+    "developer": "cheatlibrary",
+    "date": "2026-03-11",
+    "source": "apptesters",
+    "bundleID": "com.aoklab.fewerphotos",
+    "lastSync": "2026-03-11T21:25:47.971Z"
   },
   {
     "id": "ipa-com.tripleglazedstudios.Weather-3.4.5",
