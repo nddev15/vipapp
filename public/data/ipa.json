@@ -1,5 +1,59 @@
 [
   {
+    "id": "ipa-com.lampa.photo-2.0.2",
+    "type": "ipa",
+    "name": "Lampa",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lampa.photo.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-03-2026/Lampa_2.0.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.0.2",
+    "developer": "cheatlibrary",
+    "date": "2026-03-15",
+    "source": "apptesters",
+    "bundleID": "com.lampa.photo",
+    "lastSync": "2026-03-14T21:25:51.693Z"
+  },
+  {
+    "id": "ipa-com.ulisesolave.Fitia-22.1",
+    "type": "ipa",
+    "name": "Fitia",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-03-2026/Fitia_22.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "22.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-15",
+    "source": "apptesters",
+    "bundleID": "com.ulisesolave.Fitia",
+    "lastSync": "2026-03-14T21:25:51.696Z"
+  },
+  {
+    "id": "ipa-com.agiletortoise.Drafts5-51.0.1",
+    "type": "ipa",
+    "name": "Drafts",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.agiletortoise.Drafts5.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-03-2026/Drafts_51.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "51.0.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-15",
+    "source": "apptesters",
+    "bundleID": "com.agiletortoise.Drafts5",
+    "lastSync": "2026-03-14T21:25:51.696Z"
+  },
+  {
     "id": "ipa-com.lampa.photo-2.0.1",
     "type": "ipa",
     "name": "Lampa",
@@ -268,6 +322,42 @@
     "source": "apptesters",
     "bundleID": "com.hevyapp.hevy",
     "lastSync": "2026-03-14T15:25:52.044Z"
+  },
+  {
+    "id": "ipa-com.getupnote.ios-9.17.7",
+    "type": "ipa",
+    "name": "UpNote",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-03-2026/UpNote_9.17.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.17.7",
+    "developer": "cheatlibrary",
+    "date": "2026-03-14",
+    "source": "apptesters",
+    "bundleID": "com.getupnote.ios",
+    "lastSync": "2026-03-14T21:25:51.696Z"
+  },
+  {
+    "id": "ipa-co.bazaart.app-26.1.3",
+    "type": "ipa",
+    "name": "Bazaart",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.bazaart.app.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-03-2026/Bazaart_26.1.3_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.1.3",
+    "developer": "cheatlibrary",
+    "date": "2026-03-14",
+    "source": "apptesters",
+    "bundleID": "co.bazaart.app",
+    "lastSync": "2026-03-14T21:25:51.696Z"
   },
   {
     "id": "ipa-com.joytunes.SimplyGuitar-10.16",
