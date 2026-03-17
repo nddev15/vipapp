@@ -1,5 +1,149 @@
 [
   {
+    "id": "ipa-com.alevioos.app-2.4.7",
+    "type": "ipa",
+    "name": "AlevioOS",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alevioos.app.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/AlevioOS_2.4.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.4.7",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.alevioos.app",
+    "lastSync": "2026-03-17T23:49:10.182Z"
+  },
+  {
+    "id": "ipa-com.burbn.instagram-421.1.6",
+    "type": "ipa",
+    "name": "Instagram",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/Instagram_421.1.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "421.1.6",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.burbn.instagram",
+    "lastSync": "2026-03-17T23:49:10.185Z"
+  },
+  {
+    "id": "ipa-com.ulisesolave.Fitia-22.2",
+    "type": "ipa",
+    "name": "Fitia",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/Fitia_22.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "22.2",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.ulisesolave.Fitia",
+    "lastSync": "2026-03-17T23:49:10.189Z"
+  },
+  {
+    "id": "ipa-com.zhiliaoapp.musically-44.3.0",
+    "type": "ipa",
+    "name": "TikTok",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/TikTok_44.3.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "44.3.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.zhiliaoapp.musically",
+    "lastSync": "2026-03-17T23:49:10.189Z"
+  },
+  {
+    "id": "ipa-com.locket.Locket-2.37.0",
+    "type": "ipa",
+    "name": "Locket",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.locket.Locket.png",
+    "desc": "Injected with Gold",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/Locket_2.37.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.37.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.locket.Locket",
+    "lastSync": "2026-03-17T23:49:10.190Z"
+  },
+  {
+    "id": "ipa-com.myfitnesspal.mfp-26.11.0",
+    "type": "ipa",
+    "name": "MyFitnessPal",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.myfitnesspal.mfp.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/MyFitnessPal_26.11.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.11.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.myfitnesspal.mfp",
+    "lastSync": "2026-03-17T23:49:10.190Z"
+  },
+  {
+    "id": "ipa-at.stefanstangl.CuteWeather-5.2.31",
+    "type": "ipa",
+    "name": "CuteWeather",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/at.stefanstangl.CuteWeather.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/CuteWeather_5.2.31_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.2.31",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "at.stefanstangl.CuteWeather",
+    "lastSync": "2026-03-17T23:49:10.190Z"
+  },
+  {
+    "id": "ipa-com.markodevcic.js-code-pad-1.8.20",
+    "type": "ipa",
+    "name": "JSCodePad",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.markodevcic.js-code-pad.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/JSCodePad_1.8.20_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.8.20",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.markodevcic.js-code-pad",
+    "lastSync": "2026-03-17T23:49:10.191Z"
+  },
+  {
     "id": "ipa-com.gingerlabs.Notability-15.5",
     "type": "ipa",
     "name": "Notability",
@@ -592,6 +736,24 @@
     "source": "apptesters",
     "bundleID": "com.google.ios.youtubemusic",
     "lastSync": "2026-03-17T17:49:10.942Z"
+  },
+  {
+    "id": "ipa-com.wiheads.paste-6.3.12",
+    "type": "ipa",
+    "name": "Paste",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wiheads.paste.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/17-03-2026/Paste_6.3.12_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.3.12",
+    "developer": "cheatlibrary",
+    "date": "2026-03-17",
+    "source": "apptesters",
+    "bundleID": "com.wiheads.paste",
+    "lastSync": "2026-03-17T23:49:10.193Z"
   },
   {
     "id": "ipa-com.iPwners.Plonkan-13.29",
