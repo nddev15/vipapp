@@ -180,6 +180,114 @@
     "lastSync": "2026-03-18T05:49:10.481Z"
   },
   {
+    "id": "ipa-com.frontrow.vlog-2.3.0",
+    "type": "ipa",
+    "name": "VlogNow",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "shopping"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/VlogNow_2.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.3.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.frontrow.vlog",
+    "lastSync": "2026-03-18T11:49:14.573Z"
+  },
+  {
+    "id": "ipa-com.lexwarelabs.goodmorning-6.26.10",
+    "type": "ipa",
+    "name": "SleepCycle",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lexwarelabs.goodmorning.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "game"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/SleepCycle_6.26.10_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.26.10",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.lexwarelabs.goodmorning",
+    "lastSync": "2026-03-18T11:49:14.575Z"
+  },
+  {
+    "id": "ipa-com.moonly.Moonly-2.7.1",
+    "type": "ipa",
+    "name": "Moonly",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/Moonly_2.7.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.7.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.moonly.Moonly",
+    "lastSync": "2026-03-18T11:49:14.576Z"
+  },
+  {
+    "id": "ipa-com.lightricks.Facetune2-26.1",
+    "type": "ipa",
+    "name": "Facetune",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/Facetune_26.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.lightricks.Facetune2",
+    "lastSync": "2026-03-18T11:49:14.577Z"
+  },
+  {
+    "id": "ipa-com.khanov.BlockerX-6.5",
+    "type": "ipa",
+    "name": "1Blocker",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.khanov.BlockerX.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/1Blocker_6.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.5",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.khanov.BlockerX",
+    "lastSync": "2026-03-18T11:49:14.579Z"
+  },
+  {
+    "id": "ipa-tech.miidii.MDClock-2.66",
+    "type": "ipa",
+    "name": "MDClock",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/MDClock_2.66_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.66",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "tech.miidii.MDClock",
+    "lastSync": "2026-03-18T11:49:14.580Z"
+  },
+  {
     "id": "ipa-com.gingerlabs.Notability-15.5",
     "type": "ipa",
     "name": "Notability",
