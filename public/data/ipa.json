@@ -144,6 +144,42 @@
     "lastSync": "2026-03-17T23:49:10.191Z"
   },
   {
+    "id": "ipa-com.kingsoft.office.g.wpsoffice-11.37.40",
+    "type": "ipa",
+    "name": "wpsoffice",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kingsoft.office.g.wpsoffice.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/wpsoffice_11.37.40_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "11.37.40",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "com.kingsoft.office.g.wpsoffice",
+    "lastSync": "2026-03-18T05:49:10.479Z"
+  },
+  {
+    "id": "ipa-tech.miidii.MDBlank-3.12.1",
+    "type": "ipa",
+    "name": "",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-03-2026/_3.12.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.12.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-18",
+    "source": "apptesters",
+    "bundleID": "tech.miidii.MDBlank",
+    "lastSync": "2026-03-18T05:49:10.481Z"
+  },
+  {
     "id": "ipa-com.gingerlabs.Notability-15.5",
     "type": "ipa",
     "name": "Notability",
