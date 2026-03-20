@@ -558,6 +558,96 @@
     "lastSync": "2026-03-19T23:49:12.726Z"
   },
   {
+    "id": "ipa-PhotoEditor.PhotoCollage.inCollage-2.2.31",
+    "type": "ipa",
+    "name": "InCollage",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PhotoEditor.PhotoCollage.inCollage.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/InCollage_2.2.31_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.2.31",
+    "developer": "cheatlibrary",
+    "date": "2026-03-20",
+    "source": "apptesters",
+    "bundleID": "PhotoEditor.PhotoCollage.inCollage",
+    "lastSync": "2026-03-20T05:49:13.693Z"
+  },
+  {
+    "id": "ipa-com.hitpaw.photoenhancer-1.100.0",
+    "type": "ipa",
+    "name": "AIMarvels",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hitpaw.photoenhancer.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/AIMarvels_1.100.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.100.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-20",
+    "source": "apptesters",
+    "bundleID": "com.hitpaw.photoenhancer",
+    "lastSync": "2026-03-20T05:49:13.695Z"
+  },
+  {
+    "id": "ipa-com.zerone.hidesktop-4.3.95",
+    "type": "ipa",
+    "name": "HiWidget",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/HiWidget_4.3.95_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.3.95",
+    "developer": "cheatlibrary",
+    "date": "2026-03-20",
+    "source": "apptesters",
+    "bundleID": "com.zerone.hidesktop",
+    "lastSync": "2026-03-20T05:49:13.698Z"
+  },
+  {
+    "id": "ipa-tech.miidii.MDClock-2.66.1",
+    "type": "ipa",
+    "name": "MDClock",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/MDClock_2.66.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.66.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-20",
+    "source": "apptesters",
+    "bundleID": "tech.miidii.MDClock",
+    "lastSync": "2026-03-20T05:49:13.698Z"
+  },
+  {
+    "id": "ipa-tech.miidii.MDBlank-3.12.2",
+    "type": "ipa",
+    "name": "",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDBlank.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/_3.12.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.12.2",
+    "developer": "cheatlibrary",
+    "date": "2026-03-20",
+    "source": "apptesters",
+    "bundleID": "tech.miidii.MDBlank",
+    "lastSync": "2026-03-20T05:49:13.698Z"
+  },
+  {
     "id": "ipa-es.monkimun.lingokids-26.12.0",
     "type": "ipa",
     "name": "Lingokids",
