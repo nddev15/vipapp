@@ -648,6 +648,96 @@
     "lastSync": "2026-03-20T05:49:13.698Z"
   },
   {
+    "id": "ipa-com.jakemor.firness-ai-16.0",
+    "type": "ipa",
+    "name": "FitnessAI",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jakemor.firness-ai.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/FitnessAI_16.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "16.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-20",
+    "source": "apptesters",
+    "bundleID": "com.jakemor.firness-ai",
+    "lastSync": "2026-03-20T11:49:13.998Z"
+  },
+  {
+    "id": "ipa-io.veed.appstore-8.8.0",
+    "type": "ipa",
+    "name": "VEEDCaptions",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.veed.appstore.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/VEEDCaptions_8.8.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.8.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-20",
+    "source": "apptesters",
+    "bundleID": "io.veed.appstore",
+    "lastSync": "2026-03-20T11:49:14.001Z"
+  },
+  {
+    "id": "ipa-com.dr1ven.eraser-2026.12.01",
+    "type": "ipa",
+    "name": "Photoroom",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/Photoroom_2026.12.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2026.12.01",
+    "developer": "cheatlibrary",
+    "date": "2026-03-20",
+    "source": "apptesters",
+    "bundleID": "com.dr1ven.eraser",
+    "lastSync": "2026-03-20T11:49:14.001Z"
+  },
+  {
+    "id": "ipa-com.apalonapps.pdffree-2.11.4",
+    "type": "ipa",
+    "name": "Scanner",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.pdffree.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/Scanner_2.11.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.11.4",
+    "developer": "cheatlibrary",
+    "date": "2026-03-20",
+    "source": "apptesters",
+    "bundleID": "com.apalonapps.pdffree",
+    "lastSync": "2026-03-20T11:49:14.001Z"
+  },
+  {
+    "id": "ipa-com.ulisesolave.Fitia-22.3.1",
+    "type": "ipa",
+    "name": "Fitia",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-03-2026/Fitia_22.3.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "22.3.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-20",
+    "source": "apptesters",
+    "bundleID": "com.ulisesolave.Fitia",
+    "lastSync": "2026-03-20T11:49:14.002Z"
+  },
+  {
     "id": "ipa-es.monkimun.lingokids-26.12.0",
     "type": "ipa",
     "name": "Lingokids",
