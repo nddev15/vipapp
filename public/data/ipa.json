@@ -90,6 +90,276 @@
     "lastSync": "2026-03-23T05:49:18.135Z"
   },
   {
+    "id": "ipa-com.wikiloc.wikiloc-3.26.6",
+    "type": "ipa",
+    "name": "Wikiloc",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Wikiloc_3.26.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.26.6",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.wikiloc.wikiloc",
+    "lastSync": "2026-03-23T11:49:17.913Z"
+  },
+  {
+    "id": "ipa-se.resenatverket.FlightRadar24-Free-11.2.0",
+    "type": "ipa",
+    "name": "Flightradar24",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/se.resenatverket.FlightRadar24-Free.png",
+    "desc": "Injected with Gold",
+    "tags": [
+      "navigation"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Flightradar24_11.2.0_Gold_%40thisismanpreets_apptesters.org.ipa",
+    "version": "11.2.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "se.resenatverket.FlightRadar24-Free",
+    "lastSync": "2026-03-23T11:49:17.916Z"
+  },
+  {
+    "id": "ipa-com.flyingnayeem.nmVideoMergerJune-5.4.32",
+    "type": "ipa",
+    "name": "BackgroundMusic",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.flyingnayeem.nmVideoMergerJune.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/BackgroundMusic_5.4.32_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.4.32",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.flyingnayeem.nmVideoMergerJune",
+    "lastSync": "2026-03-23T11:49:17.916Z"
+  },
+  {
+    "id": "ipa-com.revivasoftworks.Snore-Lab-6.2.6",
+    "type": "ipa",
+    "name": "SnoreLab",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.revivasoftworks.Snore-Lab.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/SnoreLab_6.2.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.2.6",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.revivasoftworks.Snore-Lab",
+    "lastSync": "2026-03-23T11:49:17.917Z"
+  },
+  {
+    "id": "ipa-com.dopedevelopment.Panels-9.29",
+    "type": "ipa",
+    "name": "SCRL",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/SCRL_9.29_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.29",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.dopedevelopment.Panels",
+    "lastSync": "2026-03-23T11:49:17.917Z"
+  },
+  {
+    "id": "ipa-eu.gowod-5.6.2",
+    "type": "ipa",
+    "name": "GOWOD",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/eu.gowod.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/GOWOD_5.6.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.6.2",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "eu.gowod",
+    "lastSync": "2026-03-23T11:49:17.919Z"
+  },
+  {
+    "id": "ipa-com.alightcreative.motion-6.2.50",
+    "type": "ipa",
+    "name": "AlightMotion",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/AlightMotion_6.2.50_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.2.50",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.alightcreative.motion",
+    "lastSync": "2026-03-23T11:49:17.919Z"
+  },
+  {
+    "id": "ipa-com.moonlab.unfoldstories-8.156.0",
+    "type": "ipa",
+    "name": "Unfold",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonlab.unfoldstories.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Unfold_8.156.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.156.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.moonlab.unfoldstories",
+    "lastSync": "2026-03-23T11:49:17.922Z"
+  },
+  {
+    "id": "ipa-com.mwm.procolor-2.60.00",
+    "type": "ipa",
+    "name": "ColorPop",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/ColorPop_2.60.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.60.00",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.mwm.procolor",
+    "lastSync": "2026-03-23T11:49:17.923Z"
+  },
+  {
+    "id": "ipa-com.getmimo.mimo-12.5.0",
+    "type": "ipa",
+    "name": "Mimo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/Mimo_12.5.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "12.5.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.getmimo.mimo",
+    "lastSync": "2026-03-23T11:49:17.924Z"
+  },
+  {
+    "id": "ipa-com.codeway.AIKeyboard-4.0.0",
+    "type": "ipa",
+    "name": "TypeAI",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.codeway.AIKeyboard.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/TypeAI_4.0.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.0.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.codeway.AIKeyboard",
+    "lastSync": "2026-03-23T11:49:17.924Z"
+  },
+  {
+    "id": "ipa-com.impalastudios.pianofree-2.17.1",
+    "type": "ipa",
+    "name": "ThePiano",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.impalastudios.pianofree.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/ThePiano_2.17.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.17.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.impalastudios.pianofree",
+    "lastSync": "2026-03-23T11:49:17.925Z"
+  },
+  {
+    "id": "ipa-com.TickTick.task-8.0.40",
+    "type": "ipa",
+    "name": "TickTick",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.TickTick.task.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/TickTick_8.0.40_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.0.40",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.TickTick.task",
+    "lastSync": "2026-03-23T11:49:17.926Z"
+  },
+  {
+    "id": "ipa-com.mutaeb.OVF-Editor-6.1.2",
+    "type": "ipa",
+    "name": "OVFEditor",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mutaeb.OVF-Editor.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/OVFEditor_6.1.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.1.2",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.mutaeb.OVF-Editor",
+    "lastSync": "2026-03-23T11:49:17.926Z"
+  },
+  {
+    "id": "ipa-com.benchu.ARMCPUZ-1.8.3",
+    "type": "ipa",
+    "name": "ARMCPUZ",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.benchu.ARMCPUZ.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "navigation"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/23-03-2026/ARMCPUZ_1.8.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.8.3",
+    "developer": "cheatlibrary",
+    "date": "2026-03-23",
+    "source": "apptesters",
+    "bundleID": "com.benchu.ARMCPUZ",
+    "lastSync": "2026-03-23T11:49:17.927Z"
+  },
+  {
     "id": "ipa-com.ulisesolave.Fitia-22.3.2",
     "type": "ipa",
     "name": "Fitia",
