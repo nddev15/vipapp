@@ -270,6 +270,186 @@
     "lastSync": "2026-03-25T05:49:20.886Z"
   },
   {
+    "id": "ipa-app.tripsy.ios-3.8.0",
+    "type": "ipa",
+    "name": "Tripsy",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "navigation"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Tripsy_3.8.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.8.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-25",
+    "source": "apptesters",
+    "bundleID": "app.tripsy.ios",
+    "lastSync": "2026-03-25T11:49:21.364Z"
+  },
+  {
+    "id": "ipa-com.lightricks.Enlight-Phoenix-1.9.36",
+    "type": "ipa",
+    "name": "Motionleap",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Enlight-Phoenix.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Motionleap_1.9.36_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.9.36",
+    "developer": "cheatlibrary",
+    "date": "2026-03-25",
+    "source": "apptesters",
+    "bundleID": "com.lightricks.Enlight-Phoenix",
+    "lastSync": "2026-03-25T11:49:21.367Z"
+  },
+  {
+    "id": "ipa-com.moonly.Moonly-2.7.3",
+    "type": "ipa",
+    "name": "Moonly",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonly.Moonly.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Moonly_2.7.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.7.3",
+    "developer": "cheatlibrary",
+    "date": "2026-03-25",
+    "source": "apptesters",
+    "bundleID": "com.moonly.Moonly",
+    "lastSync": "2026-03-25T11:49:21.368Z"
+  },
+  {
+    "id": "ipa-com.ulisesolave.Fitia-22.3.3",
+    "type": "ipa",
+    "name": "Fitia",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Fitia_22.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "22.3.3",
+    "developer": "cheatlibrary",
+    "date": "2026-03-25",
+    "source": "apptesters",
+    "bundleID": "com.ulisesolave.Fitia",
+    "lastSync": "2026-03-25T11:49:21.368Z"
+  },
+  {
+    "id": "ipa-com.joytunes.asla-9.10.62",
+    "type": "ipa",
+    "name": "SimplyPiano",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/SimplyPiano_9.10.62_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.10.62",
+    "developer": "cheatlibrary",
+    "date": "2026-03-25",
+    "source": "apptesters",
+    "bundleID": "com.joytunes.asla",
+    "lastSync": "2026-03-25T11:49:21.368Z"
+  },
+  {
+    "id": "ipa-overlook.fing-12.11.9",
+    "type": "ipa",
+    "name": "Fing",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/overlook.fing.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Fing_12.11.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "12.11.9",
+    "developer": "cheatlibrary",
+    "date": "2026-03-25",
+    "source": "apptesters",
+    "bundleID": "overlook.fing",
+    "lastSync": "2026-03-25T11:49:21.368Z"
+  },
+  {
+    "id": "ipa-com.alightcreative.motion-6.2.52",
+    "type": "ipa",
+    "name": "AlightMotion",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alightcreative.motion.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/AlightMotion_6.2.52_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.2.52",
+    "developer": "cheatlibrary",
+    "date": "2026-03-25",
+    "source": "apptesters",
+    "bundleID": "com.alightcreative.motion",
+    "lastSync": "2026-03-25T11:49:21.369Z"
+  },
+  {
+    "id": "ipa-com.dopedevelopment.Panels-9.29.1",
+    "type": "ipa",
+    "name": "SCRL",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/SCRL_9.29.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.29.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-25",
+    "source": "apptesters",
+    "bundleID": "com.dopedevelopment.Panels",
+    "lastSync": "2026-03-25T11:49:21.370Z"
+  },
+  {
+    "id": "ipa-com.picsart.studio-29.6.2",
+    "type": "ipa",
+    "name": "Picsart",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/Picsart_29.6.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "29.6.2",
+    "developer": "cheatlibrary",
+    "date": "2026-03-25",
+    "source": "apptesters",
+    "bundleID": "com.picsart.studio",
+    "lastSync": "2026-03-25T11:49:21.370Z"
+  },
+  {
+    "id": "ipa-com.kinemaster.kios-8.1.4",
+    "type": "ipa",
+    "name": "KineMaster",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kinemaster.kios.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-03-2026/KineMaster_8.1.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.1.4",
+    "developer": "cheatlibrary",
+    "date": "2026-03-25",
+    "source": "apptesters",
+    "bundleID": "com.kinemaster.kios",
+    "lastSync": "2026-03-25T11:49:21.371Z"
+  },
+  {
     "id": "ipa-com.google.ios.youtubemusic-9.12.2",
     "type": "ipa",
     "name": "YouTubeMusic",
