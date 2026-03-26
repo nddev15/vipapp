@@ -72,6 +72,60 @@
     "lastSync": "2026-03-26T00:46:19.766Z"
   },
   {
+    "id": "ipa-com.grailr.CARROTweather-6.5",
+    "type": "ipa",
+    "name": "CARROT",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.grailr.CARROTweather.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/CARROT_6.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.5",
+    "developer": "cheatlibrary",
+    "date": "2026-03-26",
+    "source": "apptesters",
+    "bundleID": "com.grailr.CARROTweather",
+    "lastSync": "2026-03-26T06:46:19.276Z"
+  },
+  {
+    "id": "ipa-com.hitpaw.photoenhancer-1.101.0",
+    "type": "ipa",
+    "name": "AIMarvels",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hitpaw.photoenhancer.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/AIMarvels_1.101.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.101.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-26",
+    "source": "apptesters",
+    "bundleID": "com.hitpaw.photoenhancer",
+    "lastSync": "2026-03-26T06:46:19.279Z"
+  },
+  {
+    "id": "ipa-PhotoEditor.PhotoCollage.inCollage-2.2.32",
+    "type": "ipa",
+    "name": "InCollage",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/PhotoEditor.PhotoCollage.inCollage.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/InCollage_2.2.32_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.2.32",
+    "developer": "cheatlibrary",
+    "date": "2026-03-26",
+    "source": "apptesters",
+    "bundleID": "PhotoEditor.PhotoCollage.inCollage",
+    "lastSync": "2026-03-26T06:46:19.279Z"
+  },
+  {
     "id": "ipa-com.monokaitoolkit.pro-18.0.0",
     "type": "ipa",
     "name": "MonokaiToolkitPro",
