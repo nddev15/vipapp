@@ -1,5 +1,77 @@
 [
   {
+    "id": "ipa-app.tripsy.ios-3.8.1",
+    "type": "ipa",
+    "name": "Tripsy",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "navigation"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/Tripsy_3.8.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.8.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-26",
+    "source": "apptesters",
+    "bundleID": "app.tripsy.ios",
+    "lastSync": "2026-03-26T00:46:19.762Z"
+  },
+  {
+    "id": "ipa-com.yengshine.proccd-5.7.0",
+    "type": "ipa",
+    "name": "ProCCD",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/ProCCD_5.7.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.7.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-26",
+    "source": "apptesters",
+    "bundleID": "com.yengshine.proccd",
+    "lastSync": "2026-03-26T00:46:19.765Z"
+  },
+  {
+    "id": "ipa-com.mcdiamondfinder.app-9.0.3",
+    "type": "ipa",
+    "name": "DiamondFinder",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mcdiamondfinder.app.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/DiamondFinder_9.0.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.0.3",
+    "developer": "cheatlibrary",
+    "date": "2026-03-26",
+    "source": "apptesters",
+    "bundleID": "com.mcdiamondfinder.app",
+    "lastSync": "2026-03-26T00:46:19.766Z"
+  },
+  {
+    "id": "ipa-com.wikiloc.wikiloc-3.27.0",
+    "type": "ipa",
+    "name": "Wikiloc",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wikiloc.wikiloc.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-03-2026/Wikiloc_3.27.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.27.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-26",
+    "source": "apptesters",
+    "bundleID": "com.wikiloc.wikiloc",
+    "lastSync": "2026-03-26T00:46:19.766Z"
+  },
+  {
     "id": "ipa-com.monokaitoolkit.pro-18.0.0",
     "type": "ipa",
     "name": "MonokaiToolkitPro",
