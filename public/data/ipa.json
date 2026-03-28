@@ -1,5 +1,221 @@
 [
   {
+    "id": "ipa-com.sbs.train-1.1.7",
+    "type": "ipa",
+    "name": "Workouts",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sbs.train.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/Workouts_1.1.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.1.7",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.sbs.train",
+    "lastSync": "2026-03-28T00:46:22.516Z"
+  },
+  {
+    "id": "ipa-com.zijayrate.analogcam-8.4.5",
+    "type": "ipa",
+    "name": "OldRoll",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zijayrate.analogcam.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/OldRoll_8.4.5_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.4.5",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.zijayrate.analogcam",
+    "lastSync": "2026-03-28T00:46:22.520Z"
+  },
+  {
+    "id": "ipa-com.sleepmonitor.aio-2.7.3",
+    "type": "ipa",
+    "name": "SleepMonitor",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sleepmonitor.aio.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/SleepMonitor_2.7.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.7.3",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.sleepmonitor.aio",
+    "lastSync": "2026-03-28T00:46:22.520Z"
+  },
+  {
+    "id": "ipa-com.ibit.UNPOSED-4.8.2",
+    "type": "ipa",
+    "name": "Unscripted",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ibit.UNPOSED.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/Unscripted_4.8.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.8.2",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.ibit.UNPOSED",
+    "lastSync": "2026-03-28T00:46:22.520Z"
+  },
+  {
+    "id": "ipa-com.kwalee.drawit-2.1.2",
+    "type": "ipa",
+    "name": "DrawIt",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.kwalee.drawit.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "graphics & design"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/DrawIt_2.1.2_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.1.2",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.kwalee.drawit",
+    "lastSync": "2026-03-28T00:46:22.520Z"
+  },
+  {
+    "id": "ipa-com.wiheads.paste-6.4.0",
+    "type": "ipa",
+    "name": "Paste",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wiheads.paste.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/Paste_6.4.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.4.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.wiheads.paste",
+    "lastSync": "2026-03-28T00:46:22.520Z"
+  },
+  {
+    "id": "ipa-com.jakemor.firness-ai-16.1",
+    "type": "ipa",
+    "name": "FitnessAI",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.jakemor.firness-ai.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/FitnessAI_16.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "16.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.jakemor.firness-ai",
+    "lastSync": "2026-03-28T00:46:22.522Z"
+  },
+  {
+    "id": "ipa-com.bowery-digital.bend-7.3.1",
+    "type": "ipa",
+    "name": "Bend",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.bowery-digital.bend.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "shopping"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/Bend_7.3.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "7.3.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.bowery-digital.bend",
+    "lastSync": "2026-03-28T00:46:22.522Z"
+  },
+  {
+    "id": "ipa-com.getupnote.ios-9.18.0",
+    "type": "ipa",
+    "name": "UpNote",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/UpNote_9.18.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.18.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.getupnote.ios",
+    "lastSync": "2026-03-28T00:46:22.523Z"
+  },
+  {
+    "id": "ipa-com.instantbits.cast.webvideo-2.53",
+    "type": "ipa",
+    "name": "WebVideoCast",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.instantbits.cast.webvideo.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/WebVideoCast_2.53_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.53",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.instantbits.cast.webvideo",
+    "lastSync": "2026-03-28T00:46:22.523Z"
+  },
+  {
+    "id": "ipa-com.yengshine.proccd-5.7.1",
+    "type": "ipa",
+    "name": "ProCCD",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/ProCCD_5.7.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.7.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.yengshine.proccd",
+    "lastSync": "2026-03-28T00:46:22.524Z"
+  },
+  {
+    "id": "ipa-com.photoeditor.polish-2.1.7",
+    "type": "ipa",
+    "name": "Polish",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photoeditor.polish.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-03-2026/Polish_2.1.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.1.7",
+    "developer": "cheatlibrary",
+    "date": "2026-03-28",
+    "source": "apptesters",
+    "bundleID": "com.photoeditor.polish",
+    "lastSync": "2026-03-28T00:46:22.524Z"
+  },
+  {
     "id": "ipa-health.sleep.sounds.tracker.alarm.calm-3.3.8",
     "type": "ipa",
     "name": "ShutEye",
