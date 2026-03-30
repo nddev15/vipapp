@@ -1,5 +1,59 @@
 [
   {
+    "id": "ipa-us.pixomaticpro.PixomaticPro-2.55.36",
+    "type": "ipa",
+    "name": "Pixomatic",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/us.pixomaticpro.PixomaticPro.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-03-2026/Pixomatic_2.55.36_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.55.36",
+    "developer": "cheatlibrary",
+    "date": "2026-03-30",
+    "source": "apptesters",
+    "bundleID": "us.pixomaticpro.PixomaticPro",
+    "lastSync": "2026-03-30T00:46:25.167Z"
+  },
+  {
+    "id": "ipa-co.visualsupply.cam-459.0.1",
+    "type": "ipa",
+    "name": "VSCO",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.visualsupply.cam.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-03-2026/VSCO_459.0.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "459.0.1",
+    "developer": "cheatlibrary",
+    "date": "2026-03-30",
+    "source": "apptesters",
+    "bundleID": "co.visualsupply.cam",
+    "lastSync": "2026-03-30T00:46:25.167Z"
+  },
+  {
+    "id": "ipa-nt.nb.ios-66.293",
+    "type": "ipa",
+    "name": "NBv66293",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/nt.nb.ios.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/30-03-2026/NBv66293_66.293_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "66.293",
+    "developer": "cheatlibrary",
+    "date": "2026-03-30",
+    "source": "apptesters",
+    "bundleID": "nt.nb.ios",
+    "lastSync": "2026-03-30T00:46:25.168Z"
+  },
+  {
     "id": "ipa-com.jps.gpspeedhud-8.0.12",
     "type": "ipa",
     "name": "Speedometer",
