@@ -126,6 +126,96 @@
     "lastSync": "2026-03-31T00:46:26.580Z"
   },
   {
+    "id": "ipa-com.maxty.gofitness-7.16.19",
+    "type": "ipa",
+    "name": "ProFit",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.maxty.gofitness.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/ProFit_7.16.19_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "7.16.19",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.maxty.gofitness",
+    "lastSync": "2026-03-31T06:46:27.071Z"
+  },
+  {
+    "id": "ipa-app.labbet.labbet-2.58",
+    "type": "ipa",
+    "name": "Labbet",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.labbet.labbet.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "shopping"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Labbet_2.58_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.58",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "app.labbet.labbet",
+    "lastSync": "2026-03-31T06:46:27.074Z"
+  },
+  {
+    "id": "ipa-com.dr1ven.eraser-2026.13.02",
+    "type": "ipa",
+    "name": "Photoroom",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Photoroom_2026.13.02_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2026.13.02",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.dr1ven.eraser",
+    "lastSync": "2026-03-31T06:46:27.074Z"
+  },
+  {
+    "id": "ipa-com.astrio.Sofa-5.0",
+    "type": "ipa",
+    "name": "Sofa",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.astrio.Sofa.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Sofa_5.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.astrio.Sofa",
+    "lastSync": "2026-03-31T06:46:27.075Z"
+  },
+  {
+    "id": "ipa-com.youssef.developer.Full-Browser-10.8",
+    "type": "ipa",
+    "name": "TORSuite",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.youssef.developer.Full-Browser.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/TORSuite_10.8_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "10.8",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.youssef.developer.Full-Browser",
+    "lastSync": "2026-03-31T06:46:27.075Z"
+  },
+  {
     "id": "ipa-us.pixomaticpro.PixomaticPro-2.55.36",
     "type": "ipa",
     "name": "Pixomatic",
