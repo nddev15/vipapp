@@ -1,5 +1,131 @@
 [
   {
+    "id": "ipa-com.zhiliaoapp.musically-44.5.0",
+    "type": "ipa",
+    "name": "TikTok",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/TikTok_44.5.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "44.5.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.zhiliaoapp.musically",
+    "lastSync": "2026-03-31T00:46:26.575Z"
+  },
+  {
+    "id": "ipa-com.burbn.instagram-423.0.0",
+    "type": "ipa",
+    "name": "Instagram",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Instagram_423.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "423.0.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.burbn.instagram",
+    "lastSync": "2026-03-31T00:46:26.578Z"
+  },
+  {
+    "id": "ipa-com.linecorp.Foodie-7.4.32",
+    "type": "ipa",
+    "name": "Foodie",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.linecorp.Foodie.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Foodie_7.4.32_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "7.4.32",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.linecorp.Foodie",
+    "lastSync": "2026-03-31T00:46:26.578Z"
+  },
+  {
+    "id": "ipa-com.aoklab.fewerphotos-3.3.4",
+    "type": "ipa",
+    "name": "swipewipe",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aoklab.fewerphotos.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/swipewipe_3.3.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.3.4",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.aoklab.fewerphotos",
+    "lastSync": "2026-03-31T00:46:26.579Z"
+  },
+  {
+    "id": "ipa-com.moodtools.thoughtdiary-5.5.17",
+    "type": "ipa",
+    "name": "Clarity",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Clarity_5.5.17_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.5.17",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.moodtools.thoughtdiary",
+    "lastSync": "2026-03-31T00:46:26.579Z"
+  },
+  {
+    "id": "ipa-com.elevateapp.kamino.kamino-1.200.0",
+    "type": "ipa",
+    "name": "Balance",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.kamino.kamino.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Balance_1.200.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.200.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.elevateapp.kamino.kamino",
+    "lastSync": "2026-03-31T00:46:26.579Z"
+  },
+  {
+    "id": "ipa-com.duolingo.DuolingoMobile-7.116.0",
+    "type": "ipa",
+    "name": "Duolingo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "education"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/31-03-2026/Duolingo_7.116.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "7.116.0",
+    "developer": "cheatlibrary",
+    "date": "2026-03-31",
+    "source": "apptesters",
+    "bundleID": "com.duolingo.DuolingoMobile",
+    "lastSync": "2026-03-31T00:46:26.580Z"
+  },
+  {
     "id": "ipa-us.pixomaticpro.PixomaticPro-2.55.36",
     "type": "ipa",
     "name": "Pixomatic",
