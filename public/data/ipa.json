@@ -1,5 +1,23 @@
 [
   {
+    "id": "ipa-com.spycamera.app-2.4",
+    "type": "ipa",
+    "name": "SpyCamera",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.spycamera.app.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/SpyCamera_2.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.4",
+    "developer": "cheatlibrary",
+    "date": "2026-04-05",
+    "source": "apptesters",
+    "bundleID": "com.spycamera.app",
+    "lastSync": "2026-04-04T18:46:33.126Z"
+  },
+  {
     "id": "ipa-com.castpeer.audioroom.ios-2.10.9",
     "type": "ipa",
     "name": "SoundLab",
@@ -412,6 +430,78 @@
     "source": "apptesters",
     "bundleID": "co.detail.duo",
     "lastSync": "2026-04-04T12:46:33.026Z"
+  },
+  {
+    "id": "ipa-com.moodtools.thoughtdiary-5.5.18",
+    "type": "ipa",
+    "name": "Clarity",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/Clarity_5.5.18_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.5.18",
+    "developer": "cheatlibrary",
+    "date": "2026-04-04",
+    "source": "apptesters",
+    "bundleID": "com.moodtools.thoughtdiary",
+    "lastSync": "2026-04-04T18:46:33.128Z"
+  },
+  {
+    "id": "ipa-com.lyftaios-1.141",
+    "type": "ipa",
+    "name": "Lyfta",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lyftaios.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/Lyfta_1.141_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.141",
+    "developer": "cheatlibrary",
+    "date": "2026-04-04",
+    "source": "apptesters",
+    "bundleID": "com.lyftaios",
+    "lastSync": "2026-04-04T18:46:33.129Z"
+  },
+  {
+    "id": "ipa-com.nixwang.decision-26.3.1",
+    "type": "ipa",
+    "name": "TinyDecisions",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.nixwang.decision.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/TinyDecisions_26.3.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.3.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-04",
+    "source": "apptesters",
+    "bundleID": "com.nixwang.decision",
+    "lastSync": "2026-04-04T18:46:33.130Z"
+  },
+  {
+    "id": "ipa-com.aiby.wtcoin-1.24",
+    "type": "ipa",
+    "name": "CoinID",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aiby.wtcoin.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/04-04-2026/CoinID_1.24_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.24",
+    "developer": "cheatlibrary",
+    "date": "2026-04-04",
+    "source": "apptesters",
+    "bundleID": "com.aiby.wtcoin",
+    "lastSync": "2026-04-04T18:46:33.130Z"
   },
   {
     "id": "ipa-com.burbn.instagram-423.1.0",
