@@ -144,6 +144,60 @@
     "lastSync": "2026-04-05T12:01:49.017Z"
   },
   {
+    "id": "ipa-com.busuu.english.app-30.8.0",
+    "type": "ipa",
+    "name": "Busuu",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "education"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/Busuu_30.8.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "30.8.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-05",
+    "source": "apptesters",
+    "bundleID": "com.busuu.english.app",
+    "lastSync": "2026-04-05T18:01:50.473Z"
+  },
+  {
+    "id": "ipa-com.lappir.keto-8.4",
+    "type": "ipa",
+    "name": "KetoDiet",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lappir.keto.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/KetoDiet_8.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.4",
+    "developer": "cheatlibrary",
+    "date": "2026-04-05",
+    "source": "apptesters",
+    "bundleID": "com.lappir.keto",
+    "lastSync": "2026-04-05T18:01:50.477Z"
+  },
+  {
+    "id": "ipa-com.lightricks.Facetune2-26.6",
+    "type": "ipa",
+    "name": "Facetune",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lightricks.Facetune2.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/05-04-2026/Facetune_26.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.6",
+    "developer": "cheatlibrary",
+    "date": "2026-04-05",
+    "source": "apptesters",
+    "bundleID": "com.lightricks.Facetune2",
+    "lastSync": "2026-04-05T18:01:50.477Z"
+  },
+  {
     "id": "ipa-com.castpeer.audioroom.ios-2.10.9",
     "type": "ipa",
     "name": "SoundLab",
