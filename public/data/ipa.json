@@ -1,5 +1,149 @@
 [
   {
+    "id": "ipa-com.hasankassem.mockup-4.1.4",
+    "type": "ipa",
+    "name": "Mockup",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hasankassem.mockup.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Mockup_4.1.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.1.4",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.hasankassem.mockup",
+    "lastSync": "2026-04-07T00:01:51.580Z"
+  },
+  {
+    "id": "ipa-org.powerthesaurus.powerthesaurus-2.10.0",
+    "type": "ipa",
+    "name": "PowerThesaurus",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/org.powerthesaurus.powerthesaurus.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/PowerThesaurus_2.10.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.10.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "org.powerthesaurus.powerthesaurus",
+    "lastSync": "2026-04-07T00:01:51.583Z"
+  },
+  {
+    "id": "ipa-myndarc.newFitnessApp-26.3.3",
+    "type": "ipa",
+    "name": "Athlytic",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/myndarc.newFitnessApp.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Athlytic_26.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.3.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "myndarc.newFitnessApp",
+    "lastSync": "2026-04-07T00:01:51.584Z"
+  },
+  {
+    "id": "ipa-boomer.Smart-Video-13.11.1",
+    "type": "ipa",
+    "name": "Captions",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Captions_13.11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "13.11.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "boomer.Smart-Video",
+    "lastSync": "2026-04-07T00:01:51.584Z"
+  },
+  {
+    "id": "ipa-ru.routes.peakvisor-5.91",
+    "type": "ipa",
+    "name": "PeakVisor",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/PeakVisor_5.91_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.91",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "ru.routes.peakvisor",
+    "lastSync": "2026-04-07T00:01:51.584Z"
+  },
+  {
+    "id": "ipa-com.shred.shredlabs-5.4.1",
+    "type": "ipa",
+    "name": "SHRED",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.shred.shredlabs.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/SHRED_5.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.4.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.shred.shredlabs",
+    "lastSync": "2026-04-07T00:01:51.584Z"
+  },
+  {
+    "id": "ipa-com.adobe.premiere.ios-26.9.0",
+    "type": "ipa",
+    "name": "Premiere",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.premiere.ios.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "navigation"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Premiere_26.9.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.9.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.adobe.premiere.ios",
+    "lastSync": "2026-04-07T00:01:51.585Z"
+  },
+  {
+    "id": "ipa-reels-maker-one-1.23.1",
+    "type": "ipa",
+    "name": "BEAT",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/reels-maker-one.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "shopping"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/BEAT_1.23.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.23.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "reels-maker-one",
+    "lastSync": "2026-04-07T00:01:51.585Z"
+  },
+  {
     "id": "ipa-app.uplens-3.5.0",
     "type": "ipa",
     "name": "Uplens",
