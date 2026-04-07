@@ -450,6 +450,312 @@
     "lastSync": "2026-04-07T12:01:51.270Z"
   },
   {
+    "id": "ipa-ru.routes.peakvisor-5.92",
+    "type": "ipa",
+    "name": "PeakVisor",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/PeakVisor_5.92_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.92",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "ru.routes.peakvisor",
+    "lastSync": "2026-04-07T18:01:52.047Z"
+  },
+  {
+    "id": "ipa-co.codeleap.bearable-1.0.591",
+    "type": "ipa",
+    "name": "Bearable",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.codeleap.bearable.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "shopping"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Bearable_1.0.591_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.0.591",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "co.codeleap.bearable",
+    "lastSync": "2026-04-07T18:01:52.049Z"
+  },
+  {
+    "id": "ipa-com.book.summaries.reading-1.2.0",
+    "type": "ipa",
+    "name": "GrowMe",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.book.summaries.reading.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "books"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/GrowMe_1.2.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.2.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.book.summaries.reading",
+    "lastSync": "2026-04-07T18:01:52.050Z"
+  },
+  {
+    "id": "ipa-SimpleTools.Wallpaper-Workshop-2.2.9",
+    "type": "ipa",
+    "name": "Radiance",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/SimpleTools.Wallpaper-Workshop.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Radiance_2.2.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.2.9",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "SimpleTools.Wallpaper-Workshop",
+    "lastSync": "2026-04-07T18:01:52.051Z"
+  },
+  {
+    "id": "ipa-com.ibit.UNPOSED-4.8.3",
+    "type": "ipa",
+    "name": "Unscripted",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ibit.UNPOSED.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Unscripted_4.8.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.8.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.ibit.UNPOSED",
+    "lastSync": "2026-04-07T18:01:52.051Z"
+  },
+  {
+    "id": "ipa-com.unicostudio.braintest2-1.23.04",
+    "type": "ipa",
+    "name": "BrainTest2",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.unicostudio.braintest2.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/BrainTest2_1.23.04_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.23.04",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.unicostudio.braintest2",
+    "lastSync": "2026-04-07T18:01:52.051Z"
+  },
+  {
+    "id": "ipa-com.google.ios.youtubemusic-9.14.2",
+    "type": "ipa",
+    "name": "YouTubeMusic",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/YouTubeMusic_9.14.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.14.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.google.ios.youtubemusic",
+    "lastSync": "2026-04-07T18:01:52.052Z"
+  },
+  {
+    "id": "ipa-com.burbn.barcelona-424.0.0",
+    "type": "ipa",
+    "name": "Threads",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.barcelona.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Threads_424.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "424.0.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.burbn.barcelona",
+    "lastSync": "2026-04-07T18:01:52.052Z"
+  },
+  {
+    "id": "ipa-com.stanga.projectKu-2.0.9",
+    "type": "ipa",
+    "name": "Walli",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.stanga.projectKu.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Walli_2.0.9_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.0.9",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.stanga.projectKu",
+    "lastSync": "2026-04-07T18:01:52.052Z"
+  },
+  {
+    "id": "ipa-com.soundcloud.TouchApp-8.55.0",
+    "type": "ipa",
+    "name": "SoundCloud",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.soundcloud.TouchApp.png",
+    "desc": "Injected with noads",
+    "tags": [
+      "music"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/SoundCloud_8.55.0_noads_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.55.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.soundcloud.TouchApp",
+    "lastSync": "2026-04-07T18:01:52.054Z"
+  },
+  {
+    "id": "ipa-io.yogger.Yogger-5.4.0",
+    "type": "ipa",
+    "name": "Yogger",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.yogger.Yogger.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Yogger_5.4.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.4.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "io.yogger.Yogger",
+    "lastSync": "2026-04-07T18:01:52.054Z"
+  },
+  {
+    "id": "ipa-com.firecore.infuse-8.4.2",
+    "type": "ipa",
+    "name": "Infuse",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.firecore.infuse.png",
+    "desc": "Injected with Plus",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Infuse_8.4.2_Plus_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.4.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.firecore.infuse",
+    "lastSync": "2026-04-07T18:01:52.054Z"
+  },
+  {
+    "id": "ipa-es.monkimun.lingokids-26.15.0",
+    "type": "ipa",
+    "name": "Lingokids",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/es.monkimun.lingokids.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "kids"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Lingokids_26.15.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.15.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "es.monkimun.lingokids",
+    "lastSync": "2026-04-07T18:01:52.055Z"
+  },
+  {
+    "id": "ipa-com.mobilefootie.fotmobpro-1230.0",
+    "type": "ipa",
+    "name": "FotMob",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobilefootie.fotmobpro.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/FotMob_1230.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1230.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.mobilefootie.fotmobpro",
+    "lastSync": "2026-04-07T18:01:52.056Z"
+  },
+  {
+    "id": "ipa-com.risesci.nyx-0.1.581",
+    "type": "ipa",
+    "name": "RiseSleep",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/RiseSleep_0.1.581_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "0.1.581",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.risesci.nyx",
+    "lastSync": "2026-04-07T18:01:52.056Z"
+  },
+  {
+    "id": "ipa-com.joytunes.Draw-1.6.21",
+    "type": "ipa",
+    "name": "SimplyDraw",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Draw.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "graphics & design"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/SimplyDraw_1.6.21_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.6.21",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.joytunes.Draw",
+    "lastSync": "2026-04-07T18:01:52.056Z"
+  },
+  {
+    "id": "ipa-com.mwm.procolor-2.62.01",
+    "type": "ipa",
+    "name": "ColorPop",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/ColorPop_2.62.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.62.01",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.mwm.procolor",
+    "lastSync": "2026-04-07T18:01:52.057Z"
+  },
+  {
     "id": "ipa-app.uplens-3.5.0",
     "type": "ipa",
     "name": "Uplens",
