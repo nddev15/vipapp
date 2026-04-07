@@ -198,6 +198,258 @@
     "lastSync": "2026-04-07T06:02:34.303Z"
   },
   {
+    "id": "ipa-archery.storify-1.262.0",
+    "type": "ipa",
+    "name": "Mojo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/archery.storify.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Mojo_1.262.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.262.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "archery.storify",
+    "lastSync": "2026-04-07T12:01:51.263Z"
+  },
+  {
+    "id": "ipa-com.picsart.studio-29.7.1",
+    "type": "ipa",
+    "name": "Picsart",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picsart.studio.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Picsart_29.7.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "29.7.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.picsart.studio",
+    "lastSync": "2026-04-07T12:01:51.266Z"
+  },
+  {
+    "id": "ipa-com.moonlab.unfoldstories-8.156.2",
+    "type": "ipa",
+    "name": "Unfold",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moonlab.unfoldstories.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Unfold_8.156.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.156.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.moonlab.unfoldstories",
+    "lastSync": "2026-04-07T12:01:51.266Z"
+  },
+  {
+    "id": "ipa-com.dr1ven.eraser-2026.14.01",
+    "type": "ipa",
+    "name": "Photoroom",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Photoroom_2026.14.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2026.14.01",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.dr1ven.eraser",
+    "lastSync": "2026-04-07T12:01:51.266Z"
+  },
+  {
+    "id": "ipa-io.veed.appstore-8.10.0",
+    "type": "ipa",
+    "name": "VEEDCaptions",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.veed.appstore.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/VEEDCaptions_8.10.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.10.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "io.veed.appstore",
+    "lastSync": "2026-04-07T12:01:51.267Z"
+  },
+  {
+    "id": "ipa-com.dopedevelopment.Panels-9.31",
+    "type": "ipa",
+    "name": "SCRL",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/SCRL_9.31_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.31",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.dopedevelopment.Panels",
+    "lastSync": "2026-04-07T12:01:51.268Z"
+  },
+  {
+    "id": "ipa-com.apalonapps.wlf-4.18.18",
+    "type": "ipa",
+    "name": "Weather",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.wlf.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Weather_4.18.18_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.18.18",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.apalonapps.wlf",
+    "lastSync": "2026-04-07T12:01:51.268Z"
+  },
+  {
+    "id": "ipa-com.mwm.guitartuner-4.00.04",
+    "type": "ipa",
+    "name": "TunerPro",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.guitartuner.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/TunerPro_4.00.04_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.00.04",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.mwm.guitartuner",
+    "lastSync": "2026-04-07T12:01:51.268Z"
+  },
+  {
+    "id": "ipa-com.mwm.procolor-2.62.00",
+    "type": "ipa",
+    "name": "ColorPop",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.procolor.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/ColorPop_2.62.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.62.00",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.mwm.procolor",
+    "lastSync": "2026-04-07T12:01:51.269Z"
+  },
+  {
+    "id": "ipa-com.mwm.stems-5.01.02",
+    "type": "ipa",
+    "name": "Stemz",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mwm.stems.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Stemz_5.01.02_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.01.02",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.mwm.stems",
+    "lastSync": "2026-04-07T12:01:51.269Z"
+  },
+  {
+    "id": "ipa-com.getmimo.mimo-12.7.0",
+    "type": "ipa",
+    "name": "Mimo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmimo.mimo.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Mimo_12.7.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "12.7.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.getmimo.mimo",
+    "lastSync": "2026-04-07T12:01:51.269Z"
+  },
+  {
+    "id": "ipa-com.path36.SpliceFree-4.28.61",
+    "type": "ipa",
+    "name": "Splice",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.path36.SpliceFree.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Splice_4.28.61_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.28.61",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.path36.SpliceFree",
+    "lastSync": "2026-04-07T12:01:51.270Z"
+  },
+  {
+    "id": "ipa-com.yazio.ios.YAZIO-12.79.0",
+    "type": "ipa",
+    "name": "Yazio",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yazio.ios.YAZIO.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/Yazio_12.79.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "12.79.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.yazio.ios.YAZIO",
+    "lastSync": "2026-04-07T12:01:51.270Z"
+  },
+  {
+    "id": "ipa-com.iaftt.flightplusfree-8.7.6",
+    "type": "ipa",
+    "name": "FlightTracker",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iaftt.flightplusfree.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/07-04-2026/FlightTracker_8.7.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.7.6",
+    "developer": "cheatlibrary",
+    "date": "2026-04-07",
+    "source": "apptesters",
+    "bundleID": "com.iaftt.flightplusfree",
+    "lastSync": "2026-04-07T12:01:51.270Z"
+  },
+  {
     "id": "ipa-app.uplens-3.5.0",
     "type": "ipa",
     "name": "Uplens",
