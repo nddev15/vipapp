@@ -180,6 +180,78 @@
     "lastSync": "2026-04-08T12:01:53.454Z"
   },
   {
+    "id": "ipa-com.wellocution.iosapp-3.7.3",
+    "type": "ipa",
+    "name": "BoldVoice",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wellocution.iosapp.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-04-2026/BoldVoice_3.7.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.7.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-08",
+    "source": "apptesters",
+    "bundleID": "com.wellocution.iosapp",
+    "lastSync": "2026-04-08T18:01:53.514Z"
+  },
+  {
+    "id": "ipa-com.internet-rocks.codescanner-2026.3.4",
+    "type": "ipa",
+    "name": "QrCode",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.internet-rocks.codescanner.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-04-2026/QrCode_2026.3.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2026.3.4",
+    "developer": "cheatlibrary",
+    "date": "2026-04-08",
+    "source": "apptesters",
+    "bundleID": "com.internet-rocks.codescanner",
+    "lastSync": "2026-04-08T18:01:53.516Z"
+  },
+  {
+    "id": "ipa-io.stampapp.Stamp-9.23.0",
+    "type": "ipa",
+    "name": "FreeYourMusic",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.stampapp.Stamp.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-04-2026/FreeYourMusic_9.23.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.23.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-08",
+    "source": "apptesters",
+    "bundleID": "io.stampapp.Stamp",
+    "lastSync": "2026-04-08T18:01:53.517Z"
+  },
+  {
+    "id": "ipa-com.yazio.ios.YAZIO-12.79.1",
+    "type": "ipa",
+    "name": "Yazio",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yazio.ios.YAZIO.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/08-04-2026/Yazio_12.79.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "12.79.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-08",
+    "source": "apptesters",
+    "bundleID": "com.yazio.ios.YAZIO",
+    "lastSync": "2026-04-08T18:01:53.517Z"
+  },
+  {
     "id": "ipa-com.hasankassem.mockup-4.1.4",
     "type": "ipa",
     "name": "Mockup",
