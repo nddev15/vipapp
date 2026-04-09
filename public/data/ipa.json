@@ -1,5 +1,203 @@
 [
   {
+    "id": "ipa-ru.routes.peakvisor-5.93",
+    "type": "ipa",
+    "name": "PeakVisor",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ru.routes.peakvisor.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/PeakVisor_5.93_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.93",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "ru.routes.peakvisor",
+    "lastSync": "2026-04-09T00:01:54.443Z"
+  },
+  {
+    "id": "ipa-com.ulisesolave.Fitia-22.3.7",
+    "type": "ipa",
+    "name": "Fitia",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/Fitia_22.3.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "22.3.7",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "com.ulisesolave.Fitia",
+    "lastSync": "2026-04-09T00:01:54.447Z"
+  },
+  {
+    "id": "ipa-com.iPwners.Plonkan-13.32",
+    "type": "ipa",
+    "name": "Buddy",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iPwners.Plonkan.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/Buddy_13.32_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "13.32",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "com.iPwners.Plonkan",
+    "lastSync": "2026-04-09T00:01:54.448Z"
+  },
+  {
+    "id": "ipa-com.icandiapps.nightsky-26.3",
+    "type": "ipa",
+    "name": "NightSky",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.icandiapps.nightsky.png",
+    "desc": "Injected with Plus",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/NightSky_26.3_Plus_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "com.icandiapps.nightsky",
+    "lastSync": "2026-04-09T00:01:54.448Z"
+  },
+  {
+    "id": "ipa-com.aidana.cardriving.ios-4.9.8",
+    "type": "ipa",
+    "name": "CarParking",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.aidana.cardriving.ios.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/CarParking_4.9.8_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.9.8",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "com.aidana.cardriving.ios",
+    "lastSync": "2026-04-09T00:01:54.448Z"
+  },
+  {
+    "id": "ipa-io.betterhalf.app-2.76.0",
+    "type": "ipa",
+    "name": "Paired",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/io.betterhalf.app.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "navigation"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/Paired_2.76.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.76.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "io.betterhalf.app",
+    "lastSync": "2026-04-09T00:01:54.449Z"
+  },
+  {
+    "id": "ipa-com.playgendary.ktbremaster-2.16.2",
+    "type": "ipa",
+    "name": "KTBSecondKick",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.playgendary.ktbremaster.png",
+    "desc": "Injected with IGG",
+    "tags": [
+      "game"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/KTBSecondKick_2.16.2_IGG_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.16.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "com.playgendary.ktbremaster",
+    "lastSync": "2026-04-09T00:01:54.449Z"
+  },
+  {
+    "id": "ipa-com.funnmedia.calory-4.7.3",
+    "type": "ipa",
+    "name": "Calory",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.funnmedia.calory.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "news"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/Calory_4.7.3_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.7.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "com.funnmedia.calory",
+    "lastSync": "2026-04-09T00:01:54.449Z"
+  },
+  {
+    "id": "ipa-com.actowise.browser-3.7",
+    "type": "ipa",
+    "name": "Zoomable",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.actowise.browser.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/Zoomable_3.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.7",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "com.actowise.browser",
+    "lastSync": "2026-04-09T00:01:54.449Z"
+  },
+  {
+    "id": "ipa-com.picretouch.photoeditor-1.1.6",
+    "type": "ipa",
+    "name": "AIRetouch",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.picretouch.photoeditor.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/AIRetouch_1.1.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.1.6",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "com.picretouch.photoeditor",
+    "lastSync": "2026-04-09T00:01:54.450Z"
+  },
+  {
+    "id": "ipa-com.dopedevelopment.Panels-9.31.1",
+    "type": "ipa",
+    "name": "SCRL",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dopedevelopment.Panels.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/09-04-2026/SCRL_9.31.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.31.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-09",
+    "source": "apptesters",
+    "bundleID": "com.dopedevelopment.Panels",
+    "lastSync": "2026-04-09T00:01:54.451Z"
+  },
+  {
     "id": "ipa-com.elevateapp.elevate-5.235.0",
     "type": "ipa",
     "name": "Elevate",
