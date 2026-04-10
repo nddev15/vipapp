@@ -180,6 +180,42 @@
     "lastSync": "2026-04-10T00:01:56.356Z"
   },
   {
+    "id": "ipa-com.zerone.hidesktop-4.4.10",
+    "type": "ipa",
+    "name": "HiWidget",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zerone.hidesktop.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/HiWidget_4.4.10_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.4.10",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "com.zerone.hidesktop",
+    "lastSync": "2026-04-10T06:01:55.710Z"
+  },
+  {
+    "id": "ipa-ventures.slam.minutes-1.11",
+    "type": "ipa",
+    "name": "Minutes",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ventures.slam.minutes.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Minutes_1.11_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.11",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "ventures.slam.minutes",
+    "lastSync": "2026-04-10T06:01:55.713Z"
+  },
+  {
     "id": "ipa-ru.routes.peakvisor-5.93",
     "type": "ipa",
     "name": "PeakVisor",
