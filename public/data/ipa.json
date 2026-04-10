@@ -1,5 +1,185 @@
 [
   {
+    "id": "ipa-com.sfun.snapedit-6.4.8",
+    "type": "ipa",
+    "name": "SnapEdit",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/SnapEdit_6.4.8_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.4.8",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "com.sfun.snapedit",
+    "lastSync": "2026-04-10T00:01:56.350Z"
+  },
+  {
+    "id": "ipa-com.shred.shredlabs-5.4.2",
+    "type": "ipa",
+    "name": "SHRED",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.shred.shredlabs.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/SHRED_5.4.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.4.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "com.shred.shredlabs",
+    "lastSync": "2026-04-10T00:01:56.352Z"
+  },
+  {
+    "id": "ipa-com.elevateapp.elevate-5.235.1",
+    "type": "ipa",
+    "name": "Elevate",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.elevate.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Elevate_5.235.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.235.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "com.elevateapp.elevate",
+    "lastSync": "2026-04-10T00:01:56.352Z"
+  },
+  {
+    "id": "ipa-com.neo.NeoMan-8.1.2",
+    "type": "ipa",
+    "name": "NeoServer",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neo.NeoMan.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/NeoServer_8.1.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.1.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "com.neo.NeoMan",
+    "lastSync": "2026-04-10T00:01:56.352Z"
+  },
+  {
+    "id": "ipa-com.hevyapp.hevy-3.0.6",
+    "type": "ipa",
+    "name": "Hevy",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Hevy_3.0.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.0.6",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "com.hevyapp.hevy",
+    "lastSync": "2026-04-10T00:01:56.353Z"
+  },
+  {
+    "id": "ipa-myndarc.newFitnessApp-26.3.4",
+    "type": "ipa",
+    "name": "Athlytic",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/myndarc.newFitnessApp.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Athlytic_26.3.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.3.4",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "myndarc.newFitnessApp",
+    "lastSync": "2026-04-10T00:01:56.353Z"
+  },
+  {
+    "id": "ipa-com.burbn.instagram-424.1.0",
+    "type": "ipa",
+    "name": "Instagram",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Instagram_424.1.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "424.1.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "com.burbn.instagram",
+    "lastSync": "2026-04-10T00:01:56.353Z"
+  },
+  {
+    "id": "ipa-boomer.Smart-Video-13.12.1",
+    "type": "ipa",
+    "name": "Captions",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Captions_13.12.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "13.12.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "boomer.Smart-Video",
+    "lastSync": "2026-04-10T00:01:56.355Z"
+  },
+  {
+    "id": "ipa-com.evolve.helm-3.181.0",
+    "type": "ipa",
+    "name": "Rest",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/Rest_3.181.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.181.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "com.evolve.helm",
+    "lastSync": "2026-04-10T00:01:56.356Z"
+  },
+  {
+    "id": "ipa-com.wellocution.iosapp-3.7.5",
+    "type": "ipa",
+    "name": "BoldVoice",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wellocution.iosapp.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/10-04-2026/BoldVoice_3.7.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.7.5",
+    "developer": "cheatlibrary",
+    "date": "2026-04-10",
+    "source": "apptesters",
+    "bundleID": "com.wellocution.iosapp",
+    "lastSync": "2026-04-10T00:01:56.356Z"
+  },
+  {
     "id": "ipa-ru.routes.peakvisor-5.93",
     "type": "ipa",
     "name": "PeakVisor",
