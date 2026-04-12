@@ -1,5 +1,59 @@
 [
   {
+    "id": "ipa-com.waterminder.waterminder-7.2.12",
+    "type": "ipa",
+    "name": "WaterMinder",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.waterminder.waterminder.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-04-2026/WaterMinder_7.2.12_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "7.2.12",
+    "developer": "cheatlibrary",
+    "date": "2026-04-13",
+    "source": "apptesters",
+    "bundleID": "com.waterminder.waterminder",
+    "lastSync": "2026-04-12T20:46:26.850Z"
+  },
+  {
+    "id": "ipa-app.renovateai-5.1.1",
+    "type": "ipa",
+    "name": "RenovateAI",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.renovateai.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-04-2026/RenovateAI_5.1.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.1.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-13",
+    "source": "apptesters",
+    "bundleID": "app.renovateai",
+    "lastSync": "2026-04-12T20:46:26.853Z"
+  },
+  {
+    "id": "ipa-com.apalonapps.wallpaperspys-2.4.6",
+    "type": "ipa",
+    "name": "Wallpapers",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.wallpaperspys.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/13-04-2026/Wallpapers_2.4.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.4.6",
+    "developer": "cheatlibrary",
+    "date": "2026-04-13",
+    "source": "apptesters",
+    "bundleID": "com.apalonapps.wallpaperspys",
+    "lastSync": "2026-04-12T20:46:26.854Z"
+  },
+  {
     "id": "ipa-com.wellocution.iosapp-3.7.6",
     "type": "ipa",
     "name": "BoldVoice",
@@ -88,6 +142,42 @@
     "source": "apptesters",
     "bundleID": "tech.sketchar.ios",
     "lastSync": "2026-04-12T08:46:25.961Z"
+  },
+  {
+    "id": "ipa-com.busuu.english.app-30.9.0",
+    "type": "ipa",
+    "name": "Busuu",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "education"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-04-2026/Busuu_30.9.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "30.9.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-12",
+    "source": "apptesters",
+    "bundleID": "com.busuu.english.app",
+    "lastSync": "2026-04-12T20:46:26.854Z"
+  },
+  {
+    "id": "ipa-com.oribot.origami-4.73",
+    "type": "ipa",
+    "name": "Origami",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.oribot.origami.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/12-04-2026/Origami_4.73_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.73",
+    "developer": "cheatlibrary",
+    "date": "2026-04-12",
+    "source": "apptesters",
+    "bundleID": "com.oribot.origami",
+    "lastSync": "2026-04-12T20:46:26.854Z"
   },
   {
     "id": "ipa-com.skylum.luminaripad-3.5.1",
