@@ -54,6 +54,114 @@
     "lastSync": "2026-04-13T20:46:28.328Z"
   },
   {
+    "id": "ipa-com.wakdev.wdnfc-2.36",
+    "type": "ipa",
+    "name": "NFCTools",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.wakdev.wdnfc.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/NFCTools_2.36_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.36",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.wakdev.wdnfc",
+    "lastSync": "2026-04-14T02:46:29.101Z"
+  },
+  {
+    "id": "ipa-com.google.ios.youtubemusic-9.15.2",
+    "type": "ipa",
+    "name": "YouTubeMusic",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.google.ios.youtubemusic.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/YouTubeMusic_9.15.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.15.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.google.ios.youtubemusic",
+    "lastSync": "2026-04-14T02:46:29.105Z"
+  },
+  {
+    "id": "ipa-com.fitbod-8.13.0",
+    "type": "ipa",
+    "name": "Fitbod",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.fitbod.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Fitbod_8.13.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.13.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.fitbod",
+    "lastSync": "2026-04-14T02:46:29.106Z"
+  },
+  {
+    "id": "ipa-com.peoplefun.wordcross-3.11.0",
+    "type": "ipa",
+    "name": "Wordscapes",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.peoplefun.wordcross.png",
+    "desc": "Injected with IGG",
+    "tags": [
+      "game"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Wordscapes_3.11.0_IGG_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.11.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.peoplefun.wordcross",
+    "lastSync": "2026-04-14T02:46:29.106Z"
+  },
+  {
+    "id": "ipa-com.ookla.speedtest-7.0.1",
+    "type": "ipa",
+    "name": "Speedtest",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ookla.speedtest.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Speedtest_7.0.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "7.0.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.ookla.speedtest",
+    "lastSync": "2026-04-14T02:46:29.106Z"
+  },
+  {
+    "id": "ipa-com.lyftaios-1.143",
+    "type": "ipa",
+    "name": "Lyfta",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lyftaios.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Lyfta_1.143_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.143",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.lyftaios",
+    "lastSync": "2026-04-14T02:46:29.107Z"
+  },
+  {
     "id": "ipa-com.waterminder.waterminder-7.2.12",
     "type": "ipa",
     "name": "WaterMinder",
