@@ -162,6 +162,96 @@
     "lastSync": "2026-04-14T02:46:29.107Z"
   },
   {
+    "id": "ipa-com.readdle.ReaddleDocsIPad-8.19.11",
+    "type": "ipa",
+    "name": "Documents",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.readdle.ReaddleDocsIPad.png",
+    "desc": "Injected with Plus",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Documents_8.19.11_Plus_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.19.11",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.readdle.ReaddleDocsIPad",
+    "lastSync": "2026-04-14T08:46:29.516Z"
+  },
+  {
+    "id": "ipa-com.djitlabs.pixelcolor-5.50.00",
+    "type": "ipa",
+    "name": "PixelColor",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.djitlabs.pixelcolor.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/PixelColor_5.50.00_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.50.00",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.djitlabs.pixelcolor",
+    "lastSync": "2026-04-14T08:46:29.517Z"
+  },
+  {
+    "id": "ipa-com.lexwarelabs.goodmorning-6.26.14",
+    "type": "ipa",
+    "name": "SleepCycle",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lexwarelabs.goodmorning.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "game"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/SleepCycle_6.26.14_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.26.14",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.lexwarelabs.goodmorning",
+    "lastSync": "2026-04-14T08:46:29.517Z"
+  },
+  {
+    "id": "ipa-com.neo.NeoMan-8.1.3",
+    "type": "ipa",
+    "name": "NeoServer",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neo.NeoMan.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/NeoServer_8.1.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.1.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.neo.NeoMan",
+    "lastSync": "2026-04-14T08:46:29.518Z"
+  },
+  {
+    "id": "ipa-com.apalonapps.wallpaperspys-2.4.7",
+    "type": "ipa",
+    "name": "Wallpapers",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.apalonapps.wallpaperspys.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Wallpapers_2.4.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.4.7",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.apalonapps.wallpaperspys",
+    "lastSync": "2026-04-14T08:46:29.518Z"
+  },
+  {
     "id": "ipa-com.waterminder.waterminder-7.2.12",
     "type": "ipa",
     "name": "WaterMinder",
