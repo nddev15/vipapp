@@ -1,5 +1,41 @@
 [
   {
+    "id": "ipa-uni.cbum-4.1.34",
+    "type": "ipa",
+    "name": "Stndrd",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/uni.cbum.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Stndrd_4.1.34_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.1.34",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "uni.cbum",
+    "lastSync": "2026-04-14T20:46:29.775Z"
+  },
+  {
+    "id": "ipa-com.neo.NeoMan-8.1.6",
+    "type": "ipa",
+    "name": "NeoServer",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neo.NeoMan.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/NeoServer_8.1.6_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.1.6",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.neo.NeoMan",
+    "lastSync": "2026-04-14T20:46:29.780Z"
+  },
+  {
     "id": "ipa-com.duolingo.DuolingoMobile-7.118.0",
     "type": "ipa",
     "name": "Duolingo",
@@ -412,6 +448,114 @@
     "source": "apptesters",
     "bundleID": "com.frontrow.vlog",
     "lastSync": "2026-04-14T14:46:29.418Z"
+  },
+  {
+    "id": "ipa-boomer.Smart-Video-13.12.2",
+    "type": "ipa",
+    "name": "Captions",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Captions_13.12.2_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "13.12.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "boomer.Smart-Video",
+    "lastSync": "2026-04-14T20:46:29.781Z"
+  },
+  {
+    "id": "ipa-com.duolingo.DuolingoMobile-7.118.1",
+    "type": "ipa",
+    "name": "Duolingo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.duolingo.DuolingoMobile.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "education"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Duolingo_7.118.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "7.118.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.duolingo.DuolingoMobile",
+    "lastSync": "2026-04-14T20:46:29.782Z"
+  },
+  {
+    "id": "ipa-com.ahmetserdarkaradeniz.Phocus-3.3.0",
+    "type": "ipa",
+    "name": "Phocus",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ahmetserdarkaradeniz.Phocus.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Phocus_3.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.3.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.ahmetserdarkaradeniz.Phocus",
+    "lastSync": "2026-04-14T20:46:29.782Z"
+  },
+  {
+    "id": "ipa-com.iaftt.flightplusfree-8.7.7",
+    "type": "ipa",
+    "name": "FlightTracker",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iaftt.flightplusfree.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/FlightTracker_8.7.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.7.7",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.iaftt.flightplusfree",
+    "lastSync": "2026-04-14T20:46:29.782Z"
+  },
+  {
+    "id": "ipa-com.revivasoftworks.Snore-Lab-6.3.1",
+    "type": "ipa",
+    "name": "SnoreLab",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.revivasoftworks.Snore-Lab.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/SnoreLab_6.3.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.3.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "com.revivasoftworks.Snore-Lab",
+    "lastSync": "2026-04-14T20:46:29.783Z"
+  },
+  {
+    "id": "ipa-archery.storify-1.263.0",
+    "type": "ipa",
+    "name": "Mojo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/archery.storify.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/14-04-2026/Mojo_1.263.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.263.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-14",
+    "source": "apptesters",
+    "bundleID": "archery.storify",
+    "lastSync": "2026-04-14T20:46:29.783Z"
   },
   {
     "id": "ipa-com.waterminder.waterminder-7.2.12",
