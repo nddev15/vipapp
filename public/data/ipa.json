@@ -1,5 +1,23 @@
 [
   {
+    "id": "ipa-com.ulisesolave.Fitia-22.3.9",
+    "type": "ipa",
+    "name": "Fitia",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/16-04-2026/Fitia_22.3.9_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "22.3.9",
+    "developer": "cheatlibrary",
+    "date": "2026-04-16",
+    "source": "apptesters",
+    "bundleID": "com.ulisesolave.Fitia",
+    "lastSync": "2026-04-15T20:46:32.381Z"
+  },
+  {
     "id": "ipa-uni.cbum-4.1.34",
     "type": "ipa",
     "name": "Stndrd",
@@ -412,6 +430,114 @@
     "source": "apptesters",
     "bundleID": "com.mobisystems.OxfordDictionaryOfEnglishFree",
     "lastSync": "2026-04-15T14:46:30.359Z"
+  },
+  {
+    "id": "ipa-com.book.summaries.reading-1.2.3",
+    "type": "ipa",
+    "name": "GrowMe",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.book.summaries.reading.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "books"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/GrowMe_1.2.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.2.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.book.summaries.reading",
+    "lastSync": "2026-04-15T20:46:32.382Z"
+  },
+  {
+    "id": "ipa-com.camerasideas.Peachy-2.11.1",
+    "type": "ipa",
+    "name": "Peachy",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Peachy_2.11.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.11.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.camerasideas.Peachy",
+    "lastSync": "2026-04-15T20:46:32.382Z"
+  },
+  {
+    "id": "ipa-com.hevyapp.hevy-3.0.7",
+    "type": "ipa",
+    "name": "Hevy",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.hevyapp.hevy.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Hevy_3.0.7_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.0.7",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.hevyapp.hevy",
+    "lastSync": "2026-04-15T20:46:32.383Z"
+  },
+  {
+    "id": "ipa-com.yengshine.proccd-5.8.1",
+    "type": "ipa",
+    "name": "ProCCD",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yengshine.proccd.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/ProCCD_5.8.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.8.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.yengshine.proccd",
+    "lastSync": "2026-04-15T20:46:32.383Z"
+  },
+  {
+    "id": "ipa-com.zhiliaoapp.musically-44.7.0",
+    "type": "ipa",
+    "name": "TikTok",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/TikTok_44.7.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "44.7.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.zhiliaoapp.musically",
+    "lastSync": "2026-04-15T20:46:32.383Z"
+  },
+  {
+    "id": "ipa-boomer.Smart-Video-13.13.0",
+    "type": "ipa",
+    "name": "Captions",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Captions_13.13.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "13.13.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "boomer.Smart-Video",
+    "lastSync": "2026-04-15T20:46:32.384Z"
   },
   {
     "id": "ipa-com.duolingo.DuolingoMobile-7.118.0",
