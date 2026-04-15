@@ -144,6 +144,276 @@
     "lastSync": "2026-04-15T08:46:29.927Z"
   },
   {
+    "id": "ipa-com.andyworks.weather-3.48",
+    "type": "ipa",
+    "name": "simpleweather",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.weather.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/simpleweather_3.48_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.48",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.andyworks.weather",
+    "lastSync": "2026-04-15T14:46:30.342Z"
+  },
+  {
+    "id": "ipa-com.youssef.developer.Full-Browser-11.1",
+    "type": "ipa",
+    "name": "TORVPN",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.youssef.developer.Full-Browser.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/TORVPN_11.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "11.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.youssef.developer.Full-Browser",
+    "lastSync": "2026-04-15T14:46:30.347Z"
+  },
+  {
+    "id": "ipa-com.joytunes.asla-9.10.63",
+    "type": "ipa",
+    "name": "SimplyPiano",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.asla.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/SimplyPiano_9.10.63_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.10.63",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.joytunes.asla",
+    "lastSync": "2026-04-15T14:46:30.348Z"
+  },
+  {
+    "id": "ipa-ee.keel24.Lingvist-2.65.3",
+    "type": "ipa",
+    "name": "Lingvist",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ee.keel24.Lingvist.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Lingvist_2.65.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.65.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "ee.keel24.Lingvist",
+    "lastSync": "2026-04-15T14:46:30.348Z"
+  },
+  {
+    "id": "ipa-com.adobe.lrmobilephone-11.3.0",
+    "type": "ipa",
+    "name": "Lightroom",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.adobe.lrmobilephone.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Lightroom_11.3.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "11.3.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.adobe.lrmobilephone",
+    "lastSync": "2026-04-15T14:46:30.348Z"
+  },
+  {
+    "id": "ipa-com.joytunes.Draw-1.6.22",
+    "type": "ipa",
+    "name": "SimplyDraw",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.joytunes.Draw.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "graphics & design"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/SimplyDraw_1.6.22_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.6.22",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.joytunes.Draw",
+    "lastSync": "2026-04-15T14:46:30.348Z"
+  },
+  {
+    "id": "ipa-com.howoo.jang.expofirebase-0.85.0",
+    "type": "ipa",
+    "name": "GigaBody",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.howoo.jang.expofirebase.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/GigaBody_0.85.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "0.85.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.howoo.jang.expofirebase",
+    "lastSync": "2026-04-15T14:46:30.348Z"
+  },
+  {
+    "id": "ipa-co.lovetap.Female-by-Design-6.6.4",
+    "type": "ipa",
+    "name": "Life",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/co.lovetap.Female-by-Design.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "graphics & design"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Life_6.6.4_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.6.4",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "co.lovetap.Female-by-Design",
+    "lastSync": "2026-04-15T14:46:30.349Z"
+  },
+  {
+    "id": "ipa-com.merge.cooking.theme.restaurant.food-1.36.0",
+    "type": "ipa",
+    "name": "MergeCooking",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "lifestyle"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/MergeCooking_1.36.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.36.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.merge.cooking.theme.restaurant.food",
+    "lastSync": "2026-04-15T14:46:30.349Z"
+  },
+  {
+    "id": "ipa-com.dubox.drive-4.15.5",
+    "type": "ipa",
+    "name": "TeraBox",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dubox.drive.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/TeraBox_4.15.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.15.5",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.dubox.drive",
+    "lastSync": "2026-04-15T14:46:30.350Z"
+  },
+  {
+    "id": "ipa-com.agiletortoise.Drafts5-51.0.5",
+    "type": "ipa",
+    "name": "Drafts",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.agiletortoise.Drafts5.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Drafts_51.0.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "51.0.5",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.agiletortoise.Drafts5",
+    "lastSync": "2026-04-15T14:46:30.350Z"
+  },
+  {
+    "id": "ipa-es.monkimun.lingokids-26.16.0",
+    "type": "ipa",
+    "name": "Lingokids",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/es.monkimun.lingokids.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "kids"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Lingokids_26.16.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.16.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "es.monkimun.lingokids",
+    "lastSync": "2026-04-15T14:46:30.352Z"
+  },
+  {
+    "id": "ipa-app.renovateai-5.1.2",
+    "type": "ipa",
+    "name": "RenovateAI",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.renovateai.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/RenovateAI_5.1.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.1.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "app.renovateai",
+    "lastSync": "2026-04-15T14:46:30.355Z"
+  },
+  {
+    "id": "ipa-instapreview-6.11.0",
+    "type": "ipa",
+    "name": "Inpreview",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/instapreview.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Inpreview_6.11.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.11.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "instapreview",
+    "lastSync": "2026-04-15T14:46:30.359Z"
+  },
+  {
+    "id": "ipa-com.mobisystems.OxfordDictionaryOfEnglishFree-15.22",
+    "type": "ipa",
+    "name": "Dictionary",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobisystems.OxfordDictionaryOfEnglishFree.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "education"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/15-04-2026/Dictionary_15.22_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "15.22",
+    "developer": "cheatlibrary",
+    "date": "2026-04-15",
+    "source": "apptesters",
+    "bundleID": "com.mobisystems.OxfordDictionaryOfEnglishFree",
+    "lastSync": "2026-04-15T14:46:30.359Z"
+  },
+  {
     "id": "ipa-com.duolingo.DuolingoMobile-7.118.0",
     "type": "ipa",
     "name": "Duolingo",
