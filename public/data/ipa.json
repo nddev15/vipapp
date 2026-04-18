@@ -1,5 +1,77 @@
 [
   {
+    "id": "ipa-tech.miidii.MDClock-2.67.2",
+    "type": "ipa",
+    "name": "MDClock",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/tech.miidii.MDClock.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-04-2026/MDClock_2.67.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.67.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-18",
+    "source": "apptesters",
+    "bundleID": "tech.miidii.MDClock",
+    "lastSync": "2026-04-18T02:46:33.989Z"
+  },
+  {
+    "id": "ipa-com.lyftaios-1.144",
+    "type": "ipa",
+    "name": "Lyfta",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.lyftaios.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-04-2026/Lyfta_1.144_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.144",
+    "developer": "cheatlibrary",
+    "date": "2026-04-18",
+    "source": "apptesters",
+    "bundleID": "com.lyftaios",
+    "lastSync": "2026-04-18T02:46:33.993Z"
+  },
+  {
+    "id": "ipa-app.tripsy.ios-3.8.5",
+    "type": "ipa",
+    "name": "Tripsy",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.tripsy.ios.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "navigation"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-04-2026/Tripsy_3.8.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.8.5",
+    "developer": "cheatlibrary",
+    "date": "2026-04-18",
+    "source": "apptesters",
+    "bundleID": "app.tripsy.ios",
+    "lastSync": "2026-04-18T02:46:33.994Z"
+  },
+  {
+    "id": "ipa-boomer.Smart-Video-13.13.1",
+    "type": "ipa",
+    "name": "Captions",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/boomer.Smart-Video.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/18-04-2026/Captions_13.13.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "13.13.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-18",
+    "source": "apptesters",
+    "bundleID": "boomer.Smart-Video",
+    "lastSync": "2026-04-18T02:46:33.994Z"
+  },
+  {
     "id": "ipa-net.plantsnap.freemium-7.6.5",
     "type": "ipa",
     "name": "PlantSnap",
