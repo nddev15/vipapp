@@ -1,5 +1,59 @@
 [
   {
+    "id": "ipa-com.risesci.nyx-0.1.585",
+    "type": "ipa",
+    "name": "RiseSleep",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/RiseSleep_0.1.585_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "0.1.585",
+    "developer": "cheatlibrary",
+    "date": "2026-04-21",
+    "source": "apptesters",
+    "bundleID": "com.risesci.nyx",
+    "lastSync": "2026-04-20T20:46:37.853Z"
+  },
+  {
+    "id": "ipa-com.burbn.instagram-426.0.0",
+    "type": "ipa",
+    "name": "Instagram",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.burbn.instagram.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/Instagram_426.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "426.0.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-21",
+    "source": "apptesters",
+    "bundleID": "com.burbn.instagram",
+    "lastSync": "2026-04-20T20:46:37.856Z"
+  },
+  {
+    "id": "ipa-com.sillens.iShape-23.8.1",
+    "type": "ipa",
+    "name": "Lifesum",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sillens.iShape.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/21-04-2026/Lifesum_23.8.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "23.8.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-21",
+    "source": "apptesters",
+    "bundleID": "com.sillens.iShape",
+    "lastSync": "2026-04-20T20:46:37.856Z"
+  },
+  {
     "id": "ipa-com.picsart.studio-29.8.2",
     "type": "ipa",
     "name": "Picsart",
@@ -592,6 +646,114 @@
     "source": "apptesters",
     "bundleID": "com.outerspaceapps.itranslate",
     "lastSync": "2026-04-20T14:46:37.454Z"
+  },
+  {
+    "id": "ipa-com.frontrow.vlog-2.3.3",
+    "type": "ipa",
+    "name": "VlogNow",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frontrow.vlog.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "shopping"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/VlogNow_2.3.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.3.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-20",
+    "source": "apptesters",
+    "bundleID": "com.frontrow.vlog",
+    "lastSync": "2026-04-20T20:46:37.857Z"
+  },
+  {
+    "id": "ipa-com.appicfun.translatorfree-6.0.57",
+    "type": "ipa",
+    "name": "SpeakTranslate",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.appicfun.translatorfree.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "education"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/SpeakTranslate_6.0.57_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.0.57",
+    "developer": "cheatlibrary",
+    "date": "2026-04-20",
+    "source": "apptesters",
+    "bundleID": "com.appicfun.translatorfree",
+    "lastSync": "2026-04-20T20:46:37.857Z"
+  },
+  {
+    "id": "ipa-com.moodtools.thoughtdiary-5.5.19",
+    "type": "ipa",
+    "name": "Clarity",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.moodtools.thoughtdiary.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/Clarity_5.5.19_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.5.19",
+    "developer": "cheatlibrary",
+    "date": "2026-04-20",
+    "source": "apptesters",
+    "bundleID": "com.moodtools.thoughtdiary",
+    "lastSync": "2026-04-20T20:46:37.857Z"
+  },
+  {
+    "id": "ipa-com.elevateapp.elevate-5.236.0",
+    "type": "ipa",
+    "name": "Elevate",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.elevate.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/Elevate_5.236.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.236.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-20",
+    "source": "apptesters",
+    "bundleID": "com.elevateapp.elevate",
+    "lastSync": "2026-04-20T20:46:37.857Z"
+  },
+  {
+    "id": "ipa-com.yazio.ios.YAZIO-12.81.0",
+    "type": "ipa",
+    "name": "Yazio",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.yazio.ios.YAZIO.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/Yazio_12.81.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "12.81.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-20",
+    "source": "apptesters",
+    "bundleID": "com.yazio.ios.YAZIO",
+    "lastSync": "2026-04-20T20:46:37.858Z"
+  },
+  {
+    "id": "ipa-com.evolve.helm-3.182.1",
+    "type": "ipa",
+    "name": "Rest",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/20-04-2026/Rest_3.182.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.182.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-20",
+    "source": "apptesters",
+    "bundleID": "com.evolve.helm",
+    "lastSync": "2026-04-20T20:46:37.858Z"
   },
   {
     "id": "ipa-tech.sketchar.ios-10.5.2",
