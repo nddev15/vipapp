@@ -468,6 +468,114 @@
     "lastSync": "2026-04-22T08:46:39.484Z"
   },
   {
+    "id": "ipa-com.ideation.Peak-2.6.1",
+    "type": "ipa",
+    "name": "PeakWatch",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ideation.Peak.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/PeakWatch_2.6.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.6.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-22",
+    "source": "apptesters",
+    "bundleID": "com.ideation.Peak",
+    "lastSync": "2026-04-22T14:46:39.690Z"
+  },
+  {
+    "id": "ipa-com.planblabs.drops.italian-39.8",
+    "type": "ipa",
+    "name": "Drops",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.planblabs.drops.italian.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Drops_39.8_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "39.8",
+    "developer": "cheatlibrary",
+    "date": "2026-04-22",
+    "source": "apptesters",
+    "bundleID": "com.planblabs.drops.italian",
+    "lastSync": "2026-04-22T14:46:39.692Z"
+  },
+  {
+    "id": "ipa-ylee.studio.instories-5.108.2",
+    "type": "ipa",
+    "name": "Instories",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ylee.studio.instories.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Instories_5.108.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.108.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-22",
+    "source": "apptesters",
+    "bundleID": "ylee.studio.instories",
+    "lastSync": "2026-04-22T14:46:39.692Z"
+  },
+  {
+    "id": "ipa-app.getmoshi.ios-2.8.2",
+    "type": "ipa",
+    "name": "Moshi",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/app.getmoshi.ios.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Moshi_2.8.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.8.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-22",
+    "source": "apptesters",
+    "bundleID": "app.getmoshi.ios",
+    "lastSync": "2026-04-22T14:46:39.693Z"
+  },
+  {
+    "id": "ipa-com.facebook.Facebook-558.0.0",
+    "type": "ipa",
+    "name": "Facebook",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Facebook.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Facebook_558.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "558.0.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-22",
+    "source": "apptesters",
+    "bundleID": "com.facebook.Facebook",
+    "lastSync": "2026-04-22T14:46:39.693Z"
+  },
+  {
+    "id": "ipa-com.facebook.Messenger-558.0.0",
+    "type": "ipa",
+    "name": "Messenger",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/22-04-2026/Messenger_558.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "558.0.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-22",
+    "source": "apptesters",
+    "bundleID": "com.facebook.Messenger",
+    "lastSync": "2026-04-22T14:46:39.693Z"
+  },
+  {
     "id": "ipa-com.risesci.nyx-0.1.585",
     "type": "ipa",
     "name": "RiseSleep",
