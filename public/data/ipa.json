@@ -1,5 +1,131 @@
 [
   {
+    "id": "ipa-com.merge.cooking.theme.restaurant.food-1.37.0",
+    "type": "ipa",
+    "name": "MergeCooking",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.merge.cooking.theme.restaurant.food.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "lifestyle"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/MergeCooking_1.37.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.37.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-25",
+    "source": "apptesters",
+    "bundleID": "com.merge.cooking.theme.restaurant.food",
+    "lastSync": "2026-04-24T20:46:43.001Z"
+  },
+  {
+    "id": "ipa-com.iqraapp.Iqra-5.76.6",
+    "type": "ipa",
+    "name": "Tarteel",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iqraapp.Iqra.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/Tarteel_5.76.6_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.76.6",
+    "developer": "cheatlibrary",
+    "date": "2026-04-25",
+    "source": "apptesters",
+    "bundleID": "com.iqraapp.Iqra",
+    "lastSync": "2026-04-24T20:46:43.004Z"
+  },
+  {
+    "id": "ipa-com.alphaprogression.alphaprogression-6.6",
+    "type": "ipa",
+    "name": "AlphaProgr",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.alphaprogression.alphaprogression.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/AlphaProgr_6.6_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.6",
+    "developer": "cheatlibrary",
+    "date": "2026-04-25",
+    "source": "apptesters",
+    "bundleID": "com.alphaprogression.alphaprogression",
+    "lastSync": "2026-04-24T20:46:43.005Z"
+  },
+  {
+    "id": "ipa-ideastudio.Weather-on-the-Way-2.5.4",
+    "type": "ipa",
+    "name": "OnTheWay",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/ideastudio.Weather-on-the-Way.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/OnTheWay_2.5.4_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.5.4",
+    "developer": "cheatlibrary",
+    "date": "2026-04-25",
+    "source": "apptesters",
+    "bundleID": "ideastudio.Weather-on-the-Way",
+    "lastSync": "2026-04-24T20:46:43.005Z"
+  },
+  {
+    "id": "ipa-com.campmobile.snow-15.1.1",
+    "type": "ipa",
+    "name": "SNOW",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.campmobile.snow.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/SNOW_15.1.1_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "15.1.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-25",
+    "source": "apptesters",
+    "bundleID": "com.campmobile.snow",
+    "lastSync": "2026-04-24T20:46:43.006Z"
+  },
+  {
+    "id": "ipa-com.youssef.developer.Full-Browser-11.3",
+    "type": "ipa",
+    "name": "TORVPN",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.youssef.developer.Full-Browser.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/TORVPN_11.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "11.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-25",
+    "source": "apptesters",
+    "bundleID": "com.youssef.developer.Full-Browser",
+    "lastSync": "2026-04-24T20:46:43.008Z"
+  },
+  {
+    "id": "ipa-com.book.summaries.reading-1.2.4",
+    "type": "ipa",
+    "name": "GrowMe",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.book.summaries.reading.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "books"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/25-04-2026/GrowMe_1.2.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.2.4",
+    "developer": "cheatlibrary",
+    "date": "2026-04-25",
+    "source": "apptesters",
+    "bundleID": "com.book.summaries.reading",
+    "lastSync": "2026-04-24T20:46:43.009Z"
+  },
+  {
     "id": "ipa-com.lingodeer-3.1.10",
     "type": "ipa",
     "name": "LingoDeer",
@@ -322,6 +448,24 @@
     "source": "apptesters",
     "bundleID": "com.neo.NeoMan",
     "lastSync": "2026-04-24T14:46:43.121Z"
+  },
+  {
+    "id": "ipa-com.calm.calmapp-6.93.1",
+    "type": "ipa",
+    "name": "Calm",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calm.calmapp.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "navigation"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-04-2026/Calm_6.93.1_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.93.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-24",
+    "source": "apptesters",
+    "bundleID": "com.calm.calmapp",
+    "lastSync": "2026-04-24T20:46:43.011Z"
   },
   {
     "id": "ipa-com.abishkking.maleworkout-1.50.0",
