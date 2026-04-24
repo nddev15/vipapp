@@ -234,6 +234,24 @@
     "lastSync": "2026-04-24T02:46:41.796Z"
   },
   {
+    "id": "ipa-com.beauchamp.Messenger.external-20260422.0.0",
+    "type": "ipa",
+    "name": "Chai",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.beauchamp.Messenger.external.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/24-04-2026/Chai_20260422.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "20260422.0.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-24",
+    "source": "apptesters",
+    "bundleID": "com.beauchamp.Messenger.external",
+    "lastSync": "2026-04-24T08:46:42.199Z"
+  },
+  {
     "id": "ipa-com.abishkking.maleworkout-1.50.0",
     "type": "ipa",
     "name": "Homeworkouts",
