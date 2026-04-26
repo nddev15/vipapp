@@ -18,6 +18,24 @@
     "lastSync": "2026-04-26T02:46:45.982Z"
   },
   {
+    "id": "ipa-com.getupnote.ios-9.18.4",
+    "type": "ipa",
+    "name": "UpNote",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getupnote.ios.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "productivity"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-04-2026/UpNote_9.18.4_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.18.4",
+    "developer": "cheatlibrary",
+    "date": "2026-04-26",
+    "source": "apptesters",
+    "bundleID": "com.getupnote.ios",
+    "lastSync": "2026-04-26T08:46:45.769Z"
+  },
+  {
     "id": "ipa-com.merge.cooking.theme.restaurant.food-1.37.0",
     "type": "ipa",
     "name": "MergeCooking",
