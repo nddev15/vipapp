@@ -1,5 +1,23 @@
 [
   {
+    "id": "ipa-com.mobisystems.OxfordDictionaryOfEnglishFree-15.23",
+    "type": "ipa",
+    "name": "Dictionary",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.mobisystems.OxfordDictionaryOfEnglishFree.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "education"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Dictionary_15.23_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "15.23",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.mobisystems.OxfordDictionaryOfEnglishFree",
+    "lastSync": "2026-04-26T20:46:45.974Z"
+  },
+  {
     "id": "ipa-tech.miidii.MDClock-2.67.3",
     "type": "ipa",
     "name": "MDClock",
@@ -52,6 +70,60 @@
     "source": "apptesters",
     "bundleID": "com.ADPTVLTD.push",
     "lastSync": "2026-04-26T14:46:45.618Z"
+  },
+  {
+    "id": "ipa-com.sfun.snapedit-6.5.3",
+    "type": "ipa",
+    "name": "SnapEdit",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.sfun.snapedit.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-04-2026/SnapEdit_6.5.3_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.5.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-26",
+    "source": "apptesters",
+    "bundleID": "com.sfun.snapedit",
+    "lastSync": "2026-04-26T20:46:45.976Z"
+  },
+  {
+    "id": "ipa-com.videobrowser.ios-622400",
+    "type": "ipa",
+    "name": "VideoLite",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.videobrowser.ios.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-04-2026/VideoLite_622400_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "622400",
+    "developer": "cheatlibrary",
+    "date": "2026-04-26",
+    "source": "apptesters",
+    "bundleID": "com.videobrowser.ios",
+    "lastSync": "2026-04-26T20:46:45.977Z"
+  },
+  {
+    "id": "ipa-com.busuu.english.app-30.11.0",
+    "type": "ipa",
+    "name": "Busuu",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.busuu.english.app.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "education"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/26-04-2026/Busuu_30.11.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "30.11.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-26",
+    "source": "apptesters",
+    "bundleID": "com.busuu.english.app",
+    "lastSync": "2026-04-26T20:46:45.977Z"
   },
   {
     "id": "ipa-com.merge.cooking.theme.restaurant.food-1.37.0",
