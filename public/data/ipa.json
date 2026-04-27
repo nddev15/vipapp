@@ -126,6 +126,366 @@
     "lastSync": "2026-04-27T08:46:47.135Z"
   },
   {
+    "id": "ipa-com.elevateapp.elevate-5.237.0",
+    "type": "ipa",
+    "name": "Elevate",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.elevateapp.elevate.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Elevate_5.237.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.237.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.elevateapp.elevate",
+    "lastSync": "2026-04-27T14:46:46.752Z"
+  },
+  {
+    "id": "ipa-com.osmose-it.osmosis-6.0.5",
+    "type": "ipa",
+    "name": "Osmosis",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.osmose-it.osmosis.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Osmosis_6.0.5_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.0.5",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.osmose-it.osmosis",
+    "lastSync": "2026-04-27T14:46:46.755Z"
+  },
+  {
+    "id": "ipa-com.truesoftware.TrueCallerOther-26.16.5",
+    "type": "ipa",
+    "name": "Truecaller",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.truesoftware.TrueCallerOther.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "game"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Truecaller_26.16.5_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.16.5",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.truesoftware.TrueCallerOther",
+    "lastSync": "2026-04-27T14:46:46.756Z"
+  },
+  {
+    "id": "ipa-com.evolve.helm-3.183.0",
+    "type": "ipa",
+    "name": "Rest",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.evolve.helm.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Rest_3.183.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.183.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.evolve.helm",
+    "lastSync": "2026-04-27T14:46:46.757Z"
+  },
+  {
+    "id": "ipa-com.intsig.CamScannerLite-9.7",
+    "type": "ipa",
+    "name": "",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.intsig.CamScannerLite.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/_9.7_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.7",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.intsig.CamScannerLite",
+    "lastSync": "2026-04-27T14:46:46.758Z"
+  },
+  {
+    "id": "ipa-com.calisthenics.thenx-6.6.0",
+    "type": "ipa",
+    "name": "Thenx",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.calisthenics.thenx.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Thenx_6.6.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.6.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.calisthenics.thenx",
+    "lastSync": "2026-04-27T14:46:46.760Z"
+  },
+  {
+    "id": "ipa-com.planblabs.drops.italian-39.9",
+    "type": "ipa",
+    "name": "Drops",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.planblabs.drops.italian.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Drops_39.9_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "39.9",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.planblabs.drops.italian",
+    "lastSync": "2026-04-27T14:46:46.760Z"
+  },
+  {
+    "id": "ipa-com.facebook.Messenger-558.2.0",
+    "type": "ipa",
+    "name": "Messenger",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.facebook.Messenger.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Messenger_558.2.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "558.2.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.facebook.Messenger",
+    "lastSync": "2026-04-27T14:46:46.761Z"
+  },
+  {
+    "id": "ipa-com.itimeteo.webssh-31.4",
+    "type": "ipa",
+    "name": "WebSSH",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.itimeteo.webssh.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/WebSSH_31.4_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "31.4",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.itimeteo.webssh",
+    "lastSync": "2026-04-27T14:46:46.762Z"
+  },
+  {
+    "id": "ipa-com.iteration-mobile.radarbot-free-ww-9.40",
+    "type": "ipa",
+    "name": "Radarbot",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.iteration-mobile.radarbot-free-ww.png",
+    "desc": "Injected with Gold",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Radarbot_9.40_Gold_%40thisismanpreets_apptesters.org.ipa",
+    "version": "9.40",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.iteration-mobile.radarbot-free-ww",
+    "lastSync": "2026-04-27T14:46:46.763Z"
+  },
+  {
+    "id": "ipa-com.funnmedia.calory-4.8",
+    "type": "ipa",
+    "name": "Calory",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.funnmedia.calory.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "news"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Calory_4.8_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "4.8",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.funnmedia.calory",
+    "lastSync": "2026-04-27T14:46:46.764Z"
+  },
+  {
+    "id": "ipa-com.travelboast.travelboast-2.36",
+    "type": "ipa",
+    "name": "TravelBoast",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.travelboast.travelboast.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "navigation"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/TravelBoast_2.36_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.36",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.travelboast.travelboast",
+    "lastSync": "2026-04-27T14:46:46.764Z"
+  },
+  {
+    "id": "ipa-com.frameoneapps.Crsel-1.3.704",
+    "type": "ipa",
+    "name": "Crsel",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.frameoneapps.Crsel.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Crsel_1.3.704_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.3.704",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.frameoneapps.Crsel",
+    "lastSync": "2026-04-27T14:46:46.764Z"
+  },
+  {
+    "id": "ipa-com.zijayrate.analogcam-8.5.0",
+    "type": "ipa",
+    "name": "OldRoll",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zijayrate.analogcam.png",
+    "desc": "Injected with IAP",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/OldRoll_8.5.0_IAP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "8.5.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.zijayrate.analogcam",
+    "lastSync": "2026-04-27T14:46:46.766Z"
+  },
+  {
+    "id": "ipa-com.tickettothemoon.video.persona-1.15.24",
+    "type": "ipa",
+    "name": "Persona",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.tickettothemoon.video.persona.png",
+    "desc": "Injected with VIP",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Persona_1.15.24_VIP_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.15.24",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.tickettothemoon.video.persona",
+    "lastSync": "2026-04-27T14:46:46.766Z"
+  },
+  {
+    "id": "ipa-com.zhiliaoapp.musically-44.9.0",
+    "type": "ipa",
+    "name": "TikTok",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.zhiliaoapp.musically.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/TikTok_44.9.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "44.9.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.zhiliaoapp.musically",
+    "lastSync": "2026-04-27T14:46:46.766Z"
+  },
+  {
+    "id": "ipa-com.neocortext.doublicatapp-6.6.0",
+    "type": "ipa",
+    "name": "Reface",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.neocortext.doublicatapp.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Reface_6.6.0_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "6.6.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.neocortext.doublicatapp",
+    "lastSync": "2026-04-27T14:46:46.767Z"
+  },
+  {
+    "id": "ipa-com.skylum.luminaripad-3.5.3",
+    "type": "ipa",
+    "name": "Luminar",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.skylum.luminaripad.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Luminar_3.5.3_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.5.3",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.skylum.luminaripad",
+    "lastSync": "2026-04-27T14:46:46.767Z"
+  },
+  {
+    "id": "ipa-com.dr1ven.eraser-2026.17.01",
+    "type": "ipa",
+    "name": "Photoroom",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dr1ven.eraser.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Photoroom_2026.17.01_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2026.17.01",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.dr1ven.eraser",
+    "lastSync": "2026-04-27T14:46:46.767Z"
+  },
+  {
+    "id": "ipa-archery.storify-1.265.0",
+    "type": "ipa",
+    "name": "Mojo",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/archery.storify.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Mojo_1.265.0_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.265.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "archery.storify",
+    "lastSync": "2026-04-27T14:46:46.768Z"
+  },
+  {
     "id": "ipa-tech.miidii.MDClock-2.67.3",
     "type": "ipa",
     "name": "MDClock",
