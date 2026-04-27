@@ -1,5 +1,95 @@
 [
   {
+    "id": "ipa-us.electronic.docast-5.7",
+    "type": "ipa",
+    "name": "DoCast",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/us.electronic.docast.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-04-2026/DoCast_5.7_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "5.7",
+    "developer": "cheatlibrary",
+    "date": "2026-04-28",
+    "source": "apptesters",
+    "bundleID": "us.electronic.docast",
+    "lastSync": "2026-04-27T20:46:48.124Z"
+  },
+  {
+    "id": "ipa-com.getmotobit.motobit-1.0.65",
+    "type": "ipa",
+    "name": "Motobit",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.getmotobit.motobit.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-04-2026/Motobit_1.0.65_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.0.65",
+    "developer": "cheatlibrary",
+    "date": "2026-04-28",
+    "source": "apptesters",
+    "bundleID": "com.getmotobit.motobit",
+    "lastSync": "2026-04-27T20:46:48.128Z"
+  },
+  {
+    "id": "ipa-es.monkimun.lingokids-26.18.0",
+    "type": "ipa",
+    "name": "Lingokids",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/es.monkimun.lingokids.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "kids"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-04-2026/Lingokids_26.18.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "26.18.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-28",
+    "source": "apptesters",
+    "bundleID": "es.monkimun.lingokids",
+    "lastSync": "2026-04-27T20:46:48.129Z"
+  },
+  {
+    "id": "ipa-com.beauchamp.Messenger.external-20260424.0.0",
+    "type": "ipa",
+    "name": "Chai",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.beauchamp.Messenger.external.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "social"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-04-2026/Chai_20260424.0.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "20260424.0.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-28",
+    "source": "apptesters",
+    "bundleID": "com.beauchamp.Messenger.external",
+    "lastSync": "2026-04-27T20:46:48.130Z"
+  },
+  {
+    "id": "ipa-com.risesci.nyx-0.1.587",
+    "type": "ipa",
+    "name": "RiseSleep",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.risesci.nyx.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "health & fitness"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/28-04-2026/RiseSleep_0.1.587_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "0.1.587",
+    "developer": "cheatlibrary",
+    "date": "2026-04-28",
+    "source": "apptesters",
+    "bundleID": "com.risesci.nyx",
+    "lastSync": "2026-04-27T20:46:48.132Z"
+  },
+  {
     "id": "ipa-com.mobisystems.OxfordDictionaryOfEnglishFree-15.23",
     "type": "ipa",
     "name": "Dictionary",
@@ -484,6 +574,114 @@
     "source": "apptesters",
     "bundleID": "archery.storify",
     "lastSync": "2026-04-27T14:46:46.768Z"
+  },
+  {
+    "id": "ipa-com.andyworks.camera-1.49",
+    "type": "ipa",
+    "name": "Camera",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.andyworks.camera.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Camera_1.49_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "1.49",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.andyworks.camera",
+    "lastSync": "2026-04-27T20:46:48.132Z"
+  },
+  {
+    "id": "ipa-com.ulisesolave.Fitia-22.4.1",
+    "type": "ipa",
+    "name": "Fitia",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.ulisesolave.Fitia.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Fitia_22.4.1_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "22.4.1",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.ulisesolave.Fitia",
+    "lastSync": "2026-04-27T20:46:48.132Z"
+  },
+  {
+    "id": "ipa-com.dreamer.Habits-3.34",
+    "type": "ipa",
+    "name": "Habits",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.dreamer.Habits.png",
+    "desc": "Injected with Subscription Unlocked",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Habits_3.34_Subscription_Unlocked_%40thisismanpreets_apptesters.org.ipa",
+    "version": "3.34",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.dreamer.Habits",
+    "lastSync": "2026-04-27T20:46:48.133Z"
+  },
+  {
+    "id": "ipa-com.gingerlabs.Notability-16.2",
+    "type": "ipa",
+    "name": "Notability",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.gingerlabs.Notability.png",
+    "desc": "Injected with Pro",
+    "tags": [
+      "utilities"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Notability_16.2_Pro_%40thisismanpreets_apptesters.org.ipa",
+    "version": "16.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.gingerlabs.Notability",
+    "lastSync": "2026-04-27T20:46:48.134Z"
+  },
+  {
+    "id": "ipa-com.photoeditor.polish-2.3.0",
+    "type": "ipa",
+    "name": "Polish",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.photoeditor.polish.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Polish_2.3.0_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.3.0",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.photoeditor.polish",
+    "lastSync": "2026-04-27T20:46:48.134Z"
+  },
+  {
+    "id": "ipa-com.camerasideas.Peachy-2.11.2",
+    "type": "ipa",
+    "name": "Peachy",
+    "icon": "https://raw.githubusercontent.com/apptesters-org/AppTesters_Repo/main/icons/com.camerasideas.Peachy.png",
+    "desc": "Injected with Premium",
+    "tags": [
+      "photo & video"
+    ],
+    "badge": "new",
+    "fileLink": "https://github.com/apptesters-org/AppTesters_Repo/releases/download/27-04-2026/Peachy_2.11.2_Premium_%40thisismanpreets_apptesters.org.ipa",
+    "version": "2.11.2",
+    "developer": "cheatlibrary",
+    "date": "2026-04-27",
+    "source": "apptesters",
+    "bundleID": "com.camerasideas.Peachy",
+    "lastSync": "2026-04-27T20:46:48.135Z"
   },
   {
     "id": "ipa-tech.miidii.MDClock-2.67.3",
